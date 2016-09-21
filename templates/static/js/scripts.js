@@ -74,6 +74,8 @@ function loadClinics(coords) {
             html: filters.join( "" )
         }).appendTo( "#results-list" );
 
+        filterListener(coords);
+
         // CHECK IF ANY ARE OPEN TODAY AND NOW
         $("#results-list").append("<p class='open-close-note'><span class='clinic-status-icon clinic-open'></span>These clinics are open now<br><span class='clinic-status-icon clinic-closed'></span>These are currently closed</p>");
         // $("#results-list").append("<p>No nearby clinics are open now. These will be open tomorrow:</p>");
@@ -108,15 +110,6 @@ function loadClinics(coords) {
 
         // add map
         $("#results-list").append("<div id='map'></div>");
-
-        // L.mapbox.accessToken = 'pk.eyJ1Ijoic2NobGV1c3MiLCJhIjoicEtaaE54cyJ9.PWSVNlOtpDp0x1phUruQ9g';
-        // var map = L.mapbox.map('map')
-        //     .setView([position.coords.latitude, position.coords.longitude], 15);
-
-        // // Use styleLayer to add a Mapbox style created in Mapbox Studio
-        // L.mapbox.styleLayer('mapbox://styles/mapbox/light-v9').addTo(map);
-
-
 
         $("#results-list").fadeIn(400, function() {
 
@@ -171,4 +164,25 @@ $("#geocodify-basic-box").geocodify({
         loadClinics(coords);
     }
 });
+
+function filterListener(coords) {
+    $('.filter-option').on('click touchstart',function(){
+        var filterSel = this.innerHTML;
+
+        // update class
+        $('.filter-option').removeClass('filter-selected');
+        $(this).addClass('filter-selected');
+
+        // console.log("/api/clinics/?format=json&lat="+coords[0]+"&lon="+coords[1]+"&categories="+filterSel);
+
+        // get new data
+        $.getJSON( "/api/clinics/?format=json&lat="+coords[0]+"&lon="+coords[1]+"&categories="+filterSel, function( data ) {
+            console.log(data);
+
+
+
+        });
+
+    });
+}
 
