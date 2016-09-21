@@ -26,7 +26,7 @@ function getLocation() {
 
 
 function showPosition(position) {
-    console.log(position.coords.latitude + "," + position.coords.longitude);
+    // console.log(position.coords.latitude + "," + position.coords.longitude);
 
     var coords = [position.coords.latitude,position.coords.longitude];
     loadClinics(coords);
@@ -49,11 +49,11 @@ function loadClinics(coords) {
     // create list
     $.getJSON( "/api/clinics/?format=json&lat="+coords[0]+"&lon="+coords[1], function( data ) {
     // $.getJSON( "/static/js/90029-50-more-data.json", function( data ) {
-        console.log(data);
+        // console.log(data);
 
         data = data['results']
 
-        console.log('adding filters');
+        // console.log('adding filters');
         // // add filter options list
         var filters = [];
         $.each( data, function( key, val ) {
@@ -80,77 +80,7 @@ function loadClinics(coords) {
         $("#results-list").append("<p class='open-close-note'><span class='clinic-status-icon clinic-open'></span>These clinics are open now<br><span class='clinic-status-icon clinic-closed'></span>These are currently closed</p>");
         // $("#results-list").append("<p>No nearby clinics are open now. These will be open tomorrow:</p>");
         // $("#results-list").append("<p>No nearby clinics are open now. These will be open on TK:</p>");
-
-        // populate list
-        var items = [];
-        $.each( data, function( key, val ) {
-            // figure out if clinic is open for user's time
-            // if open today
-            if (val.hours[userDay.toLowerCase()] != false) {
-                var openTime = +(val.hours[userDay.toLowerCase()].open.substring(0,2)+val.hours[userDay.toLowerCase()].open.substring(3,5));
-                var closeTime = +(val.hours[userDay.toLowerCase()].close.substring(0,2)+val.hours[userDay.toLowerCase()].close.substring(3,5));
-                var userTime = +(d.getHours().toString()+d.getMinutes().toString());
-
-                console.log(val.hours[userDay.toLowerCase()]);
-            }
-
-            var clinicStatus = (val.hours[userDay.toLowerCase()] === false) ? "clinic-closed" :
-                               (openTime < userTime && userTime < closeTime) ? "clinic-open" : "clinic-closed";
-
-
-            var milesText = (windowWidth > 768) ? " miles" :
-                            (key === 0) ? " miles" : ""; // show miles on first
-            items.push( "<li id='" + key + "' class='" + clinicStatus + "'><span class='clinic-name'><a href='"+val.href+"'>" + val.name + "</a></span><span class='clinic-distance'>" + val.distance.toFixed(1) + milesText + "</span></li>" );
-        });
-
-        $( "<ol/>", {
-            "class": "my-new-list",
-            html: items.join( "" )
-        }).appendTo( "#results-list" );
-
-        // add map
-        $("#results-list").append("<div id='map'></div>");
-
-        $("#results-list").fadeIn(400, function() {
-
-            mapboxgl.accessToken = 'pk.eyJ1Ijoic2NobGV1c3MiLCJhIjoicEtaaE54cyJ9.PWSVNlOtpDp0x1phUruQ9g';
-            var map = new mapboxgl.Map({
-                container: 'map', // container id
-                style: 'mapbox://styles/mapbox/light-v9', //stylesheet location
-                center: [coords[1], coords[0]], // starting position
-                zoom: 10 // starting zoom
-            });
-
-            // add markers of points
-            for (var i = 0; i < data.length; i++) {
-
-                var val = data[i];
-
-                if (val.hours[userDay.toLowerCase()] != false) {
-                    var openTime = +(val.hours[userDay.toLowerCase()].open.substring(0,2)+val.hours[userDay.toLowerCase()].open.substring(3,5));
-                    var closeTime = +(val.hours[userDay.toLowerCase()].close.substring(0,2)+val.hours[userDay.toLowerCase()].close.substring(3,5));
-                    var userTime = +(d.getHours().toString()+d.getMinutes().toString());
-                }
-
-                var markerStatus = (val.hours[userDay.toLowerCase()] === false) ? "marker-closed" :
-                               (openTime < userTime && userTime < closeTime) ? "marker-open" : "marker-closed";
-
-                var el = document.createElement('a');
-                el.className = 'marker ' + markerStatus;
-                el.href = val.href;
-                new mapboxgl.Marker(el)
-                .setLngLat([data[i].location[1],data[i].location[0]])
-                .addTo(map);
-
-            }
-
-
-            // markers.push(marker);
-
-            // disable map zoom when using scroll
-            map.scrollZoom.disable();
-
-        });
+        resultsList(coords,data);
 
     });
 }
@@ -177,12 +107,92 @@ function filterListener(coords) {
 
         // get new data
         $.getJSON( "/api/clinics/?format=json&lat="+coords[0]+"&lon="+coords[1]+"&categories="+filterSel, function( data ) {
-            console.log(data);
-
-
-
+            data = data['results'];
+            
+            // console.log(data);
+            resultsList(coords,data);
         });
 
     });
 }
 
+function resultsList(coords,data) {
+
+        // remove any old lists or map
+        $('.clinic-result-list').remove();
+        $('#map').remove();
+
+        // populate list
+        var items = [];
+        $.each( data, function( key, val ) {
+            // figure out if clinic is open for user's time
+            // if open today
+            if (val.hours[userDay.toLowerCase()] != false) {
+                var openTime = +(val.hours[userDay.toLowerCase()].open.substring(0,2)+val.hours[userDay.toLowerCase()].open.substring(3,5));
+                var closeTime = +(val.hours[userDay.toLowerCase()].close.substring(0,2)+val.hours[userDay.toLowerCase()].close.substring(3,5));
+                var userTime = +(d.getHours().toString()+d.getMinutes().toString());
+
+                // console.log(val.hours[userDay.toLowerCase()]);
+            }
+
+            var clinicStatus = (val.hours[userDay.toLowerCase()] === false) ? "clinic-closed" :
+                               (openTime < userTime && userTime < closeTime) ? "clinic-open" : "clinic-closed";
+
+
+            var milesText = (windowWidth > 768) ? " miles" :
+                            (key === 0) ? " miles" : ""; // show miles on first
+            items.push( "<li id='" + key + "' class='" + clinicStatus + "'><span class='clinic-name'><a href='"+val.href+"'>" + val.name + "</a></span><span class='clinic-distance'>" + val.distance.toFixed(1) + milesText + "</span></li>" );
+        });
+
+        $( "<ol/>", {
+            "class": "clinic-result-list",
+            html: items.join( "" )
+        }).appendTo( "#results-list" );
+
+        // add map
+        $("#results-list").append("<div id='map'></div>");
+
+        $("#results-list").fadeIn(400, function() {
+
+            mapboxgl.accessToken = 'pk.eyJ1Ijoic2NobGV1c3MiLCJhIjoicEtaaE54cyJ9.PWSVNlOtpDp0x1phUruQ9g';
+            var map = new mapboxgl.Map({
+                container: 'map', // container id
+                style: 'mapbox://styles/mapbox/light-v9', //stylesheet location
+                center: [coords[1], coords[0]], // starting position
+                zoom: 10 // starting zoom
+            });
+
+            // add markers of points
+            for (var i = 0; i < data.length; i++) {
+
+                var val = data[i];
+
+                // console.log('val');
+                // console.log(i);
+
+                if (val.hours[userDay.toLowerCase()] != false) {
+                    var openTime = +(val.hours[userDay.toLowerCase()].open.substring(0,2)+val.hours[userDay.toLowerCase()].open.substring(3,5));
+                    var closeTime = +(val.hours[userDay.toLowerCase()].close.substring(0,2)+val.hours[userDay.toLowerCase()].close.substring(3,5));
+                    var userTime = +(d.getHours().toString()+d.getMinutes().toString());
+                }
+
+                var markerStatus = (val.hours[userDay.toLowerCase()] === false) ? "marker-closed" :
+                               (openTime < userTime && userTime < closeTime) ? "marker-open" : "marker-closed";
+
+                var el = document.createElement('a');
+                el.className = 'marker ' + markerStatus;
+                el.href = val.href;
+                new mapboxgl.Marker(el)
+                .setLngLat([data[i].location[1],data[i].location[0]])
+                .addTo(map);
+
+            }
+
+
+            // markers.push(marker);
+
+            // disable map zoom when using scroll
+            map.scrollZoom.disable();
+
+        });    
+}
