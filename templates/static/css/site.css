@@ -343,6 +343,10 @@ input.geocodify:focus {
     background: #F2AD94;
 }
 
+.clinic-result-list {
+    margin-bottom: 150px;
+}
+
 @media (min-width: 768px) {
     #map {
         position: relative;

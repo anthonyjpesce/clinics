@@ -2,6 +2,7 @@
 
 var windowWidth = document.documentElement.clientWidth;
 
+$('.form-inline').submit(false);
 
 // listen for user to try find location
 $('#find-location').on('click touchstart',function(){
@@ -45,6 +46,8 @@ function loadClinics(coords) {
     // alter top of page for search results
     // add filter options
 
+
+
     // create list
     $.getJSON( "/api/clinics/?format=json&lat="+coords[0]+"&lon="+coords[1], function( data ) {
     // $.getJSON( "/static/js/90029-50-more-data.json", function( data ) {
@@ -53,7 +56,10 @@ function loadClinics(coords) {
         data = data['results']
 
         // console.log('adding filters');
-        // // add filter options list
+        // add filter options list
+
+        // check if filters list 
+        console.log($(".filter-list").length);
         var filters = [];
         $.each( data, function( key, val ) {
             for (var j = 0; j < val.categories.length; j++) {
