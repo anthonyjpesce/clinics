@@ -3,7 +3,7 @@ from datetime import datetime, time
 from django.contrib.gis.db import models
 from django.contrib.gis.db.models.functions import Distance
 from django.contrib.postgres.fields import ArrayField, DateTimeRangeField
-
+import json
 
 class Clinic(models.Model):
     # Clinic name

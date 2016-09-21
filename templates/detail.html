@@ -73,6 +73,14 @@
         p.clinic-hours, p.clinic-eligibility, p.clinic-languages {
             padding: 0 0 0 20px;
             text-indent: -10px;
+        } 
+        p.clinic-address {
+            padding: 0 0 0 20px;
+            text-indent: -9px;
+        }
+
+        .day-hours {
+            text-transform: capitalize;
         }
 
         @media (min-width: 768px) {
@@ -107,7 +115,7 @@
     </div>
     <div class="container">
         <div id="clinic-locator"></div>
-        <p class="clinic-address">{{ object.street }}<br/>{{ object.city }}, {{ object.state }} {{ object.zipcode }}</p>
+        <p class="clinic-address"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ object.street }}<br/>{{ object.city }}, {{ object.state }} {{ object.zipcode }}</p>
 
         <p class="clinic-phone"><i class="fa fa-phone" aria-hidden="true"></i> {{ object.telephone }}</p>
 
@@ -117,12 +125,11 @@
 
         <p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:{{ object.email }}">{{ object.email }}</a></p>
 
-        <p class="clinic-hours"><i class="fa fa-clock-o" aria-hidden="true"></i> Monday<br>Tuesday<br>Wednesday</p>
+        <p class="clinic-hours" id="clinic-hours"><i class="fa fa-clock-o" aria-hidden="true"></i> </p>
 
+        <!-- <p>{{ object.as_dict }}</p> -->
+        <!-- <p>{{ object.tuesday_hours }}</p> -->
 
-<!--         <p>{{ object.monday_hours }}</p>
-        <p>{{ object.tuesday_hours }}</p>
- -->
 
         {% if object.eligibility != 'Not available' %}
             <p class="clinic-eligibility"><i class="fa fa-info-circle" aria-hidden="true"></i> {{ object.eligibility }}</p>
@@ -151,15 +158,39 @@
             zoom: 13 // starting zoom
         });
 
-
-                        // var markerStatus = (val.hours[userDay.toLowerCase()] === false) ? "marker-closed" :
-                        //        (openTime < userTime && userTime < closeTime) ? "marker-open" : "marker-closed";
-
         var el = document.createElement('div');
         el.className = 'marker';
         new mapboxgl.Marker(el)
             .setLngLat([{{ object.location.x }},{{ object.location.y }}])
             .addTo(map);
+
+        // add clinic's hours
+        var clinicData = {{ object.as_json|safe }}
+        var days = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday'];
+
+        for (var i = 0; i < days.length; i++) {
+            if (clinicData.hours[days[i]].open != undefined) {
+                var day = days[i];
+                $("#clinic-hours").append("<span class='day-hours "+day+"-hours'>" +day+": " + clinicData.hours[day].open + " - " + clinicData.hours[day].close + "</span><br/>");
+            }
+        }
+
+        // get users day of week
+        var d = new Date();
+        var weekday = new Array(7);
+        weekday[0]=  "Sunday";
+        weekday[1] = "Monday";
+        weekday[2] = "Tuesday";
+        weekday[3] = "Wednesday";
+        weekday[4] = "Thursday";
+        weekday[5] = "Friday";
+        weekday[6] = "Saturday";
+
+        var userDay = weekday[d.getDay()];
+
+        $("."+userDay.toLowerCase()+"-hours").css('color','#555');        
+
+        console.log(clinicData.hours)
 
     </script>
 {% endblock %}
