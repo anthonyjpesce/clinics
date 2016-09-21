@@ -31,8 +31,6 @@ https://npin.cdc.gov/organization/planned-parenthood-los-angeles-4
 https://npin.cdc.gov/organization/36348
 
 - map should zoom to point extent
-- fix header spacing problem at some sizes (palewire)
-- styles for desktop
 - detail page: touching map takes you to google link: https://www.google.com/maps/place/615+Kohler+St,+Los+Angeles,+CA+90021/
 - filters
 - map and search on search results view
@@ -41,3 +39,4 @@ https://npin.cdc.gov/organization/36348
 - favicon and ios icon would be nice
 - locate me doesnt work on ios
 - share image / twitter and facebook lint
+- format of hours in detail pages

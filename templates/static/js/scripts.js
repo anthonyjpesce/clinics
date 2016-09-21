@@ -53,25 +53,26 @@ function loadClinics(coords) {
 
         data = data['results']
 
+        console.log('adding filters');
         // // add filter options list
-        // var filters = [];
-        // $.each( data, function( key, val ) {
-        //     for (var j = 0; j < val.categories.length; j++) {
-        //         var filterItem = "<li class='filter-option'>" + val.categories[j] + "</li>";
+        var filters = [];
+        $.each( data, function( key, val ) {
+            for (var j = 0; j < val.categories.length; j++) {
+                var filterItem = "<li class='filter-option'>" + val.categories[j] + "</li>";
 
-        //         // check that it's not already in the list
-        //         if (filters.indexOf(filterItem) == -1) {
-        //             filters.push(filterItem);
-        //         }
-        //     }
-        // });
+                // check that it's not already in the list
+                if (filters.indexOf(filterItem) == -1) {
+                    filters.push(filterItem);
+                }
+            }
+        });
 
-        // $("#results-list").append("<p>Filter:</p>");
+        $("#results-list").append("<p>Filter:</p>");
 
-        // $( "<ul/>", {
-        //     "id": "filter-list",
-        //     html: filters.join( "" )
-        // }).appendTo( "#results-list" );
+        $( "<ul/>", {
+            "id": "filter-list",
+            html: filters.join( "" )
+        }).appendTo( "#results-list" );
 
         // CHECK IF ANY ARE OPEN TODAY AND NOW
         $("#results-list").append("<p class='open-close-note'><span class='clinic-status-icon clinic-open'></span>These clinics are open now<br><span class='clinic-status-icon clinic-closed'></span>These are currently closed</p>");
