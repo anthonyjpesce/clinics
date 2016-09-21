@@ -213,10 +213,8 @@ ol li.clinic-closed:before {
     list-style: none;
     margin: 0 0 20px;
     padding: 0;
-    white-space: nowrap;
     width: 100%;
-    height: 24px;
-    overflow-x: scroll;
+    overflow-x: none;
 }
 
 #filter-list li {
@@ -224,7 +222,7 @@ ol li.clinic-closed:before {
     background: #eee;
     border-radius: 20px;
     padding: 2px 8px;
-    margin: 0 10px 0 0;
+    margin: 0 10px 5px 0;
     cursor: pointer;
 }
 
