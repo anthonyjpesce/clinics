@@ -320,7 +320,7 @@ input.geocodify:focus {
     display: none;
 }
 
-#map .marker {
+#map .marker, #big-map .marker {
     display: block;
     height: 16px;
     width: 16px;
@@ -328,13 +328,13 @@ input.geocodify:focus {
     border-radius: 20px;
 }
 
-#map .marker-closed {
+#map .marker-closed, #big-map .marker-closed {
     background: #777;
 }
 
 
 
-#map .marker-open {
+#map .marker-open, #big-map .marker-open {
     background: #F2AD94;
 }
 
@@ -346,15 +346,7 @@ input.geocodify:focus {
         border: none;
     }
 
-    #init-list ol li {
-        float: left;
-        display: block;
-        background: #eee;
-        width: 200px;
-        height: 200px;
-        margin: 0 20px 20px 0;
-        padding: 14px;
-    }
+
 
     #init-list ol li:before {
         display: none;

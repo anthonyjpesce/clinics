@@ -16,6 +16,20 @@
                 background: #eee;
             }
 
+
+            #init-list ol li {
+                float: left;
+                display: block;
+                background: #eee;
+                width: 200px;
+                height: 200px;
+                margin: 0 20px 20px 0;
+                padding: 14px;
+            }
+
+            #init-list ol li.clinic-open {
+                background: #f9d8cc;
+            }
             ol.clinic-list {
                 padding: 0;
                 max-width: 470px;
@@ -28,6 +42,19 @@
                 width: 100%;
                 text-align: left;
                 margin: 0 0 5px;
+            }
+
+            .open-close-note {
+                text-align: center;
+                margin: 5px 0 20px;
+            }
+
+            .open-close-note br {
+                display: none;
+            }
+
+            .open-close-note .clinic-status-icon {
+                margin: 0 5px 0 15px;
             }
         }
     </style>
@@ -72,7 +99,7 @@
         </div>
     </div>
 
-    <div id="big-map"></div>
+    <div id="big-map" class="init-content"></div>
 
     <div class="container">
 
@@ -87,6 +114,9 @@
     
     </div><!--.container-->
     <script>
+
+        var windowWidth = document.documentElement.clientWidth;
+
         // get users day of week
         var d = new Date();
         var weekday = new Array(7);
@@ -123,7 +153,8 @@
                                (openTime < userTime && userTime < closeTime) ? "clinic-open" : "clinic-closed";
 
 
-            var milesText = (key === 0) ? " miles" : ""; // show miles on first
+            var milesText = (windowWidth > 768) ? " miles" :
+                            (key === 0) ? " miles" : ""; // show miles on first
             items.push( "<li id='clinic" + key + "' class='" + clinicStatus + "'><span class='clinic-name'><a href='"+val.href+"'>" + val.name + "</a></span><span class='clinic-distance'>" + val.distance.toFixed(1) + milesText + "</span></li>" );
         });
 
@@ -132,6 +163,38 @@
             html: items.join( "" )
         }).appendTo( "#init-list" );
 
+
+        mapboxgl.accessToken = 'pk.eyJ1Ijoic2NobGV1c3MiLCJhIjoicEtaaE54cyJ9.PWSVNlOtpDp0x1phUruQ9g';
+        var map = new mapboxgl.Map({
+            container: 'big-map', // container id
+            style: 'mapbox://styles/mapbox/light-v9', //stylesheet location
+            center: [-118.242675, 34.053811], // starting position
+            zoom: 10 // starting zoom
+        });
+
+        var data = {{ clinics|safe }};
+
+        for (var i = 0; i < data.length; i++) {
+
+        var val = data[i];
+
+            if (val.hours[userDay.toLowerCase()] != false) {
+                var openTime = +(val.hours[userDay.toLowerCase()].open.substring(0,2)+val.hours[userDay.toLowerCase()].open.substring(3,5));
+                var closeTime = +(val.hours[userDay.toLowerCase()].close.substring(0,2)+val.hours[userDay.toLowerCase()].close.substring(3,5));
+                var userTime = +(d.getHours().toString()+d.getMinutes().toString());
+            }
+
+            var markerStatus = (val.hours[userDay.toLowerCase()] === false) ? "marker-closed" :
+                           (openTime < userTime && userTime < closeTime) ? "marker-open" : "marker-closed";
+
+            var el = document.createElement('a');
+            el.className = 'marker ' + markerStatus;
+            el.href = val.href;
+            new mapboxgl.Marker(el)
+            .setLngLat([data[i].location[1],data[i].location[0]])
+            .addTo(map);
+
+        } 
 
 
     </script>

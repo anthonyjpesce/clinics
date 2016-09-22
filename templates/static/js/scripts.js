@@ -91,8 +91,8 @@ function loadClinics(coords) {
                                (openTime < userTime && userTime < closeTime) ? "clinic-open" : "clinic-closed";
 
 
-            var milesText = (key === 0) ? " miles" :
-                            (windowWidth > 768) ? " miles" : ""; // show miles on first
+            var milesText = (windowWidth > 768) ? " miles" :
+                            (key === 0) ? " miles" : ""; // show miles on first
             items.push( "<li id='" + key + "' class='" + clinicStatus + "'><span class='clinic-name'><a href='"+val.href+"'>" + val.name + "</a></span><span class='clinic-distance'>" + val.distance.toFixed(1) + milesText + "</span></li>" );
         });
 
@@ -144,15 +144,6 @@ function loadClinics(coords) {
                 .setLngLat([data[i].location[1],data[i].location[0]])
                 .addTo(map);
 
-                // console.log(data[i].location[0])
-                // var marker = L.circleMarker([data[i].location[0],data[i].location[1]],
-                //     { radius: 8,
-                //         // fillColor: getColor(hospitals[i].Y15_1),
-                //         color: '#fff',
-                //         weight: 1,
-                //         opacity: 1,
-                //         fillOpacity: 1
-                //     }).addTo(map);
             }
 
 
