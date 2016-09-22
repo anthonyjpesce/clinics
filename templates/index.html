@@ -169,8 +169,10 @@
             container: 'big-map', // container id
             style: 'mapbox://styles/mapbox/light-v9', //stylesheet location
             center: [-118.242675, 34.053811], // starting position
-            zoom: 10 // starting zoom
+            zoom: 11 // starting zoom
         });
+
+        map.scrollZoom.disable();
 
         var data = {{ clinics|safe }};
 
