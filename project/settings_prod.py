@@ -17,6 +17,6 @@ TEMPLATE_LOADERS = [
         'django.template.loaders.app_directories.Loader',
     )),
 ]
-STATIC_URL = 'https://s3-us-west-2.amazonaws.com/static.tstd.today/'
+STATIC_URL = 'https://s3-us-west-2.amazonaws.com/static.tstd.today/static/'
 WSGI_APPLICATION = 'project.wsgi_prod.application'
 ALLOWED_HOSTS = ('*',)
