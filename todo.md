@@ -27,4 +27,5 @@ https://npin.cdc.gov/hivtestlocatorfeed/feed.aspx?zip=90029&ref=198.246.116.78&r
 
 https://npin.cdc.gov/organization/planned-parenthood-los-angeles-4
 
+## detail page that redirects
 https://npin.cdc.gov/organization/36348
