@@ -1,0 +1,5 @@
+Django
+Fabric
+boto
+psycopg2
+python-memcached
