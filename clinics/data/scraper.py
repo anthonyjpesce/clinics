@@ -62,12 +62,13 @@ for clinic in clinics:
 
             hours = {}
 
-            for day in days:
-                # find the semicolon
-                dayname = day[:day.index(':')].encode('utf-8')
+            if len(days) > 1:
+                for day in days:
+                    # find the semicolon
+                    dayname = day[:day.index(':')].encode('utf-8')
 
-                # set to day key
-                hours[dayname] = parseTimes(day)
+                    # set to day key
+                    hours[dayname] = parseTimes(day)
 
             clinics[cindex]['hours'] = hours
 
@@ -118,7 +119,7 @@ for clinic in clinics:
                 if service not in categories:
                     categories.append(service)
 
-    time.sleep(2)
+    time.sleep(1)
 
 # write this to the file
 f.write(dumps(clinics))
