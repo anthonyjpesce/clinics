@@ -1,14 +1,15 @@
 import urllib2, socket, time, json
 from bs4 import BeautifulSoup
 from datetime import datetime
+from json import dumps
 
 def parseTimes(day):
     daystartstr = day[day.index(':')+2:day.index(' - ')].replace('\r','').encode('utf-8')
     dayendstr = day[day.index(' - ')+3:].replace('\r','').encode('utf-8')
 
     try:
-        daystart = datetime.strptime(daystartstr, '%I:%M%p').time()
-        dayend = datetime.strptime(dayendstr, '%I:%M%p').time()
+        daystart = datetime.strptime(daystartstr, '%I:%M%p').strftime("%H:%M")
+        dayend = datetime.strptime(dayendstr, '%I:%M%p').strftime("%H:%M")
 
         # build small dict with the times
         times = {
@@ -24,7 +25,7 @@ clinics = json.load(open('90029-50.json','r'))
 
 f = open('90029-50-more-data.json','w')
 
-for clinic in clinics:
+for clinic in clinics[:10]:
     url = clinic['cdclink']
     print url
 
