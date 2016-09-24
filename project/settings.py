@@ -160,6 +160,11 @@ LOGGING = {
             'handlers': ['null'],
             'propagate': False,
         },
+        'clinics': {
+            'handlers': ['mail_admins'],
+            'level': 'ERROR',
+            'propagate': True,
+        },
     }
 }
 
