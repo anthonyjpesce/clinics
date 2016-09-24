@@ -21,7 +21,7 @@ def parseTimes(day):
 
 
 url = 'https://gettested.cdc.gov/gettested_redirect/114434'
-url = 'https://gettested.cdc.gov/gettested_redirect/113767'
+url = 'https://gettested.cdc.gov/organizations/korean-health-education-information-and-research-center'
 
 page = urllib2.urlopen(url)
 
@@ -82,10 +82,27 @@ if page.geturl() != 'https://gettested.cdc.gov/':
     print orgtype
 
     # get email if available
-    
+    emailparent = soup.find('span',{'class':'views-field-field-gsl-email'})
 
-
+    # print emailparent 
+    email = emailparent.find('span',{'class':'field-content'}).a.text
+    print email
     # loop through services to find anything else to add to categories
+    servicesparent = soup.find('span',{'class':'views-field-field-gsl-services'})
 
+    if len(servicesparent.find('div',{'class':'item-list'}).ul.findAll('li')) > 1:
+        services = []
+        for service in servicesparent.find('div',{'class':'item-list'}).ul.findAll('li'):
+            services.append(service.text.strip().encode('utf-8'))
+        print services
+
+    else:
+        serviceslist = servicesparent.find('div',{'class':'item-list'}).text.replace('\r','').encode('utf-8').split('\n')
+
+        services = []
+        for service in serviceslist:
+            services.append(service.strip())
+
+        print services
 
 
