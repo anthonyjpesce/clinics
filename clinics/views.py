@@ -20,8 +20,13 @@ class IndexView(TemplateView):
     template_name = "index.html"
     
     def get_context_data(self, **kwargs):
-        ip = get_client_ip(self.request)
-        lon, lat = G.lon_lat(ip)
+        try:
+            ip = get_client_ip(self.request)
+            lon, lat = G.lon_lat(ip)
+        except:
+            ip = None
+            lon, lat = (-118.6925981, 34.0207489)        
+        
         return {
             'ip': ip,
             'lon': lon,
