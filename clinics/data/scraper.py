@@ -25,7 +25,7 @@ clinics = json.load(open('90029-50.json','r'))
 
 f = open('90029-50-more-data.json','w')
 
-for clinic in clinics[:10]:
+for clinic in clinics:
     url = clinic['cdclink']
     print url
 
