@@ -1,1 +1,2336 @@
-[{"website": "http://www.plannedparenthood.org/planned-parenthood-los-angeles", "city": "Los Angeles", "name": "Planned Parenthood Los Angeles", "eligibility": "If you are uninsured, you may qualify for a state-funded program or a lower fee scale. Please bring the following documents: photo ID. Fees for services are based on your household income. You will not be turned away because of your inability to pay.", "hours": {"Monday": {"dayend": "17:00", "daystart": "08:00"}, "Tuesday": {"dayend": "17:00", "daystart": "08:00"}, "Friday": {"dayend": "17:00", "daystart": "08:00"}, "Wednesday": {"dayend": "17:00", "daystart": "08:00"}, "Thursday": {"dayend": "17:00", "daystart": "08:00"}, "Saturday": {"dayend": "16:00", "daystart": "08:00"}}, "zipcode": 90029, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "1014 1/2 N Vermont Ave", "location": ["34.0901681", "-118.2912412"], "orgtype": "Clinic", "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Gonorrhea Test", "Herpes Test", "Syphilis Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/16905"}, {"website": "http://www.aidshealth.org", "city": "Los Angeles", "name": "AIDS Healthcare Foundation", "eligibility": "Not available", "hours": {"Friday": {"dayend": "17:30", "daystart": "08:30"}, "Tuesday": {"dayend": "20:00", "daystart": "08:30"}, "Thursday": {"dayend": "17:30", "daystart": "08:30"}, "Wednesday": {"dayend": "17:30", "daystart": "08:30"}, "Monday": {"dayend": "17:30", "daystart": "08:30"}}, "zipcode": 90027, "telephone": "323-662-0492", "languages": ["English", "Spanish"], "email": "info@aidshealth.org", "state": "CA", "street": "1300 N Vermont Ave", "location": ["34.0962209", "-118.2905784"], "orgtype": "Clinic", "categories": ["Chlamydia Testing", "Rapid HIV Blood Testing", "Syphilis Testing", "Conventional HIV Blood Test", "Free HIV Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/36348"}, {"website": "http://aphcv.org", "city": "Los Angeles", "name": "Asian Pacific Health Care Venture Incorporated", "eligibility": "Open the first through fourth Saturday of each month.", "zipcode": 90027, "telephone": "323-644-3888", "languages": ["Chinese", "English", "Japanese", "Korean", "Spanish", "Tagalog", "Vietnamese", "Cambodian/Khmer"], "email": "info@aphcv.org", "state": "CA", "street": "1530 Hillhurst Ave", "location": ["34.0989362", "-118.2870393"], "orgtype": "Clinic", "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Syphilis Test", "Gonorrhea Test", "Herpes Test", "Hepatitis A Vaccine", "Hepatitis B Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/34347"}, {"website": "http://www.bienestar.org", "city": "Los Angeles", "name": "Bienestar Human Services Incorporated", "eligibility": "Not available", "hours": {"Friday": {"dayend": "19:00", "daystart": "10:00"}, "Tuesday": {"dayend": "19:00", "daystart": "10:00"}, "Thursday": {"dayend": "19:00", "daystart": "10:00"}, "Wednesday": {"dayend": "19:00", "daystart": "10:00"}, "Monday": {"dayend": "19:00", "daystart": "10:00"}}, "zipcode": 90027, "telephone": "323-660-9680", "languages": ["English", "Spanish"], "email": "info@bienestar.org", "state": "CA", "street": "4955 W Sunset Blvd", "location": ["34.0983774", "-118.2974677"], "orgtype": "Community Based Organization", "categories": ["Rapid HIV Blood Testing", "Free HIV Testing", "Rapid HIV Blood Test", "Rapid HIV Oral Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/18958"}, {"website": "http:// www.chla.org", "city": "Hollywood", "name": "Childrens Hospital Los Angeles", "eligibility": "Young people ages 12-24.", "hours": {"Friday": {"dayend": "16:30", "daystart": "09:00"}, "Tuesday": {"dayend": "16:30", "daystart": "09:00"}, "Thursday": {"dayend": "16:30", "daystart": "09:00"}, "Wednesday": {"dayend": "16:30", "daystart": "09:00"}, "Monday": {"dayend": "16:30", "daystart": "09:00"}}, "zipcode": 90027, "telephone": "323-361-7514", "languages": ["English", "Spanish"], "email": "ggranados@chla.usc.edu", "state": "CA", "street": "5000 Sunset Blvd", "location": ["34.0978301", "-118.2985264"], "orgtype": "Clinic", "categories": ["HPV Vaccine", "Rapid HIV Blood Testing", "Free HIV Testing", "Hepatitis A Vaccine", "Rapid HIV Blood Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113092"}, {"website": "http://covenanthousecalifornia.org/index-pg.php", "city": "Hollywood", "name": "Covenant House California", "eligibility": "Services available to youth ages 18-24.", "hours": {"Friday": {"dayend": "17:00", "daystart": "08:00"}, "Tuesday": {"dayend": "17:00", "daystart": "08:00"}, "Thursday": {"dayend": "17:00", "daystart": "08:00"}, "Wednesday": {"dayend": "17:00", "daystart": "08:00"}, "Monday": {"dayend": "17:00", "daystart": "08:00"}}, "zipcode": 90027, "telephone": "510-379-1010", "languages": ["English", "Spanish"], "email": "info@covenenthousecalifornia.org", "state": "CA", "street": "1325 N Western Ave", "location": ["34.0956149", "-118.3094990"], "orgtype": "Social Service Organization", "categories": ["Conventional HIV Blood Testing", "HPV Vaccine", "Conventional HIV Blood Test", "Free HIV Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/27490"}, {"website": "http://publichealth.lacounty.gov/chs/spa4/index.htm", "city": "Los Angeles", "name": "Los Angeles County Department of Public Health", "eligibility": "HPV vaccines provided to those 18 and under through the VFC program. Los Angeles County offers free Hepatitis A & B vaccines for high risk groups in STD Clinics. Free TB testing is available at all Public Health Clinics for those at high risk of TB. Free HIV and STD testing is available at all Publi", "hours": {"Friday": {"dayend": "17:00", "daystart": "08:00"}, "Tuesday": {"dayend": "17:00", "daystart": "08:00"}, "Thursday": {"dayend": "17:00", "daystart": "08:00"}, "Wednesday": {"dayend": "17:00", "daystart": "08:00"}, "Monday": {"dayend": "17:00", "daystart": "08:00"}}, "zipcode": 90038, "telephone": "323-769-7800", "languages": ["English", "Spanish"], "email": "spa4@ph.lacounty.gov", "state": "CA", "street": "5205 Melrose Ave", "location": ["34.0837912", "-118.3140387"], "orgtype": "Clinic", "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Free HIV Testing", "Free STD Testing", "Gonorrhea Test", "Hepatitis A Vaccine", "Hepatitis B Test", "Hepatitis C Test", "Herpes Test", "Syphilis Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/110056"}, {"website": "http://www.lagaycenter.org", "city": "Los Angeles", "name": "Los Angeles Gay and Lesbian Center", "eligibility": "Not available", "zipcode": 90038, "telephone": "323-860-2280", "languages": ["English"], "email": "youthservices@lagaycenter.org", "state": "CA", "street": "1220 N Highland Ave", "location": ["34.0932161", "-118.3382476"], "orgtype": "Clinic", "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing", "Chlamydia Test", "Rapid HIV Blood Test", "Syphilis Test", "Gonorrhea Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111717"}, {"website": "http://sabancommunityclinic.org", "city": "Los Angeles", "name": "Saban Community Clinic", "eligibility": "No appointment needed for HIV testing. Appointment needed for STD testing.", "hours": {"Monday": {"dayend": "21:00", "daystart": "08:30"}, "Tuesday": {"dayend": "21:00", "daystart": "08:30"}, "Friday": {"dayend": "21:00", "daystart": "08:30"}, "Wednesday": {"dayend": "21:00", "daystart": "08:30"}, "Thursday": {"dayend": "21:00", "daystart": "08:30"}, "Saturday": {"dayend": "12:00", "daystart": "08:30"}}, "zipcode": 90038, "telephone": "323-330-1819", "languages": ["English", "Spanish"], "state": "CA", "street": "5205 Melrose Ave", "location": ["34.0837912", "-118.3140387"], "orgtype": "Clinic", "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing", "Chlamydia Test", "Free HIV Testing", "Gonorrhea Test", "Hepatitis A Vaccine", "Rapid HIV Blood Test", "Syphilis Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113971"}, {"website": "http://hollywoodhealthcenter.com", "city": "Los Angeles", "name": "Hollywood Health Center", "eligibility": "Not available", "hours": {"Friday": {"dayend": "18:00", "daystart": "08:00"}, "Tuesday": {"dayend": "18:00", "daystart": "08:00"}, "Thursday": {"dayend": "18:00", "daystart": "08:00"}, "Wednesday": {"dayend": "18:00", "daystart": "08:00"}, "Monday": {"dayend": "18:00", "daystart": "08:00"}}, "zipcode": 90004, "telephone": "323-461-9355", "languages": ["English", "Spanish"], "email": "hollywoodhealthcenter@ymail.com", "state": "CA", "street": "321 N Larchmont Blvd", "location": ["34.0770087", "-118.3239481"], "orgtype": "Clinic", "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Gonorrhea Test", "Hepatitis A Vaccine", "Hepatitis B Test", "Hepatitis C Test", "Herpes Test", "Syphilis Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/7471"}, {"website": "http://www.outofthecloset.org", "city": "Los Angeles", "name": "Hollywood Out of the Closet Thrift Store", "eligibility": "Not available", "hours": {"Monday": {"dayend": "19:00", "daystart": "10:00"}, "Tuesday": {"dayend": "19:00", "daystart": "10:00"}, "Friday": {"dayend": "19:00", "daystart": "10:00"}, "Wednesday": {"dayend": "19:00", "daystart": "10:00"}, "Thursday": {"dayend": "19:00", "daystart": "10:00"}, "Sunday": {"dayend": "19:00", "daystart": "10:00"}, "Saturday": {"dayend": "19:00", "daystart": "10:00"}}, "zipcode": 90028, "telephone": "323-467-6811", "languages": ["English", "Spanish"], "email": "webmaster@aidshealth.org", "state": "CA", "street": "6210 W Sunset Blvd", "location": ["34.0975475", "-118.3244396"], "orgtype": "AIDS Service Organization", "categories": ["Rapid HIV Blood Testing", "Free HIV Testing", "Rapid HIV Blood Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111321"}, {"city": "Los Angeles", "name": "Los Angeles LGBT Center", "zipcode": 90028, "telephone": "323-993-7500", "languages": ["Chinese", "English", "Japanese", "Spanish"], "state": "CA", "street": "1625 N Schrader Blvd", "location": ["34.1005263", "-118.3327332"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/18306"}, {"city": "Los Angeles", "name": "Saban Community Clinic", "zipcode": 90028, "telephone": "323-653-1990", "languages": ["English", "Spanish"], "state": "CA", "street": "6043 Hollywood Blvd", "location": ["34.1019044", "-118.3215724"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/7710"}, {"city": "Los Angeles", "name": "Belmont Health Center", "zipcode": 90026, "telephone": "323-644-3885", "languages": ["Chinese", "English", "Hindi", "Japanese", "Korean", "Spanish", "Tagalog", "Vietnamese"], "state": "CA", "street": "180 Union Pl", "location": ["34.0618976", "-118.2651986"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/112374"}, {"city": "Los Angeles", "name": "Echo Park Out of the Closet Thrift Store", "zipcode": 90026, "telephone": "213-484-3913", "languages": ["English", "Spanish"], "state": "CA", "street": "1724 W Sunset Blvd", "location": ["34.0773026", "-118.2594099"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111711"}, {"city": "Los Angeles", "name": "Hollywood Sunset Free Clinic", "zipcode": 90026, "telephone": "323-660-2400", "languages": ["English", "Spanish"], "state": "CA", "street": "3324 W Sunset Blvd", "location": ["34.0870791", "-118.2758950"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/4617"}, {"city": "Los Angeles", "name": "S Mark Taper Foundation Community Clinic", "zipcode": 90020, "telephone": "213-235-2500", "languages": ["English", "Korean"], "state": "CA", "street": "3727 W 6th St Ste 200", "location": ["34.0638657", "-118.3037835"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/10318"}, {"city": "Los Angeles", "name": "Clinica Monsenor Oscar A Romero Community Health Center", "zipcode": 90057, "telephone": "213-989-7700", "languages": ["English", "Spanish"], "state": "CA", "street": "123 S Alvarado St", "location": ["34.0661040", "-118.2710930"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/25689"}, {"city": "Los Angeles", "name": "Melrose Spa", "zipcode": 90046, "telephone": "323-937-2122", "languages": ["English", "Spanish"], "state": "CA", "street": "7269 Melrose Ave", "location": ["34.0837063", "-118.3481722"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113115"}, {"city": "West Hollywood", "name": "Out of the Closet Thrift Store - West Hollywood", "zipcode": 90046, "telephone": "323-848-9760", "languages": ["English", "Spanish"], "state": "CA", "street": "8224 Santa Monica Blvd", "location": ["34.0905659", "-118.3678092"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113313"}, {"city": "Los Angeles", "name": "AIDS Project Los Angeles", "zipcode": 90005, "telephone": "213-201-1504", "languages": ["English", "Spanish"], "state": "CA", "street": "611 S Kingsley Dr", "location": ["34.0630656", "-118.3031461"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/10383"}, {"city": "Los Angeles", "name": "myLAB Box", "zipcode": 90068, "telephone": "213-290-4571", "languages": ["English"], "state": "CA", "street": "1905 Wilcox Ave", "location": ["34.1054523", "-118.3311972"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/114434"}, {"city": "Los Angeles", "name": "PrEP4LA", "zipcode": 90036, "telephone": "310-710-5220", "languages": ["Arabic", "English", "French", "Spanish", "Vietnamese"], "state": "CA", "street": "5901 W Olympic Blvd", "location": ["34.0579333", "-118.3602384"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/114041"}, {"city": "Los Angeles", "name": "Chinatown Service Center", "zipcode": 90012, "telephone": "213-808-1792", "languages": ["Chinese", "English", "Spanish", "Vietnamese"], "state": "CA", "street": "767 N Hill St", "location": ["34.0626634", "-118.2400525"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/13788"}, {"city": "Los Angeles", "name": "Los Angeles County Department of Public Health", "zipcode": 90012, "telephone": "213-240-8204", "languages": ["English", "Spanish"], "state": "CA", "street": "241 N Figueroa St", "location": ["34.0593040", "-118.2503878"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111330"}, {"city": "West Hollywood", "name": "Los Angeles LGBT Center", "zipcode": 90069, "telephone": "323-993-7440", "languages": ["English", "Spanish"], "state": "CA", "street": "8745 Santa Monica Blvd", "location": ["34.0868550", "-118.3814866"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/109884"}, {"city": "Los Angeles", "name": "Mens Health Foundation", "zipcode": 90069, "telephone": "310-550-1010", "languages": ["English", "Spanish"], "state": "CA", "street": "9201 Sunset Blvd", "location": ["34.0908596", "-118.3926447"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/114045"}, {"city": "Los Angeles", "name": "Planned Parenthood Los Angeles", "zipcode": 90069, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "825 N San Vicente Blvd", "location": ["34.0854020", "-118.3849180"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/114346"}, {"city": "Los Angeles", "name": "St Johns Well Child and Family Center", "zipcode": 90031, "telephone": "323-441-2139", "languages": ["English", "Spanish"], "state": "CA", "street": "2512 Alta St", "location": ["34.0761483", "-118.2037120"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111989"}, {"city": "Los Angeles", "name": "Lim-Keith Multispecialty Medical Clinic Incorporated", "zipcode": 90048, "telephone": "323-964-1440", "languages": ["English", "Spanish"], "state": "CA", "street": "6200 Wilshire Blvd", "location": ["34.0628452", "-118.3636665"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/10702"}, {"city": "Los Angeles", "name": "Saban Community Clinic", "zipcode": 90048, "telephone": "323-653-1990", "languages": ["English", "Spanish"], "state": "CA", "street": "8405 Beverly Blvd", "location": ["34.0763488", "-118.3734130"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111329"}, {"city": "Los Angeles", "name": "AIDS Healthcare Foundation", "zipcode": 90211, "telephone": "310-657-9353", "languages": ["English", "Spanish"], "state": "CA", "street": "99 N La Cienega Blvd", "location": ["34.0671733", "-118.3766312"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/29475"}, {"city": "Beverly Hills", "name": "Dr Karen Sandler Medical Practice", "zipcode": 90211, "telephone": "310-854-2401", "languages": ["English", "Spanish"], "state": "CA", "street": "8641 Wilshire Blvd", "location": ["34.0663213", "-118.3799095"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/101097"}, {"city": "Beverly Hills", "name": "Pacific Oaks Medical Group", "zipcode": 90211, "telephone": "310-652-2562", "languages": ["English", "Spanish"], "state": "CA", "street": "150 N Robertson Blvd", "location": ["34.0684520", "-118.3834054"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/10695"}, {"city": "Los Angeles", "name": "JWCH Institute Incorporated", "zipcode": 90013, "telephone": "866-733-5924", "languages": ["English", "Spanish"], "state": "CA", "street": "522 S San Pedro St", "location": ["34.0433696", "-118.2440061"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/31740"}, {"city": "Los Angeles", "name": "Los Angeles Christian Health Centers", "zipcode": 90013, "telephone": "213-893-1960", "languages": ["English", "Spanish"], "state": "CA", "street": "311 E Winston St", "location": ["34.0455910", "-118.2446390"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/28650"}, {"city": "Los Angeles", "name": "APAIT", "zipcode": 90015, "telephone": "213-375-3830", "languages": ["Chinese", "English", "Japanese", "Korean", "Spanish", "Tagalog", "Vietnamese", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "1730 W Olympic Blvd", "location": ["34.0498585", "-118.2763978"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/10285"}, {"city": "Los Angeles", "name": "Northeast Community Clinic", "zipcode": 90042, "telephone": "323-256-3884", "languages": ["English"], "state": "CA", "street": "5428 N Figueroa St", "location": ["34.1075839", "-118.1962337"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/110045"}, {"city": "Los Angeles", "name": "The Wall Las Memorias Project", "zipcode": 90042, "telephone": "323-257-1056", "languages": ["English", "Spanish"], "state": "CA", "street": "5619 Monte Vista St", "location": ["34.1117365", "-118.1953629"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/110664"}, {"city": "Los Angeles", "name": "Womens Clinic and Family Counseling Center", "zipcode": 90035, "telephone": "310-203-8899", "languages": ["English", "Spanish"], "state": "CA", "street": "9911 W Pico Blvd Ste 500", "location": ["34.0534883", "-118.4044185"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/36027"}, {"city": "Los Angeles", "name": "Clinica Monsenor Oscar A Romero", "zipcode": 90033, "telephone": "213-989-7700", "languages": ["English", "Spanish"], "state": "CA", "street": "2032 Marengo St", "location": ["34.0563588", "-118.2076480"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/109886"}, {"city": "Los Angeles", "name": "Los Angeles Christian Health Centers", "zipcode": 90033, "telephone": "323-268-8391", "languages": ["English", "Spanish"], "state": "CA", "street": "1625 E 4th St", "location": ["34.0431515", "-118.2219503"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113767"}, {"city": "Los Angeles", "name": "Maternal Child and Adolescent/Adult Center for Infectious Diseases and Virology", "zipcode": 90033, "telephone": "323-226-2200", "languages": ["English", "Spanish"], "state": "CA", "street": "2010 Zonal Ave", "location": ["34.0598316", "-118.2077257"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/21428"}, {"city": "Los Angeles", "name": "Planned Parenthood Los Angeles", "zipcode": 90033, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "1057 Kingston Ave", "location": ["34.0571698", "-118.2097930"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/16913"}, {"city": "Los Angeles", "name": "Rand Schrader HIV Clinic", "zipcode": 90033, "telephone": "323-343-8288", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "1300 N Mission Rd", "location": ["34.0626925", "-118.2106958"], "categories": ["Conventional HIV Blood Testing", "Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/2329"}, {"city": "Los Angeles", "name": "West Adams Carl Bean House", "zipcode": 90018, "telephone": "323-766-2170", "languages": ["English", "Spanish"], "state": "CA", "street": "2146 W Adams Blvd", "location": ["34.0325316", "-118.3132138"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/29473"}, {"city": "Los Angeles", "name": "Planned Parenthood Pasadena and San Gabriel Valley Incorporated", "zipcode": 90041, "telephone": "626-798-0706", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "1578 Colorado Blvd", "location": ["34.1391080", "-118.2009526"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111086"}, {"city": "Los Angeles", "name": "Planned Parenthood Los Angeles", "zipcode": 90007, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "400 W 30th St", "location": ["34.0237259", "-118.2760168"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111232"}, {"city": "Los Angeles", "name": "St Johns Well Child and Family Center at Magnolia Place", "zipcode": 90007, "telephone": "213-749-0947", "languages": ["English", "Spanish"], "state": "CA", "street": "1910 S Magnolia Ave Ste 101", "location": ["34.0394092", "-118.2856934"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111985"}, {"city": "Los Angeles", "name": "JWCH Medical Clinic at the Weingart Medical Center", "zipcode": 90021, "telephone": "213-689-2132", "languages": ["English", "Spanish"], "state": "CA", "street": "515 E 6th St", "location": ["34.0428933", "-118.2446191"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/7746"}, {"city": "Los Angeles", "name": "Midtowne Spa Los Angeles", "zipcode": 90021, "telephone": "213-680-1838", "languages": ["English", "Spanish"], "state": "CA", "street": "615 Kohler St", "location": ["34.0391396", "-118.2411467"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113114"}, {"city": "Los Angeles", "name": "Realistic Education in Action Coalition to Foster Health", "zipcode": 90021, "telephone": "213-622-1650", "languages": ["English"], "state": "CA", "street": "1400 E Olympic Blvd", "location": ["34.0305857", "-118.2434204"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/112217"}, {"city": "Los Angeles", "name": "APLA Health & Wellness Center", "zipcode": 90016, "telephone": "323-329-9900", "languages": ["English", "Spanish"], "state": "CA", "street": "3743 S Labrea Ave", "location": ["34.0187271", "-118.3563291"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113576"}, {"city": "Los Angeles", "name": "Minority AIDS Project", "zipcode": 90016, "telephone": "323-936-4949", "languages": ["English", "Spanish"], "state": "CA", "street": "5149 W Jefferson Blvd", "location": ["34.0258470", "-118.3566960"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/3365"}, {"city": "Los Angeles", "name": "Planned Parenthood Los Angeles", "zipcode": 90016, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "3637 S La Brea Ave", "location": ["34.0206509", "-118.3561441"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111782"}, {"city": "Los Angeles", "name": "AltaMed Medical Group", "zipcode": 90063, "telephone": "323-307-0160", "languages": ["English", "Spanish"], "state": "CA", "street": "512 S Indiana St", "location": ["34.0299853", "-118.1919830"], "categories": ["Hepatitis B Vaccine", "Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/110434"}, {"city": "Glendale", "name": "Los Angeles County Department of Public Health", "zipcode": 91206, "telephone": "818-500-5750", "languages": ["English", "Spanish"], "state": "CA", "street": "501 N Glendale Ave", "location": ["34.1531936", "-118.2442653"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/3372"}, {"city": "Los Angeles", "name": "University of California Los Angeles", "zipcode": 90095, "telephone": "310-825-5906", "languages": ["English", "Spanish"], "state": "CA", "street": "1010 Veteran Ave", "location": ["34.0605227", "-118.4478328"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/29821"}, {"city": "Alhambra", "name": "Chinatown Service Center", "zipcode": 91801, "telephone": "626-773-3388", "languages": ["Chinese", "English", "Spanish", "Vietnamese"], "state": "CA", "street": "320 S Garfield Ave", "location": ["34.0919397", "-118.1242922"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113498"}, {"city": "Alhambra", "name": "Planned Parenthood Pasadena and San Gabriel Valley Incorporated", "zipcode": 91801, "telephone": "626-798-0706", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "320 S Garfield Ave", "location": ["34.0919397", "-118.1242922"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111085"}, {"city": "Burbank", "name": "Planned Parenthood Los Angeles", "zipcode": 91506, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "916 W Burbank Blvd", "location": ["34.1835718", "-118.3222662"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/110189"}, {"city": "Los Angeles", "name": "Crenshaw Community Health Center", "zipcode": 90008, "telephone": "323-568-5460", "languages": ["English", "Spanish"], "state": "CA", "street": "3756 Santa Rosalia Dr", "location": ["34.0088198", "-118.3391612"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113133"}, {"city": "Crenshaw", "name": "W King Health Care Group", "zipcode": 90008, "telephone": "323-617-5409", "languages": ["English", "Spanish"], "state": "CA", "street": "3756 Santa Rosalia Dr", "location": ["34.0088198", "-118.3391612"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/114044"}, {"city": "Los Angeles", "name": "Los Angeles County Department of Public Health", "zipcode": 90062, "telephone": "323-730-3507", "languages": ["English", "Spanish"], "state": "CA", "street": "3834 S Western Ave", "location": ["34.0162773", "-118.3085083"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/3194"}, {"city": "North Hollywood", "name": "Los Angeles County Department of Public Health", "zipcode": 91601, "telephone": "818-766-3982", "languages": ["English", "Spanish"], "state": "CA", "street": "5300 Tujunga Ave", "location": ["34.1672665", "-118.3787061"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111318"}, {"city": "Los Angeles", "name": "To Help Everyone Clinic Incorporated", "zipcode": 90062, "telephone": "323-730-1920", "languages": ["English", "Japanese", "Laotian", "Spanish", "Tagalog", "Vietnamese"], "state": "CA", "street": "3834 S Western  Ave", "location": ["34.0162773", "-118.3085083"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/223"}, {"city": "Los Angeles", "name": "Dr Louis C Frayser Clinic", "zipcode": 90037, "telephone": "323-541-1616", "languages": ["English", "Spanish"], "state": "CA", "street": "5701 S Hoover St", "location": ["33.9899490", "-118.2874208"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111984"}, {"city": "Los Angeles", "name": "St Johns Well Child and Family Center", "zipcode": 90037, "telephone": "323-541-1631", "languages": ["English", "Spanish"], "state": "CA", "street": "4131 S Vermont Ave", "location": ["34.0087700", "-118.2928480"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111991"}, {"city": "Los Angeles", "name": "St Johns Well Child and Family Center", "zipcode": 90037, "telephone": "323-541-1400", "languages": ["English", "Spanish"], "state": "CA", "street": "808 W 58th St", "location": ["33.9894964", "-118.2875049"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111987"}, {"city": "Los Angeles", "name": "AltaMed Medical Group", "zipcode": 90022, "telephone": "323-869-5450", "languages": ["English", "Spanish"], "state": "CA", "street": "5427 E Whittier Blvd", "location": ["34.0198609", "-118.1531488"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/16956"}, {"city": "Los Angeles", "name": "Bienestar Human Services Incorporated", "zipcode": 90022, "telephone": "323-727-7896", "languages": ["English", "Spanish"], "state": "CA", "street": "5326 E Beverly Blvd", "location": ["34.0300629", "-118.1506886"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/30595"}, {"city": "East Los Angeles", "name": "Bienvenidos Community Health Center", "zipcode": 90022, "telephone": "323-268-9191", "languages": ["English", "Spanish"], "state": "CA", "street": "507 S Atlantic Blvd", "location": ["34.0267769", "-118.1558735"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111490"}, {"city": "Los Angeles", "name": "East Los Angeles Womens Center", "zipcode": 90022, "telephone": "323-526-5819", "languages": ["English", "Spanish"], "state": "CA", "street": "1255 S Atlantic Blvd", "location": ["34.0147490", "-118.1593480"], "categories": ["Conventional HIV Blood Testing", "Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/2340"}, {"city": "Los Angeles", "name": "Planned Parenthood Los Angeles", "zipcode": 90022, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "5068 Whittier Blvd", "location": ["34.0208520", "-118.1604277"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111165"}, {"city": "Pasadena", "name": "Pasadena Public Health Department", "zipcode": 91103, "telephone": "626-744-6140", "languages": ["English", "Spanish"], "state": "CA", "street": "1845 N Fair Oaks Ave", "location": ["34.1777736", "-118.1511928"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/29823"}, {"city": "Sherman Oaks", "name": "AIDS Healthcare Foundation", "zipcode": 91403, "telephone": "818-380-2626", "languages": ["English", "Spanish"], "state": "CA", "street": "4835 Van Nuys Blvd", "location": ["34.1584538", "-118.4491651"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/29478"}, {"city": "Los Angeles", "name": "Axminster Medical Group Incorporated", "zipcode": 90043, "telephone": "323-293-7171", "languages": ["English"], "state": "CA", "street": "4314 W Slauson Ave", "location": ["33.9886612", "-118.3509358"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/112973"}, {"city": "Los Angeles", "name": "St Johns Well Child and Family Center at Hyde Park Elementary School", "zipcode": 90043, "telephone": "323-750-9232", "languages": ["English"], "state": "CA", "street": "6505 8th Ave", "location": ["33.9804011", "-118.3266717"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111990"}, {"city": "Pasadena", "name": "Planned Parenthood Pasadena and San Gabriel Valley Incorporated", "zipcode": 91104, "telephone": "626-798-0706", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "1045 N Lake Ave", "location": ["34.1639686", "-118.1328520"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/5921"}, {"city": "Santa Monica", "name": "Common Ground", "zipcode": 90405, "telephone": "310-314-5480", "languages": ["English", "Spanish"], "state": "CA", "street": "2401 Lincoln Blvd", "location": ["34.0089278", "-118.4784095"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/27420"}, {"city": "Santa Monica", "name": "Los Angeles County Department of Public Health", "zipcode": 90405, "telephone": "310-998-3203", "languages": ["English", "Spanish"], "state": "CA", "street": "2509 W Pico Blvd", "location": ["34.0231221", "-118.4633112"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/29826"}, {"city": "Santa Monica", "name": "Westside Family Health Center", "zipcode": 90405, "telephone": "310-450-2191", "languages": ["English", "Hindi", "Spanish", "Tagalog", "Cambodian/Khmer"], "state": "CA", "street": "1711 Ocean Park Blvd", "location": ["34.0128606", "-118.4665556"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/32016"}, {"city": "Santa Monica", "name": "Planned Parenthood Los Angeles", "zipcode": 90401, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "1316 3rd St Promenade", "location": ["34.0164535", "-118.4975694"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/29412"}, {"city": "El Monte", "name": "AltaMed Health Services Corporation", "zipcode": 91731, "telephone": "626-499-9303", "languages": ["English", "Spanish"], "state": "CA", "street": "10418 E Valley Blvd", "location": ["34.0759991", "-118.0460193"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/100598"}, {"city": "El Monte", "name": "Cleaver Family Wellness Clinic", "zipcode": 91731, "telephone": "626-579-0290", "languages": ["English", "Spanish"], "state": "CA", "street": "4368 Santa Anita Ave", "location": ["34.0853655", "-118.0293332"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111667"}, {"city": "North Hollywood", "name": "Valley Community Healthcare", "zipcode": 91605, "telephone": "818-301-6390", "languages": ["English", "Spanish"], "state": "CA", "street": "6801 Coldwater Canyon Ave", "location": ["34.1944099", "-118.4151426"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/7719"}, {"city": "Los Angeles", "name": "Hubert H Humphrey Comprehensive Health Center", "zipcode": 90003, "telephone": "323-846-4312", "languages": ["English", "Spanish", "Vietnamese"], "state": "CA", "street": "5850 S Main St", "location": ["33.9882273", "-118.2732047"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/109267"}, {"city": "Los Angeles", "name": "Planned Parenthood Los Angeles", "zipcode": 90003, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "8520 S Broadway", "location": ["33.9609286", "-118.2779251"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111161"}, {"city": "Venice", "name": "Venice Family Clinic", "zipcode": 90291, "telephone": "310-392-9255", "languages": ["English", "Spanish"], "state": "CA", "street": "604 Rose Ave", "location": ["33.9990950", "-118.4715185"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111224"}, {"city": "Van Nuys", "name": "Planned Parenthood Los Angeles", "zipcode": 91405, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "7100 Van Nuys Blvd", "location": ["34.1996190", "-118.4481230"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/16911"}, {"city": "El Monte", "name": "Planned Parenthood Los Angeles", "zipcode": 91732, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "4786 N Peck Rd", "location": ["34.0901690", "-118.0137342"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/16907"}, {"city": "Los Angeles", "name": "Florence Western Medical Clinic", "zipcode": 90047, "telephone": "323-778-2131", "languages": ["English", "Spanish"], "state": "CA", "street": "7301 S Western Ave", "location": ["33.9734887", "-118.3092897"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/32745"}, {"city": "Bell", "name": "Northeast Community Clinic", "zipcode": 90201, "telephone": "888-311-6322", "languages": ["English"], "state": "CA", "street": "4129 E Gage Ave", "location": ["33.9789699", "-118.1929355"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/110075"}, {"city": "Bell Gardens", "name": "Wesley Health Centers", "zipcode": 90201, "telephone": "562-867-7999", "languages": ["English", "Spanish"], "state": "CA", "street": "6912 Ajax Ave", "location": ["33.9698860", "-118.1626783"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113801"}, {"city": "Los Angeles", "name": "Pink Lotus Health", "zipcode": 90044, "telephone": "323-242-0139", "languages": ["English"], "state": "CA", "street": "10024 S Vermont Ave", "location": ["33.9447770", "-118.2912208"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111468"}, {"city": "Inglewood", "name": "Dr Claudia Hampton Clinic", "zipcode": 90301, "telephone": "310-330-2960", "languages": ["English", "Spanish"], "state": "CA", "street": "1091 S LaBrea Ave", "location": ["33.9492760", "-118.3528461"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111326"}, {"city": "Inglewood", "name": "Los Angeles County Department of Public Health", "zipcode": 90301, "telephone": "310-419-5325", "languages": ["English", "Spanish"], "state": "CA", "street": "123 W Manchester Blvd", "location": ["33.9621808", "-118.3565624"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/29405"}, {"city": "Pico Rivera", "name": "AltaMed Health Medical Group", "zipcode": 90660, "telephone": "562-949-8717", "languages": ["English", "Spanish"], "state": "CA", "street": "9436 Slauson Ave", "location": ["33.9681306", "-118.0959453"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/110432"}, {"city": "Sun Valley", "name": "Northeast Valley Health Corporation", "zipcode": 91352, "telephone": "818-432-4400", "languages": ["English", "Spanish"], "state": "CA", "street": "7223 N Fair Ave", "location": ["34.2018353", "-118.3748849"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/112864"}, {"city": "Los Angeles", "name": "Watts Health Center", "zipcode": 90002, "telephone": "323-564-4331", "languages": ["English", "Spanish"], "state": "CA", "street": "10300 S Compton Ave", "location": ["33.9429351", "-118.2458025"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/9769"}, {"city": "Monrovia", "name": "Los Angeles County Department of Public Health", "zipcode": 91016, "telephone": "626-256-1600", "languages": ["English", "Spanish"], "state": "CA", "street": "330 W Maple Ave", "location": ["34.1412123", "-118.0061266"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/36739"}, {"city": "Panaroma City", "name": "El Proyecto Del Barrio", "zipcode": 91402, "telephone": "818-892-8630", "languages": ["English", "Spanish"], "state": "CA", "street": "9140 Van Nuys Blvd", "location": ["34.2366077", "-118.4498792"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/25711"}, {"city": "Van Nuys", "name": "Northeast Valley Health Corporation", "zipcode": 91402, "telephone": "818-988-6335", "languages": ["English", "Spanish"], "state": "CA", "street": "6551 Van Nuys Blvd", "location": ["34.2120666", "-118.4492276"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111325"}, {"city": "Whittier", "name": "Whittier Rio Hondo AIDS Project", "zipcode": 90606, "telephone": "562-698-3850", "languages": ["English", "Spanish"], "state": "CA", "street": "12401 Slauson Ave", "location": ["33.9606566", "-118.0528664"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/32075"}, {"city": "Reseda", "name": "Tarzana Treatment Centers Reseda", "zipcode": 91335, "telephone": "818-342-5897", "languages": ["English", "Spanish"], "state": "CA", "street": "7101 Baird Ave", "location": ["34.1995289", "-118.5375543"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/7829"}, {"city": "Los Angeles", "name": "Charles Drew University", "zipcode": 90059, "telephone": "323-563-5805", "languages": ["English", "Spanish"], "state": "CA", "street": "1731 E 120th St", "location": ["33.9256333", "-118.2425260"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/110823"}, {"city": "Los Angeles", "name": "Charles R Drew University of Medicine and Science", "zipcode": 90059, "telephone": "424-338-2929", "languages": ["English", "Spanish"], "state": "CA", "street": "1807 E 120th St", "location": ["33.9247951", "-118.2404110"], "categories": ["Hepatitis B Vaccine", "Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/110728"}, {"city": "Los Angeles", "name": "Martin Luther King Jr Center for Public Health", "zipcode": 90059, "telephone": "323-568-8100", "languages": ["English", "Spanish"], "state": "CA", "street": "11833 S Wilmington Ave", "location": ["33.9250700", "-118.2393560"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/110046"}, {"city": "Los Angeles", "name": "Planned Parenthood Los Angeles", "zipcode": 90059, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "11722 S Wilmington Ave", "location": ["33.9274808", "-118.2380175"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/112741"}, {"city": "West Covina", "name": "East Valley Community Health Center Incorporated", "zipcode": 91790, "telephone": "626-919-4333", "languages": ["English", "Spanish"], "state": "CA", "street": "420 S Glendora Ave", "location": ["34.0672090", "-117.9247080"], "categories": ["Chlamydia Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/18633"}, {"city": "Whittier", "name": "Los Angeles County Department of Public Health", "zipcode": 90602, "telephone": "562-464-5350", "languages": ["English", "Spanish"], "state": "CA", "street": "7643 S Painter Ave", "location": ["33.9724035", "-118.0331490"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/109537"}, {"city": "Whittier", "name": "Planned Parenthood Los Angeles", "zipcode": 90602, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "7655 Greenleaf Ave", "location": ["33.9720022", "-118.0377213"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111159"}, {"city": "Lynwood", "name": "Wesley Health Centers", "zipcode": 90262, "telephone": "866-733-5924", "languages": ["English", "Spanish"], "state": "CA", "street": "3591 E Imperial Hwy", "location": ["33.9306956", "-118.2055316"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113803"}, {"city": "Pacoima", "name": "Northeast Valley Health Corporation", "zipcode": 91331, "telephone": "818-896-0531", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "12756 Van Nuys Blvd", "location": ["34.2739012", "-118.4107752"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/16901"}, {"city": "La Puente", "name": "Bay Area Addiction Research and Treatment Incorporated", "zipcode": 91744, "telephone": "626-855-5090", "languages": ["English", "Spanish", "Tagalog"], "state": "CA", "street": "15229 E Amar Rd", "location": ["34.0379952", "-117.9525044"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/19427"}, {"city": "Canoga Park", "name": "Northeast Valley Health Corporation", "zipcode": 91303, "telephone": "818-340-3570", "languages": ["English", "Spanish"], "state": "CA", "street": "7107 Remmet Ave", "location": ["34.1994180", "-118.6005762"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111227"}, {"city": "Canoga Park", "name": "Planned Parenthood Los Angeles", "zipcode": 91303, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "21001 Sherman Way", "location": ["34.2019562", "-118.5909523"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/16909"}, {"city": "Compton", "name": "St Johns Well Child andFamily Center", "zipcode": 90222, "telephone": "310-603-1332", "languages": ["English", "Spanish"], "state": "CA", "street": "2115 N Wilmington Ave", "location": ["33.9118628", "-118.2394652"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111986"}, {"city": "Santa Fe Springs", "name": "Los Angeles Centers for Alcohol and Drug Abuse", "zipcode": 90670, "telephone": "562-906-2676", "languages": ["English", "Spanish"], "state": "CA", "street": "11015 Bloomfield Ave", "location": ["33.9311179", "-118.0645074"], "categories": ["Conventional HIV Blood Testing", "Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/29491"}, {"city": "Gardena", "name": "South Bay Family Healthcare Center", "zipcode": 90247, "telephone": "310-327-1357", "languages": ["English", "Hindi", "Spanish"], "state": "CA", "street": "742 W Gardena Blvd", "location": ["33.8814057", "-118.2886954"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/16241"}, {"city": "West Hills", "name": "Westwind Health Services", "zipcode": 91304, "telephone": "818-704-6696", "languages": ["English", "Spanish"], "state": "CA", "street": "22110 Roscoe Blvd", "location": ["34.2193230", "-118.6082560"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/34775"}, {"city": "Compton", "name": "St Johns Well Child and Family Center", "zipcode": 90221, "telephone": "310-630-6825", "languages": ["English", "Spanish"], "state": "CA", "street": "15301 San Jose Ave", "location": ["33.8939067", "-118.1823212"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111992"}, {"city": "E Rancho Dominguez", "name": "St Johns Well Child and Family Center", "zipcode": 90221, "telephone": "310-604-5000", "languages": ["English", "Spanish"], "state": "CA", "street": "15715 S Atlantic Ave", "location": ["33.8905313", "-118.1930308"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111988"}, {"city": "Lawndale", "name": "Planned Parenthood Los Angeles", "zipcode": 90260, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "14623 Hawthorne Blvd", "location": ["33.8985676", "-118.3530631"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111156"}, {"city": "San Fernando", "name": "Northeast Valley Health Corporation", "zipcode": 91340, "telephone": "818-365-8086", "languages": ["English", "Spanish"], "state": "CA", "street": "1600 San Fernando Rd", "location": ["34.2887919", "-118.4484995"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/16902"}, {"city": "Norwalk", "name": "Wesley Health Centers", "zipcode": 90650, "telephone": "866-733-5924", "languages": ["English", "Spanish"], "state": "CA", "street": "12360 E Firestone Blvd", "location": ["33.9059286", "-118.0698793"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111806"}, {"city": "Glendora", "name": "Planned Parenthood Pasadena and San Gabriel Valley Incorporated", "zipcode": 91740, "telephone": "626-798-0706", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "130 W Rte 66", "location": ["34.1283563", "-117.8651083"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113219"}, {"city": "Bellflower", "name": "Wesley Health Centers", "zipcode": 90706, "telephone": "866-733-5924", "languages": ["English", "Spanish"], "state": "CA", "street": "14371 Clark Ave", "location": ["33.9024030", "-118.1347437"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113802"}, {"city": "Redondo Beach", "name": "South Bay Family Healthcare Center", "zipcode": 90278, "telephone": "310-318-2521", "languages": ["English", "Hindi", "Spanish"], "state": "CA", "street": "2114 Artesia Blvd", "location": ["33.8725797", "-118.3735509"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/7634"}, {"city": "Pomona", "name": "Rite Medical Clinic Urgent Care", "zipcode": 91768, "telephone": "909-620-5699", "languages": ["English", "Spanish"], "state": "CA", "street": "502 W Holt Ave", "location": ["34.0619907", "-117.7570486"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113242"}, {"city": "Lakewood", "name": "Planned Parenthood Los Angeles", "zipcode": 90713, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "5519 E Del Amo Blvd", "location": ["33.8475028", "-118.1243046"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/112347"}, {"city": "Lakewood", "name": "Planned Parenthood Los Angeles", "zipcode": 90713, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "5525 E Del Amo Blvd", "location": ["33.8473613", "-118.1241154"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/16914"}, {"city": "Torrance", "name": "Harbor-UCLA Medical Center", "zipcode": 90502, "telephone": "310-222-2365", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "1124 W Carson St", "location": ["33.8308175", "-118.2952526"], "categories": ["Conventional HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/3368"}, {"city": "Torrance", "name": "Los Angeles County Department of Public Health", "zipcode": 90502, "telephone": "310-354-2300", "languages": ["English", "Spanish"], "state": "CA", "street": "711 Del Amo Blvd", "location": ["33.8466382", "-118.2872533"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111285"}, {"city": "Torrance", "name": "Womens Health Care Clinic", "zipcode": 90502, "telephone": "310-222-3715", "languages": ["English", "Spanish"], "state": "CA", "street": "1124 W Carson St", "location": ["33.8308175", "-118.2952526"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111686"}, {"city": "Pomona", "name": "Bienestar Human Services Incorporated", "zipcode": 91766, "telephone": "909-397-7660", "languages": ["English", "Spanish"], "state": "CA", "street": "180 E Mission Blvd", "location": ["34.0548412", "-117.7491879"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/100331"}, {"city": "Pomona", "name": "East Valley Community Health Center", "zipcode": 91766, "telephone": "626-919-4333", "languages": ["English", "Spanish"], "state": "CA", "street": "1555 S Garey Ave", "location": ["34.0431847", "-117.7505034"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/27445"}, {"city": "Pomona", "name": "Los Angeles County Department of Public Health", "zipcode": 91766, "telephone": "909-868-0235", "languages": ["English", "Spanish"], "state": "CA", "street": "750 S Park Ave", "location": ["34.0527502", "-117.7539287"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/110051"}, {"city": "Buena Park", "name": "Obria Medical Clinics", "zipcode": 90621, "telephone": "657-239-0079", "languages": ["English", "Spanish"], "state": "CA", "street": "8352 Commonwealth Ave", "location": ["33.8695927", "-117.9874085"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113344"}, {"city": "Redondo Beach", "name": "AHF Redondo Beach Healthcare Center", "zipcode": 90277, "telephone": "310-374-5475", "languages": ["English", "Spanish"], "state": "CA", "street": "520 N Prospect Ave", "location": ["33.8533857", "-118.3798561"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113305"}, {"city": "Pomona", "name": "Planned Parenthood Los Angeles", "zipcode": 91767, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "1550 N Garey Ave", "location": ["34.0735979", "-117.7518667"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/16915"}, {"city": "Simi Valley", "name": "Clinicas del Camino Real Incorporated", "zipcode": 93063, "telephone": "805-915-4400", "languages": ["English", "Spanish"], "state": "CA", "street": "4370 Eve Road", "location": ["34.2823130", "-118.7094830"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113957"}, {"city": "Simi Valley", "name": "Free Clinic of Simi Valley", "zipcode": 93063, "telephone": "805-522-3733", "languages": ["English", "Spanish"], "state": "CA", "street": "2060 Tapo St", "location": ["34.2730431", "-118.7085527"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/25819"}, {"city": "Simi Valley", "name": "Clinicas del Camino Real Incorporated", "zipcode": 93065, "telephone": "805-522-5722", "languages": ["English", "Spanish"], "state": "CA", "street": "1424 Madera Rd", "location": ["34.2647806", "-118.7958456"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/112915"}, {"city": "Long Beach", "name": "Obria Medical Clinics", "zipcode": 90806, "telephone": "562-290-0212", "languages": ["English", "Spanish"], "state": "CA", "street": "261 E Willow St", "location": ["33.8056794", "-118.1902219"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111935"}, {"city": "Long Beach", "name": "Planned Parenthood Los Angeles", "zipcode": 90806, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "2690 Pacific Ave", "location": ["33.8058414", "-118.1933920"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111780"}, {"city": "Upland", "name": "Planned Parenthood of Orange and San Bernardino Counties", "zipcode": 91786, "telephone": "909-890-5511", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "918 W Foothill Blvd", "location": ["34.1062919", "-117.6636065"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/25923"}, {"city": "Wilmington", "name": "1350 Club", "zipcode": 90744, "telephone": "310-830-4784", "languages": ["English", "Spanish"], "state": "CA", "street": "510 W Anaheim St", "location": ["33.7794657", "-118.2681160"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113116"}, {"city": "Long Beach", "name": "Long Beach Department of Health and Human Services", "zipcode": 90815, "telephone": "562-570-4000", "languages": ["English", "Spanish"], "state": "CA", "street": "2525 Grand Ave", "location": ["33.8026766", "-118.1487985"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/10573"}, {"city": "Long Beach", "name": "Los Angeles County Department of Health Services", "zipcode": 90813, "telephone": "562-599-2153", "languages": ["English", "Spanish", "Vietnamese", "Cambodian/Khmer"], "state": "CA", "street": "1333 Chestnut Ave", "location": ["33.7835589", "-118.1967062"], "categories": ["Conventional HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/24494"}, {"city": "Long Beach", "name": "Long Beach Out of the Closet Thrift Store", "zipcode": 90804, "telephone": "562-494-0340", "languages": ["English", "Spanish"], "state": "CA", "street": "3500 E Pacific Coast Hwy", "location": ["33.7896208", "-118.1510130"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111712"}, {"city": "Anaheim", "name": "Planned Parenthood of Orange and San Bernardino Counties Incorporated", "zipcode": 92805, "telephone": "714-922-4100", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "303 W Lincoln", "location": ["33.8352459", "-117.9179874"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111121"}, {"city": "Newbury Park", "name": "Clinicas del Camino Real Incorporated", "zipcode": 91320, "telephone": "805-647-6353", "languages": ["English", "Spanish"], "state": "CA", "street": "1000 Newbury Rd", "location": ["34.1827610", "-118.9043670"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111671"}, {"city": "Thousand Oaks", "name": "Planned Parenthood of Santa Barbara Ventura and San Luis Obispo Counties Incorporated", "zipcode": 91320, "telephone": "888-898-3806", "languages": ["English", "Spanish"], "state": "CA", "street": "1200 W Hillcrest Dr", "location": ["34.1848847", "-118.9070190"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111168"}, {"city": "Long Beach", "name": "LGBTQ Center of Long Beach", "zipcode": 90814, "telephone": "562-434-4455", "languages": ["English", "Spanish"], "state": "CA", "street": "2017 E 4th St", "location": ["33.7719820", "-118.1671300"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/2347"}, {"city": "Ontario", "name": "San Bernardino County Department of Public Health", "zipcode": 91761, "telephone": "800-722-4777", "languages": ["English", "Spanish"], "state": "CA", "street": "150 E Holt Blvd", "location": ["34.0633340", "-117.6503164"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/17013"}, {"city": "Moorpark", "name": "Clinicas del Camino Real Incorporated", "zipcode": 93021, "telephone": "805-222-2323", "languages": ["English", "Spanish"], "state": "CA", "street": "4279 Tierra Rejada Rd", "location": ["34.2680789", "-118.8998698"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/112914"}, {"city": "Rancho Cucamonga", "name": "AHF Upland Healthcare Center", "zipcode": 91730, "telephone": "909-579-0708", "languages": ["English", "Spanish"], "state": "CA", "street": "8263 Grove Ave", "location": ["34.1043587", "-117.6279940"], "categories": ["Conventional HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/21479"}, {"city": "Garden Grove", "name": "Asian Health Center", "zipcode": 92841, "telephone": "714-418-2040", "languages": ["English", "Vietnamese"], "state": "CA", "street": "9862 Chapman Ave", "location": ["33.7879006", "-117.9607644"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/37313"}, {"city": "Garden Grove", "name": "Nhan Hoa Comprehensive Health Care Clinic", "zipcode": 92841, "telephone": "714-898-8888", "languages": ["English", "Vietnamese"], "state": "CA", "street": "7761 Garden Blvd", "location": ["33.7743060", "-117.9966900"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/37308"}, {"city": "Santa Clarita", "name": "Northeast Valley Health Corporation", "zipcode": 91351, "telephone": "661-673-8800", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "18533 Soledad Canyon Rd", "location": ["34.4178381", "-118.4565260"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/112863"}, {"city": "Valencia", "name": "Northeast Valley Health Corporation", "zipcode": 91355, "telephone": "661-287-1551", "languages": ["English", "Spanish"], "state": "CA", "street": "23763 Valencia Blvd", "location": ["34.4086050", "-118.5749297"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111320"}, {"city": "San Pedro", "name": "Harbor Community Clinic", "zipcode": 90731, "telephone": "310-547-0202", "languages": ["English"], "state": "CA", "street": "593 W 6th St", "location": ["33.7385465", "-118.2899313"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111936"}, {"city": "Westminster", "name": "Planned Parenthood of Orange and San Bernardino Counties Incorporated", "zipcode": 92683, "telephone": "714-922-4100", "languages": ["English", "Hindi", "Spanish", "Vietnamese", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "14372 Beach Blvd", "location": ["33.7528293", "-117.9885483"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111127"}, {"city": "Garden Grove", "name": "APAIT Health Center", "zipcode": 92843, "telephone": "714-636-1349", "languages": ["Chinese", "English", "Japanese", "Korean", "Tagalog", "Vietnamese"], "state": "CA", "street": "12900 Garden Grove Blvd", "location": ["33.7738794", "-117.9073468"], "categories": ["Conventional HIV Blood Testing", "Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/112649"}, {"city": "Orange", "name": "Obria Medical Clinics", "zipcode": 92866, "telephone": "714-516-9045", "languages": ["English", "Spanish"], "state": "CA", "street": "1215 E Chapman Ave", "location": ["33.7881045", "-117.8405265"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111978"}, {"city": "Orange", "name": "Planned Parenthood of Orange and San Bernardino Counties Incorporated", "zipcode": 92866, "telephone": "714-922-4100", "languages": ["Arabic", "English", "Spanish", "Vietnamese", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "700 S Tustin St", "location": ["33.7768912", "-117.8364353"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111124"}, {"city": "Santa Ana", "name": "Orange County Health Care Agency", "zipcode": 92706, "telephone": "714-834-8787", "languages": ["English", "Korean", "Spanish", "Tagalog", "Vietnamese"], "state": "CA", "street": "1725 W 17th St", "location": ["33.7606975", "-117.8926087"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/646"}, {"city": "Santa Ana", "name": "Rendering Access to Disease-Prevention Advocacy and Retention", "zipcode": 92706, "telephone": "714-868-5602", "languages": ["English", "Spanish"], "state": "CA", "street": "2708 Westminster Ave", "location": ["33.7595639", "-117.9059875"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/114397"}, {"city": "Huntington Beach", "name": "AltaMed Health Services Corporation", "zipcode": 92647, "telephone": "714-500-0224", "languages": ["English", "Spanish"], "state": "CA", "street": "8041 Newman Ave", "location": ["33.7050728", "-117.9883166"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/21122"}, {"city": "Santa Ana", "name": "LGBT Center of Orange County", "zipcode": 92701, "telephone": "714-953-5428", "languages": ["English", "Spanish"], "state": "CA", "street": "1605 N Spurgeon St", "location": ["33.7593265", "-117.8648392"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/2363"}, {"city": "Corona", "name": "Riverside County Family Care Centers", "zipcode": 92882, "telephone": "951-272-5445", "languages": ["Chinese", "English", "Spanish"], "state": "CA", "street": "505 S Buena Vista Ave", "location": ["33.8779368", "-117.5769907"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/37320"}, {"city": "Santa Ana", "name": "Planned Parenthood of Orange and San Bernardino Counties Incorporated", "zipcode": 92705, "telephone": "714-922-4100", "languages": ["English", "Hindi", "Spanish", "Vietnamese", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "1421 E 17th St", "location": ["33.7602236", "-117.8478199"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/5927"}, {"city": "Fillmore", "name": "Clinicas del Camino Real Incorporated", "zipcode": 93015, "telephone": "805-647-6353", "languages": ["English", "Spanish"], "state": "CA", "street": "355 Central Ave", "location": ["34.4002878", "-118.9140401"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/25521"}, {"city": "Santa Ana", "name": "AltaMed Health Services", "zipcode": 92707, "telephone": "888-499-9303", "languages": ["English", "Spanish"], "state": "CA", "street": "1155 W Central Ave", "location": ["33.7131955", "-117.8843588"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113465"}, {"city": "Irvine", "name": "AIDS Services Foundation Orange County", "zipcode": 92614, "telephone": "949-809-8775", "languages": ["English", "Spanish"], "state": "CA", "street": "17982 Sky Park Cir", "location": ["33.6897119", "-117.8594309"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/16233"}, {"city": "Costa Mesa", "name": "Planned Parenthood of Orange and San Bernardino Counties Incorporated", "zipcode": 92627, "telephone": "714-922-4100", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "601 W 19th St", "location": ["33.6430974", "-117.9235856"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111122"}, {"city": "Costa Mesa", "name": "Womens Health Care Specialists", "zipcode": 92627, "telephone": "949-722-2510", "languages": ["English", "Spanish"], "state": "CA", "street": "2077 Harbor Blvd Ste C", "location": ["33.6498919", "-117.9195326"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113488"}, {"city": "Palmdale", "name": "Planned Parenthood Los Angeles", "zipcode": 93550, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "533 E Palmdale Blvd", "location": ["34.5806414", "-118.1195341"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/112348"}, {"city": "Palmdale", "name": "Tarzana Treatment Centers Reseda", "zipcode": 93551, "telephone": "661-729-9000", "languages": ["English", "Spanish"], "state": "CA", "street": "422 W Ave P Ste C280", "location": ["34.6016771", "-118.1364599"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/114177"}, {"city": "Mission Viejo", "name": "Planned Parenthood of Orange and San Bernardino Counties Incorporated", "zipcode": 92691, "telephone": "714-922-4100", "languages": ["Arabic", "English", "Spanish", "Vietnamese", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "26137 La Paz Road", "location": ["33.6011139", "-117.6738246"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111123"}, {"city": "Mission Viejo", "name": "Obria Medical Clinics", "zipcode": 92692, "telephone": "949-364-3928", "languages": ["English", "Spanish"], "state": "CA", "street": "28201 Marguerite Pkwy", "location": ["33.5540984", "-117.6716295"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111948"}, {"city": "Lancaster", "name": "AHF Antelope Valley Healthcare Center", "zipcode": 93534, "telephone": "661-723-3244", "languages": ["English", "Spanish"], "state": "CA", "street": "1669 W Avenue J", "location": ["34.6897748", "-118.1608770"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113306"}, {"city": "Lancaster", "name": "Catalyst Foundation", "zipcode": 93534, "telephone": "661-948-8559", "languages": ["English", "Spanish"], "state": "CA", "street": "616 W Lancaster Blvd", "location": ["34.6977574", "-118.1402137"], "categories": ["Rapid HIV Blood Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/112878"}, {"city": "Reseda", "name": "Lancaster Office", "zipcode": 93534, "telephone": "661-723-4829", "languages": ["English", "Spanish"], "state": "CA", "street": "907 W Lancaster Blvd", "location": ["34.6946278", "-118.1473771"], "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/114178"}, {"city": "Lancaster", "name": "Bartz-Altadonna Community Health Center", "zipcode": 93535, "telephone": "661-874-4050", "languages": ["English", "Spanish", "Tagalog"], "state": "CA", "street": "43322 Gingham Ave", "location": ["34.6701346", "-118.1217289"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/28669"}, {"city": "Lancaster", "name": "Los Angeles County Department of Public Health", "zipcode": 93535, "telephone": "661-723-4526", "languages": ["English", "Spanish"], "state": "CA", "street": "335 E Ave K6", "location": ["34.6698801", "-118.1248120"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/23268"}, {"city": "Laguna Beach", "name": "Laguna Beach Community Clinic", "zipcode": 92651, "telephone": "949-494-0761", "languages": ["English", "Spanish"], "state": "CA", "street": "362 3rd St", "location": ["33.5439924", "-117.7806689"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/8824"}, {"city": "San Juan Capistrano", "name": "Camino Health Center", "zipcode": 92675, "telephone": "949-240-2272", "languages": ["English", "Spanish"], "state": "CA", "street": "30300 Camino Capistrano", "location": ["33.5229020", "-117.6680927"], "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/37306"}]
+[{
+    "website": "http://www.plannedparenthood.org/planned-parenthood-los-angeles",
+    "city": "Los Angeles",
+    "name": "Planned Parenthood Los Angeles",
+    "eligibility": "If you are uninsured, you may qualify for a state-funded program or a lower fee scale. Please bring the following documents: photo ID. Fees for services are based on your household income. You will not be turned away because of your inability to pay.",
+    "hours": {
+        "Monday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Tuesday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Friday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Wednesday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Thursday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Saturday": {
+            "dayend": "16:00",
+            "daystart": "08:00"
+        }
+    },
+    "zipcode": 90029,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "1014 1/2 N Vermont Ave",
+    "location": ["34.0901681", "-118.2912412"],
+    "orgtype": "Clinic",
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Gonorrhea Test", "Herpes Test", "Syphilis Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/16905"
+}, {
+    "website": "http://www.aidshealth.org",
+    "city": "Los Angeles",
+    "name": "AIDS Healthcare Foundation",
+    "eligibility": "Not available",
+    "hours": {
+        "Friday": {
+            "dayend": "17:30",
+            "daystart": "08:30"
+        },
+        "Tuesday": {
+            "dayend": "20:00",
+            "daystart": "08:30"
+        },
+        "Thursday": {
+            "dayend": "17:30",
+            "daystart": "08:30"
+        },
+        "Wednesday": {
+            "dayend": "17:30",
+            "daystart": "08:30"
+        },
+        "Monday": {
+            "dayend": "17:30",
+            "daystart": "08:30"
+        }
+    },
+    "zipcode": 90027,
+    "telephone": "323-662-0492",
+    "languages": ["English", "Spanish"],
+    "email": "info@aidshealth.org",
+    "state": "CA",
+    "street": "1300 N Vermont Ave",
+    "location": ["34.0962209", "-118.2905784"],
+    "orgtype": "Clinic",
+    "categories": ["Chlamydia Testing", "Rapid HIV Blood Testing", "Syphilis Testing", "Conventional HIV Blood Test", "Free HIV Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/36348"
+}, {
+    "website": "http://aphcv.org",
+    "city": "Los Angeles",
+    "name": "Asian Pacific Health Care Venture Incorporated",
+    "eligibility": "Open the first through fourth Saturday of each month.",
+    "zipcode": 90027,
+    "telephone": "323-644-3888",
+    "languages": ["Chinese", "English", "Japanese", "Korean", "Spanish", "Tagalog", "Vietnamese", "Cambodian/Khmer"],
+    "email": "info@aphcv.org",
+    "state": "CA",
+    "street": "1530 Hillhurst Ave",
+    "location": ["34.0989362", "-118.2870393"],
+    "orgtype": "Clinic",
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Syphilis Test", "Gonorrhea Test", "Herpes Test", "Hepatitis A Vaccine", "Hepatitis B Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/34347"
+}, {
+    "website": "http://www.bienestar.org",
+    "city": "Los Angeles",
+    "name": "Bienestar Human Services Incorporated",
+    "eligibility": "Not available",
+    "hours": {
+        "Friday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        },
+        "Tuesday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        },
+        "Thursday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        },
+        "Wednesday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        },
+        "Monday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        }
+    },
+    "zipcode": 90027,
+    "telephone": "323-660-9680",
+    "languages": ["English", "Spanish"],
+    "email": "info@bienestar.org",
+    "state": "CA",
+    "street": "4955 W Sunset Blvd",
+    "location": ["34.0983774", "-118.2974677"],
+    "orgtype": "Community Based Organization",
+    "categories": ["Rapid HIV Blood Testing", "Free HIV Testing", "Rapid HIV Blood Test", "Rapid HIV Oral Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/18958"
+}, {
+    "website": "http:// www.chla.org",
+    "city": "Hollywood",
+    "name": "Childrens Hospital Los Angeles",
+    "eligibility": "Young people ages 12-24.",
+    "hours": {
+        "Friday": {
+            "dayend": "16:30",
+            "daystart": "09:00"
+        },
+        "Tuesday": {
+            "dayend": "16:30",
+            "daystart": "09:00"
+        },
+        "Thursday": {
+            "dayend": "16:30",
+            "daystart": "09:00"
+        },
+        "Wednesday": {
+            "dayend": "16:30",
+            "daystart": "09:00"
+        },
+        "Monday": {
+            "dayend": "16:30",
+            "daystart": "09:00"
+        }
+    },
+    "zipcode": 90027,
+    "telephone": "323-361-7514",
+    "languages": ["English", "Spanish"],
+    "email": "ggranados@chla.usc.edu",
+    "state": "CA",
+    "street": "5000 Sunset Blvd",
+    "location": ["34.0978301", "-118.2985264"],
+    "orgtype": "Clinic",
+    "categories": ["HPV Vaccine", "Rapid HIV Blood Testing", "Free HIV Testing", "Hepatitis A Vaccine", "Rapid HIV Blood Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113092"
+}, {
+    "website": "http://covenanthousecalifornia.org/index-pg.php",
+    "city": "Hollywood",
+    "name": "Covenant House California",
+    "eligibility": "Services available to youth ages 18-24.",
+    "hours": {
+        "Friday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Tuesday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Thursday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Wednesday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Monday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        }
+    },
+    "zipcode": 90027,
+    "telephone": "510-379-1010",
+    "languages": ["English", "Spanish"],
+    "email": "info@covenenthousecalifornia.org",
+    "state": "CA",
+    "street": "1325 N Western Ave",
+    "location": ["34.0956149", "-118.3094990"],
+    "orgtype": "Social Service Organization",
+    "categories": ["Conventional HIV Blood Testing", "HPV Vaccine", "Conventional HIV Blood Test", "Free HIV Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/27490"
+}, {
+    "website": "http://publichealth.lacounty.gov/chs/spa4/index.htm",
+    "city": "Los Angeles",
+    "name": "Los Angeles County Department of Public Health",
+    "eligibility": "HPV vaccines provided to those 18 and under through the VFC program. Los Angeles County offers free Hepatitis A & B vaccines for high risk groups in STD Clinics. Free TB testing is available at all Public Health Clinics for those at high risk of TB. Free HIV and STD testing is available at all Publi",
+    "hours": {
+        "Friday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Tuesday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Thursday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Wednesday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Monday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        }
+    },
+    "zipcode": 90038,
+    "telephone": "323-769-7800",
+    "languages": ["English", "Spanish"],
+    "email": "spa4@ph.lacounty.gov",
+    "state": "CA",
+    "street": "5205 Melrose Ave",
+    "location": ["34.0837912", "-118.3140387"],
+    "orgtype": "Clinic",
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Free HIV Testing", "Free STD Testing", "Gonorrhea Test", "Hepatitis A Vaccine", "Hepatitis B Test", "Hepatitis C Test", "Herpes Test", "Syphilis Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/110056"
+}, {
+    "website": "http://www.lagaycenter.org",
+    "city": "Los Angeles",
+    "name": "Los Angeles Gay and Lesbian Center",
+    "eligibility": "Not available",
+    "zipcode": 90038,
+    "telephone": "323-860-2280",
+    "languages": ["English"],
+    "email": "youthservices@lagaycenter.org",
+    "state": "CA",
+    "street": "1220 N Highland Ave",
+    "location": ["34.0932161", "-118.3382476"],
+    "orgtype": "Clinic",
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing", "Chlamydia Test", "Rapid HIV Blood Test", "Syphilis Test", "Gonorrhea Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111717"
+}, {
+    "website": "http://sabancommunityclinic.org",
+    "city": "Los Angeles",
+    "name": "Saban Community Clinic",
+    "eligibility": "No appointment needed for HIV testing. Appointment needed for STD testing.",
+    "hours": {
+        "Monday": {
+            "dayend": "21:00",
+            "daystart": "08:30"
+        },
+        "Tuesday": {
+            "dayend": "21:00",
+            "daystart": "08:30"
+        },
+        "Friday": {
+            "dayend": "21:00",
+            "daystart": "08:30"
+        },
+        "Wednesday": {
+            "dayend": "21:00",
+            "daystart": "08:30"
+        },
+        "Thursday": {
+            "dayend": "21:00",
+            "daystart": "08:30"
+        },
+        "Saturday": {
+            "dayend": "12:00",
+            "daystart": "08:30"
+        }
+    },
+    "zipcode": 90038,
+    "telephone": "323-330-1819",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "5205 Melrose Ave",
+    "location": ["34.0837912", "-118.3140387"],
+    "orgtype": "Clinic",
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing", "Chlamydia Test", "Free HIV Testing", "Gonorrhea Test", "Hepatitis A Vaccine", "Rapid HIV Blood Test", "Syphilis Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113971"
+}, {
+    "website": "http://hollywoodhealthcenter.com",
+    "city": "Los Angeles",
+    "name": "Hollywood Health Center",
+    "eligibility": "Not available",
+    "hours": {
+        "Friday": {
+            "dayend": "18:00",
+            "daystart": "08:00"
+        },
+        "Tuesday": {
+            "dayend": "18:00",
+            "daystart": "08:00"
+        },
+        "Thursday": {
+            "dayend": "18:00",
+            "daystart": "08:00"
+        },
+        "Wednesday": {
+            "dayend": "18:00",
+            "daystart": "08:00"
+        },
+        "Monday": {
+            "dayend": "18:00",
+            "daystart": "08:00"
+        }
+    },
+    "zipcode": 90004,
+    "telephone": "323-461-9355",
+    "languages": ["English", "Spanish"],
+    "email": "hollywoodhealthcenter@ymail.com",
+    "state": "CA",
+    "street": "321 N Larchmont Blvd",
+    "location": ["34.0770087", "-118.3239481"],
+    "orgtype": "Clinic",
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Gonorrhea Test", "Hepatitis A Vaccine", "Hepatitis B Test", "Hepatitis C Test", "Herpes Test", "Syphilis Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/7471"
+}, {
+    "website": "http://www.outofthecloset.org",
+    "city": "Los Angeles",
+    "name": "Hollywood Out of the Closet Thrift Store",
+    "eligibility": "Not available",
+    "hours": {
+        "Monday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        },
+        "Tuesday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        },
+        "Friday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        },
+        "Wednesday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        },
+        "Thursday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        },
+        "Sunday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        },
+        "Saturday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        }
+    },
+    "zipcode": 90028,
+    "telephone": "323-467-6811",
+    "languages": ["English", "Spanish"],
+    "email": "webmaster@aidshealth.org",
+    "state": "CA",
+    "street": "6210 W Sunset Blvd",
+    "location": ["34.0975475", "-118.3244396"],
+    "orgtype": "AIDS Service Organization",
+    "categories": ["Rapid HIV Blood Testing", "Free HIV Testing", "Rapid HIV Blood Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111321"
+}, {
+    "city": "Los Angeles",
+    "name": "Los Angeles LGBT Center",
+    "zipcode": 90028,
+    "telephone": "323-993-7500",
+    "languages": ["Chinese", "English", "Japanese", "Spanish"],
+    "state": "CA",
+    "street": "1625 N Schrader Blvd",
+    "location": ["34.1005263", "-118.3327332"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/18306"
+}, {
+    "city": "Los Angeles",
+    "name": "Saban Community Clinic",
+    "zipcode": 90028,
+    "telephone": "323-653-1990",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "6043 Hollywood Blvd",
+    "location": ["34.1019044", "-118.3215724"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/7710"
+}, {
+    "city": "Los Angeles",
+    "name": "Belmont Health Center",
+    "zipcode": 90026,
+    "telephone": "323-644-3885",
+    "languages": ["Chinese", "English", "Hindi", "Japanese", "Korean", "Spanish", "Tagalog", "Vietnamese"],
+    "state": "CA",
+    "street": "180 Union Pl",
+    "location": ["34.0618976", "-118.2651986"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/112374"
+}, {
+    "city": "Los Angeles",
+    "name": "Echo Park Out of the Closet Thrift Store",
+    "zipcode": 90026,
+    "telephone": "213-484-3913",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1724 W Sunset Blvd",
+    "location": ["34.0773026", "-118.2594099"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111711"
+}, {
+    "city": "Los Angeles",
+    "name": "Hollywood Sunset Free Clinic",
+    "zipcode": 90026,
+    "telephone": "323-660-2400",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "3324 W Sunset Blvd",
+    "location": ["34.0870791", "-118.2758950"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/4617"
+}, {
+    "city": "Los Angeles",
+    "name": "S Mark Taper Foundation Community Clinic",
+    "zipcode": 90020,
+    "telephone": "213-235-2500",
+    "languages": ["English", "Korean"],
+    "state": "CA",
+    "street": "3727 W 6th St Ste 200",
+    "location": ["34.0638657", "-118.3037835"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/10318"
+}, {
+    "city": "Los Angeles",
+    "name": "Clinica Monsenor Oscar A Romero Community Health Center",
+    "zipcode": 90057,
+    "telephone": "213-989-7700",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "123 S Alvarado St",
+    "location": ["34.0661040", "-118.2710930"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/25689"
+}, {
+    "city": "Los Angeles",
+    "name": "Melrose Spa",
+    "zipcode": 90046,
+    "telephone": "323-937-2122",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "7269 Melrose Ave",
+    "location": ["34.0837063", "-118.3481722"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113115"
+}, {
+    "city": "West Hollywood",
+    "name": "Out of the Closet Thrift Store - West Hollywood",
+    "zipcode": 90046,
+    "telephone": "323-848-9760",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "8224 Santa Monica Blvd",
+    "location": ["34.0905659", "-118.3678092"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113313"
+}, {
+    "city": "Los Angeles",
+    "name": "AIDS Project Los Angeles",
+    "zipcode": 90005,
+    "telephone": "213-201-1504",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "611 S Kingsley Dr",
+    "location": ["34.0630656", "-118.3031461"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/10383"
+}, {
+    "city": "Los Angeles",
+    "name": "myLAB Box",
+    "zipcode": 90068,
+    "telephone": "213-290-4571",
+    "languages": ["English"],
+    "state": "CA",
+    "street": "1905 Wilcox Ave",
+    "location": ["34.1054523", "-118.3311972"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/114434"
+}, {
+    "city": "Los Angeles",
+    "name": "PrEP4LA",
+    "zipcode": 90036,
+    "telephone": "310-710-5220",
+    "languages": ["Arabic", "English", "French", "Spanish", "Vietnamese"],
+    "state": "CA",
+    "street": "5901 W Olympic Blvd",
+    "location": ["34.0579333", "-118.3602384"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/114041"
+}, {
+    "city": "Los Angeles",
+    "name": "Chinatown Service Center",
+    "zipcode": 90012,
+    "telephone": "213-808-1792",
+    "languages": ["Chinese", "English", "Spanish", "Vietnamese"],
+    "state": "CA",
+    "street": "767 N Hill St",
+    "location": ["34.0626634", "-118.2400525"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/13788"
+}, {
+    "city": "Los Angeles",
+    "name": "Los Angeles County Department of Public Health",
+    "zipcode": 90012,
+    "telephone": "213-240-8204",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "241 N Figueroa St",
+    "location": ["34.0593040", "-118.2503878"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111330"
+}, {
+    "city": "West Hollywood",
+    "name": "Los Angeles LGBT Center",
+    "zipcode": 90069,
+    "telephone": "323-993-7440",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "8745 Santa Monica Blvd",
+    "location": ["34.0868550", "-118.3814866"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/109884"
+}, {
+    "city": "Los Angeles",
+    "name": "Mens Health Foundation",
+    "zipcode": 90069,
+    "telephone": "310-550-1010",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "9201 Sunset Blvd",
+    "location": ["34.0908596", "-118.3926447"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/114045"
+}, {
+    "city": "Los Angeles",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 90069,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "825 N San Vicente Blvd",
+    "location": ["34.0854020", "-118.3849180"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/114346"
+}, {
+    "city": "Los Angeles",
+    "name": "St Johns Well Child and Family Center",
+    "zipcode": 90031,
+    "telephone": "323-441-2139",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "2512 Alta St",
+    "location": ["34.0761483", "-118.2037120"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111989"
+}, {
+    "city": "Los Angeles",
+    "name": "Lim-Keith Multispecialty Medical Clinic Incorporated",
+    "zipcode": 90048,
+    "telephone": "323-964-1440",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "6200 Wilshire Blvd",
+    "location": ["34.0628452", "-118.3636665"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/10702"
+}, {
+    "city": "Los Angeles",
+    "name": "Saban Community Clinic",
+    "zipcode": 90048,
+    "telephone": "323-653-1990",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "8405 Beverly Blvd",
+    "location": ["34.0763488", "-118.3734130"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111329"
+}, {
+    "city": "Los Angeles",
+    "name": "AIDS Healthcare Foundation",
+    "zipcode": 90211,
+    "telephone": "310-657-9353",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "99 N La Cienega Blvd",
+    "location": ["34.0671733", "-118.3766312"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/29475"
+}, {
+    "city": "Beverly Hills",
+    "name": "Dr Karen Sandler Medical Practice",
+    "zipcode": 90211,
+    "telephone": "310-854-2401",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "8641 Wilshire Blvd",
+    "location": ["34.0663213", "-118.3799095"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/101097"
+}, {
+    "city": "Beverly Hills",
+    "name": "Pacific Oaks Medical Group",
+    "zipcode": 90211,
+    "telephone": "310-652-2562",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "150 N Robertson Blvd",
+    "location": ["34.0684520", "-118.3834054"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/10695"
+}, {
+    "city": "Los Angeles",
+    "name": "JWCH Institute Incorporated",
+    "zipcode": 90013,
+    "telephone": "866-733-5924",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "522 S San Pedro St",
+    "location": ["34.0433696", "-118.2440061"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/31740"
+}, {
+    "city": "Los Angeles",
+    "name": "Los Angeles Christian Health Centers",
+    "zipcode": 90013,
+    "telephone": "213-893-1960",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "311 E Winston St",
+    "location": ["34.0455910", "-118.2446390"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/28650"
+}, {
+    "city": "Los Angeles",
+    "name": "APAIT",
+    "zipcode": 90015,
+    "telephone": "213-375-3830",
+    "languages": ["Chinese", "English", "Japanese", "Korean", "Spanish", "Tagalog", "Vietnamese", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "1730 W Olympic Blvd",
+    "location": ["34.0498585", "-118.2763978"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/10285"
+}, {
+    "city": "Los Angeles",
+    "name": "Northeast Community Clinic",
+    "zipcode": 90042,
+    "telephone": "323-256-3884",
+    "languages": ["English"],
+    "state": "CA",
+    "street": "5428 N Figueroa St",
+    "location": ["34.1075839", "-118.1962337"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/110045"
+}, {
+    "city": "Los Angeles",
+    "name": "The Wall Las Memorias Project",
+    "zipcode": 90042,
+    "telephone": "323-257-1056",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "5619 Monte Vista St",
+    "location": ["34.1117365", "-118.1953629"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/110664"
+}, {
+    "city": "Los Angeles",
+    "name": "Womens Clinic and Family Counseling Center",
+    "zipcode": 90035,
+    "telephone": "310-203-8899",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "9911 W Pico Blvd Ste 500",
+    "location": ["34.0534883", "-118.4044185"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/36027"
+}, {
+    "city": "Los Angeles",
+    "name": "Clinica Monsenor Oscar A Romero",
+    "zipcode": 90033,
+    "telephone": "213-989-7700",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "2032 Marengo St",
+    "location": ["34.0563588", "-118.2076480"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/109886"
+}, {
+    "city": "Los Angeles",
+    "name": "Los Angeles Christian Health Centers",
+    "zipcode": 90033,
+    "telephone": "323-268-8391",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1625 E 4th St",
+    "location": ["34.0431515", "-118.2219503"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113767"
+}, {
+    "city": "Los Angeles",
+    "name": "Maternal Child and Adolescent/Adult Center for Infectious Diseases and Virology",
+    "zipcode": 90033,
+    "telephone": "323-226-2200",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "2010 Zonal Ave",
+    "location": ["34.0598316", "-118.2077257"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/21428"
+}, {
+    "city": "Los Angeles",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 90033,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "1057 Kingston Ave",
+    "location": ["34.0571698", "-118.2097930"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/16913"
+}, {
+    "city": "Los Angeles",
+    "name": "Rand Schrader HIV Clinic",
+    "zipcode": 90033,
+    "telephone": "323-343-8288",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "1300 N Mission Rd",
+    "location": ["34.0626925", "-118.2106958"],
+    "categories": ["Conventional HIV Blood Testing", "Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/2329"
+}, {
+    "city": "Los Angeles",
+    "name": "West Adams Carl Bean House",
+    "zipcode": 90018,
+    "telephone": "323-766-2170",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "2146 W Adams Blvd",
+    "location": ["34.0325316", "-118.3132138"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/29473"
+}, {
+    "city": "Los Angeles",
+    "name": "Planned Parenthood Pasadena and San Gabriel Valley Incorporated",
+    "zipcode": 90041,
+    "telephone": "626-798-0706",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "1578 Colorado Blvd",
+    "location": ["34.1391080", "-118.2009526"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111086"
+}, {
+    "city": "Los Angeles",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 90007,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "400 W 30th St",
+    "location": ["34.0237259", "-118.2760168"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111232"
+}, {
+    "city": "Los Angeles",
+    "name": "St Johns Well Child and Family Center at Magnolia Place",
+    "zipcode": 90007,
+    "telephone": "213-749-0947",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1910 S Magnolia Ave Ste 101",
+    "location": ["34.0394092", "-118.2856934"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111985"
+}, {
+    "city": "Los Angeles",
+    "name": "JWCH Medical Clinic at the Weingart Medical Center",
+    "zipcode": 90021,
+    "telephone": "213-689-2132",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "515 E 6th St",
+    "location": ["34.0428933", "-118.2446191"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/7746"
+}, {
+    "city": "Los Angeles",
+    "name": "Midtowne Spa Los Angeles",
+    "zipcode": 90021,
+    "telephone": "213-680-1838",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "615 Kohler St",
+    "location": ["34.0391396", "-118.2411467"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113114"
+}, {
+    "city": "Los Angeles",
+    "name": "Realistic Education in Action Coalition to Foster Health",
+    "zipcode": 90021,
+    "telephone": "213-622-1650",
+    "languages": ["English"],
+    "state": "CA",
+    "street": "1400 E Olympic Blvd",
+    "location": ["34.0305857", "-118.2434204"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/112217"
+}, {
+    "city": "Los Angeles",
+    "name": "APLA Health & Wellness Center",
+    "zipcode": 90016,
+    "telephone": "323-329-9900",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "3743 S Labrea Ave",
+    "location": ["34.0187271", "-118.3563291"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113576"
+}, {
+    "city": "Los Angeles",
+    "name": "Minority AIDS Project",
+    "zipcode": 90016,
+    "telephone": "323-936-4949",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "5149 W Jefferson Blvd",
+    "location": ["34.0258470", "-118.3566960"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/3365"
+}, {
+    "city": "Los Angeles",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 90016,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "3637 S La Brea Ave",
+    "location": ["34.0206509", "-118.3561441"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111782"
+}, {
+    "city": "Los Angeles",
+    "name": "AltaMed Medical Group",
+    "zipcode": 90063,
+    "telephone": "323-307-0160",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "512 S Indiana St",
+    "location": ["34.0299853", "-118.1919830"],
+    "categories": ["Hepatitis B Vaccine", "Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/110434"
+}, {
+    "city": "Glendale",
+    "name": "Los Angeles County Department of Public Health",
+    "zipcode": 91206,
+    "telephone": "818-500-5750",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "501 N Glendale Ave",
+    "location": ["34.1531936", "-118.2442653"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/3372"
+}, {
+    "city": "Los Angeles",
+    "name": "University of California Los Angeles",
+    "zipcode": 90095,
+    "telephone": "310-825-5906",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1010 Veteran Ave",
+    "location": ["34.0605227", "-118.4478328"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/29821"
+}, {
+    "city": "Alhambra",
+    "name": "Chinatown Service Center",
+    "zipcode": 91801,
+    "telephone": "626-773-3388",
+    "languages": ["Chinese", "English", "Spanish", "Vietnamese"],
+    "state": "CA",
+    "street": "320 S Garfield Ave",
+    "location": ["34.0919397", "-118.1242922"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113498"
+}, {
+    "city": "Alhambra",
+    "name": "Planned Parenthood Pasadena and San Gabriel Valley Incorporated",
+    "zipcode": 91801,
+    "telephone": "626-798-0706",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "320 S Garfield Ave",
+    "location": ["34.0919397", "-118.1242922"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111085"
+}, {
+    "city": "Burbank",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 91506,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "916 W Burbank Blvd",
+    "location": ["34.1835718", "-118.3222662"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/110189"
+}, {
+    "city": "Los Angeles",
+    "name": "Crenshaw Community Health Center",
+    "zipcode": 90008,
+    "telephone": "323-568-5460",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "3756 Santa Rosalia Dr",
+    "location": ["34.0088198", "-118.3391612"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113133"
+}, {
+    "city": "Crenshaw",
+    "name": "W King Health Care Group",
+    "zipcode": 90008,
+    "telephone": "323-617-5409",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "3756 Santa Rosalia Dr",
+    "location": ["34.0088198", "-118.3391612"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/114044"
+}, {
+    "city": "Los Angeles",
+    "name": "Los Angeles County Department of Public Health",
+    "zipcode": 90062,
+    "telephone": "323-730-3507",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "3834 S Western Ave",
+    "location": ["34.0162773", "-118.3085083"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/3194"
+}, {
+    "city": "North Hollywood",
+    "name": "Los Angeles County Department of Public Health",
+    "zipcode": 91601,
+    "telephone": "818-766-3982",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "5300 Tujunga Ave",
+    "location": ["34.1672665", "-118.3787061"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111318"
+}, {
+    "city": "Los Angeles",
+    "name": "To Help Everyone Clinic Incorporated",
+    "zipcode": 90062,
+    "telephone": "323-730-1920",
+    "languages": ["English", "Japanese", "Laotian", "Spanish", "Tagalog", "Vietnamese"],
+    "state": "CA",
+    "street": "3834 S Western  Ave",
+    "location": ["34.0162773", "-118.3085083"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/223"
+}, {
+    "city": "Los Angeles",
+    "name": "Dr Louis C Frayser Clinic",
+    "zipcode": 90037,
+    "telephone": "323-541-1616",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "5701 S Hoover St",
+    "location": ["33.9899490", "-118.2874208"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111984"
+}, {
+    "city": "Los Angeles",
+    "name": "St Johns Well Child and Family Center",
+    "zipcode": 90037,
+    "telephone": "323-541-1631",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "4131 S Vermont Ave",
+    "location": ["34.0087700", "-118.2928480"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111991"
+}, {
+    "city": "Los Angeles",
+    "name": "St Johns Well Child and Family Center",
+    "zipcode": 90037,
+    "telephone": "323-541-1400",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "808 W 58th St",
+    "location": ["33.9894964", "-118.2875049"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111987"
+}, {
+    "city": "Los Angeles",
+    "name": "AltaMed Medical Group",
+    "zipcode": 90022,
+    "telephone": "323-869-5450",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "5427 E Whittier Blvd",
+    "location": ["34.0198609", "-118.1531488"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/16956"
+}, {
+    "city": "Los Angeles",
+    "name": "Bienestar Human Services Incorporated",
+    "zipcode": 90022,
+    "telephone": "323-727-7896",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "5326 E Beverly Blvd",
+    "location": ["34.0300629", "-118.1506886"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/30595"
+}, {
+    "city": "East Los Angeles",
+    "name": "Bienvenidos Community Health Center",
+    "zipcode": 90022,
+    "telephone": "323-268-9191",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "507 S Atlantic Blvd",
+    "location": ["34.0267769", "-118.1558735"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111490"
+}, {
+    "city": "Los Angeles",
+    "name": "East Los Angeles Womens Center",
+    "zipcode": 90022,
+    "telephone": "323-526-5819",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1255 S Atlantic Blvd",
+    "location": ["34.0147490", "-118.1593480"],
+    "categories": ["Conventional HIV Blood Testing", "Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/2340"
+}, {
+    "city": "Los Angeles",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 90022,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "5068 Whittier Blvd",
+    "location": ["34.0208520", "-118.1604277"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111165"
+}, {
+    "city": "Pasadena",
+    "name": "Pasadena Public Health Department",
+    "zipcode": 91103,
+    "telephone": "626-744-6140",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1845 N Fair Oaks Ave",
+    "location": ["34.1777736", "-118.1511928"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/29823"
+}, {
+    "city": "Sherman Oaks",
+    "name": "AIDS Healthcare Foundation",
+    "zipcode": 91403,
+    "telephone": "818-380-2626",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "4835 Van Nuys Blvd",
+    "location": ["34.1584538", "-118.4491651"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/29478"
+}, {
+    "city": "Los Angeles",
+    "name": "Axminster Medical Group Incorporated",
+    "zipcode": 90043,
+    "telephone": "323-293-7171",
+    "languages": ["English"],
+    "state": "CA",
+    "street": "4314 W Slauson Ave",
+    "location": ["33.9886612", "-118.3509358"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/112973"
+}, {
+    "city": "Los Angeles",
+    "name": "St Johns Well Child and Family Center at Hyde Park Elementary School",
+    "zipcode": 90043,
+    "telephone": "323-750-9232",
+    "languages": ["English"],
+    "state": "CA",
+    "street": "6505 8th Ave",
+    "location": ["33.9804011", "-118.3266717"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111990"
+}, {
+    "city": "Pasadena",
+    "name": "Planned Parenthood Pasadena and San Gabriel Valley Incorporated",
+    "zipcode": 91104,
+    "telephone": "626-798-0706",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "1045 N Lake Ave",
+    "location": ["34.1639686", "-118.1328520"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/5921"
+}, {
+    "city": "Santa Monica",
+    "name": "Common Ground",
+    "zipcode": 90405,
+    "telephone": "310-314-5480",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "2401 Lincoln Blvd",
+    "location": ["34.0089278", "-118.4784095"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/27420"
+}, {
+    "city": "Santa Monica",
+    "name": "Los Angeles County Department of Public Health",
+    "zipcode": 90405,
+    "telephone": "310-998-3203",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "2509 W Pico Blvd",
+    "location": ["34.0231221", "-118.4633112"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/29826"
+}, {
+    "city": "Santa Monica",
+    "name": "Westside Family Health Center",
+    "zipcode": 90405,
+    "telephone": "310-450-2191",
+    "languages": ["English", "Hindi", "Spanish", "Tagalog", "Cambodian/Khmer"],
+    "state": "CA",
+    "street": "1711 Ocean Park Blvd",
+    "location": ["34.0128606", "-118.4665556"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/32016"
+}, {
+    "city": "Santa Monica",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 90401,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "1316 3rd St Promenade",
+    "location": ["34.0164535", "-118.4975694"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/29412"
+}, {
+    "city": "El Monte",
+    "name": "AltaMed Health Services Corporation",
+    "zipcode": 91731,
+    "telephone": "626-499-9303",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "10418 E Valley Blvd",
+    "location": ["34.0759991", "-118.0460193"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/100598"
+}, {
+    "city": "El Monte",
+    "name": "Cleaver Family Wellness Clinic",
+    "zipcode": 91731,
+    "telephone": "626-579-0290",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "4368 Santa Anita Ave",
+    "location": ["34.0853655", "-118.0293332"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111667"
+}, {
+    "city": "North Hollywood",
+    "name": "Valley Community Healthcare",
+    "zipcode": 91605,
+    "telephone": "818-301-6390",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "6801 Coldwater Canyon Ave",
+    "location": ["34.1944099", "-118.4151426"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/7719"
+}, {
+    "city": "Los Angeles",
+    "name": "Hubert H Humphrey Comprehensive Health Center",
+    "zipcode": 90003,
+    "telephone": "323-846-4312",
+    "languages": ["English", "Spanish", "Vietnamese"],
+    "state": "CA",
+    "street": "5850 S Main St",
+    "location": ["33.9882273", "-118.2732047"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/109267"
+}, {
+    "city": "Los Angeles",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 90003,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "8520 S Broadway",
+    "location": ["33.9609286", "-118.2779251"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111161"
+}, {
+    "city": "Venice",
+    "name": "Venice Family Clinic",
+    "zipcode": 90291,
+    "telephone": "310-392-9255",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "604 Rose Ave",
+    "location": ["33.9990950", "-118.4715185"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111224"
+}, {
+    "city": "Van Nuys",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 91405,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "7100 Van Nuys Blvd",
+    "location": ["34.1996190", "-118.4481230"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/16911"
+}, {
+    "city": "El Monte",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 91732,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "4786 N Peck Rd",
+    "location": ["34.0901690", "-118.0137342"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/16907"
+}, {
+    "city": "Los Angeles",
+    "name": "Florence Western Medical Clinic",
+    "zipcode": 90047,
+    "telephone": "323-778-2131",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "7301 S Western Ave",
+    "location": ["33.9734887", "-118.3092897"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/32745"
+}, {
+    "city": "Bell",
+    "name": "Northeast Community Clinic",
+    "zipcode": 90201,
+    "telephone": "888-311-6322",
+    "languages": ["English"],
+    "state": "CA",
+    "street": "4129 E Gage Ave",
+    "location": ["33.9789699", "-118.1929355"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/110075"
+}, {
+    "city": "Bell Gardens",
+    "name": "Wesley Health Centers",
+    "zipcode": 90201,
+    "telephone": "562-867-7999",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "6912 Ajax Ave",
+    "location": ["33.9698860", "-118.1626783"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113801"
+}, {
+    "city": "Los Angeles",
+    "name": "Pink Lotus Health",
+    "zipcode": 90044,
+    "telephone": "323-242-0139",
+    "languages": ["English"],
+    "state": "CA",
+    "street": "10024 S Vermont Ave",
+    "location": ["33.9447770", "-118.2912208"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111468"
+}, {
+    "city": "Inglewood",
+    "name": "Dr Claudia Hampton Clinic",
+    "zipcode": 90301,
+    "telephone": "310-330-2960",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1091 S LaBrea Ave",
+    "location": ["33.9492760", "-118.3528461"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111326"
+}, {
+    "city": "Inglewood",
+    "name": "Los Angeles County Department of Public Health",
+    "zipcode": 90301,
+    "telephone": "310-419-5325",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "123 W Manchester Blvd",
+    "location": ["33.9621808", "-118.3565624"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/29405"
+}, {
+    "city": "Pico Rivera",
+    "name": "AltaMed Health Medical Group",
+    "zipcode": 90660,
+    "telephone": "562-949-8717",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "9436 Slauson Ave",
+    "location": ["33.9681306", "-118.0959453"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/110432"
+}, {
+    "city": "Sun Valley",
+    "name": "Northeast Valley Health Corporation",
+    "zipcode": 91352,
+    "telephone": "818-432-4400",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "7223 N Fair Ave",
+    "location": ["34.2018353", "-118.3748849"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/112864"
+}, {
+    "city": "Los Angeles",
+    "name": "Watts Health Center",
+    "zipcode": 90002,
+    "telephone": "323-564-4331",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "10300 S Compton Ave",
+    "location": ["33.9429351", "-118.2458025"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/9769"
+}, {
+    "city": "Monrovia",
+    "name": "Los Angeles County Department of Public Health",
+    "zipcode": 91016,
+    "telephone": "626-256-1600",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "330 W Maple Ave",
+    "location": ["34.1412123", "-118.0061266"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/36739"
+}, {
+    "city": "Panaroma City",
+    "name": "El Proyecto Del Barrio",
+    "zipcode": 91402,
+    "telephone": "818-892-8630",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "9140 Van Nuys Blvd",
+    "location": ["34.2366077", "-118.4498792"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/25711"
+}, {
+    "city": "Van Nuys",
+    "name": "Northeast Valley Health Corporation",
+    "zipcode": 91402,
+    "telephone": "818-988-6335",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "6551 Van Nuys Blvd",
+    "location": ["34.2120666", "-118.4492276"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111325"
+}, {
+    "city": "Whittier",
+    "name": "Whittier Rio Hondo AIDS Project",
+    "zipcode": 90606,
+    "telephone": "562-698-3850",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "12401 Slauson Ave",
+    "location": ["33.9606566", "-118.0528664"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/32075"
+}, {
+    "city": "Reseda",
+    "name": "Tarzana Treatment Centers Reseda",
+    "zipcode": 91335,
+    "telephone": "818-342-5897",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "7101 Baird Ave",
+    "location": ["34.1995289", "-118.5375543"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/7829"
+}, {
+    "city": "Los Angeles",
+    "name": "Charles Drew University",
+    "zipcode": 90059,
+    "telephone": "323-563-5805",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1731 E 120th St",
+    "location": ["33.9256333", "-118.2425260"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/110823"
+}, {
+    "city": "Los Angeles",
+    "name": "Charles R Drew University of Medicine and Science",
+    "zipcode": 90059,
+    "telephone": "424-338-2929",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1807 E 120th St",
+    "location": ["33.9247951", "-118.2404110"],
+    "categories": ["Hepatitis B Vaccine", "Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/110728"
+}, {
+    "city": "Los Angeles",
+    "name": "Martin Luther King Jr Center for Public Health",
+    "zipcode": 90059,
+    "telephone": "323-568-8100",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "11833 S Wilmington Ave",
+    "location": ["33.9250700", "-118.2393560"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/110046"
+}, {
+    "city": "Los Angeles",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 90059,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "11722 S Wilmington Ave",
+    "location": ["33.9274808", "-118.2380175"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/112741"
+}, {
+    "city": "West Covina",
+    "name": "East Valley Community Health Center Incorporated",
+    "zipcode": 91790,
+    "telephone": "626-919-4333",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "420 S Glendora Ave",
+    "location": ["34.0672090", "-117.9247080"],
+    "categories": ["Chlamydia Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/18633"
+}, {
+    "city": "Whittier",
+    "name": "Los Angeles County Department of Public Health",
+    "zipcode": 90602,
+    "telephone": "562-464-5350",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "7643 S Painter Ave",
+    "location": ["33.9724035", "-118.0331490"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/109537"
+}, {
+    "city": "Whittier",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 90602,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "7655 Greenleaf Ave",
+    "location": ["33.9720022", "-118.0377213"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111159"
+}, {
+    "city": "Lynwood",
+    "name": "Wesley Health Centers",
+    "zipcode": 90262,
+    "telephone": "866-733-5924",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "3591 E Imperial Hwy",
+    "location": ["33.9306956", "-118.2055316"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113803"
+}, {
+    "city": "Pacoima",
+    "name": "Northeast Valley Health Corporation",
+    "zipcode": 91331,
+    "telephone": "818-896-0531",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "12756 Van Nuys Blvd",
+    "location": ["34.2739012", "-118.4107752"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/16901"
+}, {
+    "city": "La Puente",
+    "name": "Bay Area Addiction Research and Treatment Incorporated",
+    "zipcode": 91744,
+    "telephone": "626-855-5090",
+    "languages": ["English", "Spanish", "Tagalog"],
+    "state": "CA",
+    "street": "15229 E Amar Rd",
+    "location": ["34.0379952", "-117.9525044"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/19427"
+}, {
+    "city": "Canoga Park",
+    "name": "Northeast Valley Health Corporation",
+    "zipcode": 91303,
+    "telephone": "818-340-3570",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "7107 Remmet Ave",
+    "location": ["34.1994180", "-118.6005762"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111227"
+}, {
+    "city": "Canoga Park",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 91303,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "21001 Sherman Way",
+    "location": ["34.2019562", "-118.5909523"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/16909"
+}, {
+    "city": "Compton",
+    "name": "St Johns Well Child andFamily Center",
+    "zipcode": 90222,
+    "telephone": "310-603-1332",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "2115 N Wilmington Ave",
+    "location": ["33.9118628", "-118.2394652"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111986"
+}, {
+    "city": "Santa Fe Springs",
+    "name": "Los Angeles Centers for Alcohol and Drug Abuse",
+    "zipcode": 90670,
+    "telephone": "562-906-2676",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "11015 Bloomfield Ave",
+    "location": ["33.9311179", "-118.0645074"],
+    "categories": ["Conventional HIV Blood Testing", "Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/29491"
+}, {
+    "city": "Gardena",
+    "name": "South Bay Family Healthcare Center",
+    "zipcode": 90247,
+    "telephone": "310-327-1357",
+    "languages": ["English", "Hindi", "Spanish"],
+    "state": "CA",
+    "street": "742 W Gardena Blvd",
+    "location": ["33.8814057", "-118.2886954"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/16241"
+}, {
+    "city": "West Hills",
+    "name": "Westwind Health Services",
+    "zipcode": 91304,
+    "telephone": "818-704-6696",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "22110 Roscoe Blvd",
+    "location": ["34.2193230", "-118.6082560"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/34775"
+}, {
+    "city": "Compton",
+    "name": "St Johns Well Child and Family Center",
+    "zipcode": 90221,
+    "telephone": "310-630-6825",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "15301 San Jose Ave",
+    "location": ["33.8939067", "-118.1823212"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111992"
+}, {
+    "city": "E Rancho Dominguez",
+    "name": "St Johns Well Child and Family Center",
+    "zipcode": 90221,
+    "telephone": "310-604-5000",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "15715 S Atlantic Ave",
+    "location": ["33.8905313", "-118.1930308"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111988"
+}, {
+    "city": "Lawndale",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 90260,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "14623 Hawthorne Blvd",
+    "location": ["33.8985676", "-118.3530631"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111156"
+}, {
+    "city": "San Fernando",
+    "name": "Northeast Valley Health Corporation",
+    "zipcode": 91340,
+    "telephone": "818-365-8086",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1600 San Fernando Rd",
+    "location": ["34.2887919", "-118.4484995"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/16902"
+}, {
+    "city": "Norwalk",
+    "name": "Wesley Health Centers",
+    "zipcode": 90650,
+    "telephone": "866-733-5924",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "12360 E Firestone Blvd",
+    "location": ["33.9059286", "-118.0698793"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111806"
+}, {
+    "city": "Glendora",
+    "name": "Planned Parenthood Pasadena and San Gabriel Valley Incorporated",
+    "zipcode": 91740,
+    "telephone": "626-798-0706",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "130 W Rte 66",
+    "location": ["34.1283563", "-117.8651083"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113219"
+}, {
+    "city": "Bellflower",
+    "name": "Wesley Health Centers",
+    "zipcode": 90706,
+    "telephone": "866-733-5924",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "14371 Clark Ave",
+    "location": ["33.9024030", "-118.1347437"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113802"
+}, {
+    "city": "Redondo Beach",
+    "name": "South Bay Family Healthcare Center",
+    "zipcode": 90278,
+    "telephone": "310-318-2521",
+    "languages": ["English", "Hindi", "Spanish"],
+    "state": "CA",
+    "street": "2114 Artesia Blvd",
+    "location": ["33.8725797", "-118.3735509"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/7634"
+}, {
+    "city": "Pomona",
+    "name": "Rite Medical Clinic Urgent Care",
+    "zipcode": 91768,
+    "telephone": "909-620-5699",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "502 W Holt Ave",
+    "location": ["34.0619907", "-117.7570486"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113242"
+}, {
+    "city": "Lakewood",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 90713,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "5519 E Del Amo Blvd",
+    "location": ["33.8475028", "-118.1243046"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/112347"
+}, {
+    "city": "Lakewood",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 90713,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "5525 E Del Amo Blvd",
+    "location": ["33.8473613", "-118.1241154"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/16914"
+}, {
+    "city": "Torrance",
+    "name": "Harbor-UCLA Medical Center",
+    "zipcode": 90502,
+    "telephone": "310-222-2365",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "1124 W Carson St",
+    "location": ["33.8308175", "-118.2952526"],
+    "categories": ["Conventional HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/3368"
+}, {
+    "city": "Torrance",
+    "name": "Los Angeles County Department of Public Health",
+    "zipcode": 90502,
+    "telephone": "310-354-2300",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "711 Del Amo Blvd",
+    "location": ["33.8466382", "-118.2872533"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111285"
+}, {
+    "city": "Torrance",
+    "name": "Womens Health Care Clinic",
+    "zipcode": 90502,
+    "telephone": "310-222-3715",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1124 W Carson St",
+    "location": ["33.8308175", "-118.2952526"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111686"
+}, {
+    "city": "Pomona",
+    "name": "Bienestar Human Services Incorporated",
+    "zipcode": 91766,
+    "telephone": "909-397-7660",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "180 E Mission Blvd",
+    "location": ["34.0548412", "-117.7491879"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/100331"
+}, {
+    "city": "Pomona",
+    "name": "East Valley Community Health Center",
+    "zipcode": 91766,
+    "telephone": "626-919-4333",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1555 S Garey Ave",
+    "location": ["34.0431847", "-117.7505034"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/27445"
+}, {
+    "city": "Pomona",
+    "name": "Los Angeles County Department of Public Health",
+    "zipcode": 91766,
+    "telephone": "909-868-0235",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "750 S Park Ave",
+    "location": ["34.0527502", "-117.7539287"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/110051"
+}, {
+    "city": "Buena Park",
+    "name": "Obria Medical Clinics",
+    "zipcode": 90621,
+    "telephone": "657-239-0079",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "8352 Commonwealth Ave",
+    "location": ["33.8695927", "-117.9874085"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113344"
+}, {
+    "city": "Redondo Beach",
+    "name": "AHF Redondo Beach Healthcare Center",
+    "zipcode": 90277,
+    "telephone": "310-374-5475",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "520 N Prospect Ave",
+    "location": ["33.8533857", "-118.3798561"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113305"
+}, {
+    "city": "Pomona",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 91767,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "1550 N Garey Ave",
+    "location": ["34.0735979", "-117.7518667"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/16915"
+}, {
+    "city": "Simi Valley",
+    "name": "Clinicas del Camino Real Incorporated",
+    "zipcode": 93063,
+    "telephone": "805-915-4400",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "4370 Eve Road",
+    "location": ["34.2823130", "-118.7094830"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113957"
+}, {
+    "city": "Simi Valley",
+    "name": "Free Clinic of Simi Valley",
+    "zipcode": 93063,
+    "telephone": "805-522-3733",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "2060 Tapo St",
+    "location": ["34.2730431", "-118.7085527"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/25819"
+}, {
+    "city": "Simi Valley",
+    "name": "Clinicas del Camino Real Incorporated",
+    "zipcode": 93065,
+    "telephone": "805-522-5722",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1424 Madera Rd",
+    "location": ["34.2647806", "-118.7958456"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/112915"
+}, {
+    "city": "Long Beach",
+    "name": "Obria Medical Clinics",
+    "zipcode": 90806,
+    "telephone": "562-290-0212",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "261 E Willow St",
+    "location": ["33.8056794", "-118.1902219"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111935"
+}, {
+    "city": "Long Beach",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 90806,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "2690 Pacific Ave",
+    "location": ["33.8058414", "-118.1933920"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111780"
+}, {
+    "city": "Upland",
+    "name": "Planned Parenthood of Orange and San Bernardino Counties",
+    "zipcode": 91786,
+    "telephone": "909-890-5511",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "918 W Foothill Blvd",
+    "location": ["34.1062919", "-117.6636065"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/25923"
+}, {
+    "city": "Wilmington",
+    "name": "1350 Club",
+    "zipcode": 90744,
+    "telephone": "310-830-4784",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "510 W Anaheim St",
+    "location": ["33.7794657", "-118.2681160"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113116"
+}, {
+    "city": "Long Beach",
+    "name": "Long Beach Department of Health and Human Services",
+    "zipcode": 90815,
+    "telephone": "562-570-4000",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "2525 Grand Ave",
+    "location": ["33.8026766", "-118.1487985"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/10573"
+}, {
+    "city": "Long Beach",
+    "name": "Los Angeles County Department of Health Services",
+    "zipcode": 90813,
+    "telephone": "562-599-2153",
+    "languages": ["English", "Spanish", "Vietnamese", "Cambodian/Khmer"],
+    "state": "CA",
+    "street": "1333 Chestnut Ave",
+    "location": ["33.7835589", "-118.1967062"],
+    "categories": ["Conventional HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/24494"
+}, {
+    "city": "Long Beach",
+    "name": "Long Beach Out of the Closet Thrift Store",
+    "zipcode": 90804,
+    "telephone": "562-494-0340",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "3500 E Pacific Coast Hwy",
+    "location": ["33.7896208", "-118.1510130"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111712"
+}, {
+    "city": "Anaheim",
+    "name": "Planned Parenthood of Orange and San Bernardino Counties Incorporated",
+    "zipcode": 92805,
+    "telephone": "714-922-4100",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "303 W Lincoln",
+    "location": ["33.8352459", "-117.9179874"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111121"
+}, {
+    "city": "Newbury Park",
+    "name": "Clinicas del Camino Real Incorporated",
+    "zipcode": 91320,
+    "telephone": "805-647-6353",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1000 Newbury Rd",
+    "location": ["34.1827610", "-118.9043670"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111671"
+}, {
+    "city": "Thousand Oaks",
+    "name": "Planned Parenthood of Santa Barbara Ventura and San Luis Obispo Counties Incorporated",
+    "zipcode": 91320,
+    "telephone": "888-898-3806",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1200 W Hillcrest Dr",
+    "location": ["34.1848847", "-118.9070190"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111168"
+}, {
+    "city": "Long Beach",
+    "name": "LGBTQ Center of Long Beach",
+    "zipcode": 90814,
+    "telephone": "562-434-4455",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "2017 E 4th St",
+    "location": ["33.7719820", "-118.1671300"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/2347"
+}, {
+    "city": "Ontario",
+    "name": "San Bernardino County Department of Public Health",
+    "zipcode": 91761,
+    "telephone": "800-722-4777",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "150 E Holt Blvd",
+    "location": ["34.0633340", "-117.6503164"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/17013"
+}, {
+    "city": "Moorpark",
+    "name": "Clinicas del Camino Real Incorporated",
+    "zipcode": 93021,
+    "telephone": "805-222-2323",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "4279 Tierra Rejada Rd",
+    "location": ["34.2680789", "-118.8998698"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/112914"
+}, {
+    "city": "Rancho Cucamonga",
+    "name": "AHF Upland Healthcare Center",
+    "zipcode": 91730,
+    "telephone": "909-579-0708",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "8263 Grove Ave",
+    "location": ["34.1043587", "-117.6279940"],
+    "categories": ["Conventional HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/21479"
+}, {
+    "city": "Garden Grove",
+    "name": "Asian Health Center",
+    "zipcode": 92841,
+    "telephone": "714-418-2040",
+    "languages": ["English", "Vietnamese"],
+    "state": "CA",
+    "street": "9862 Chapman Ave",
+    "location": ["33.7879006", "-117.9607644"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/37313"
+}, {
+    "city": "Garden Grove",
+    "name": "Nhan Hoa Comprehensive Health Care Clinic",
+    "zipcode": 92841,
+    "telephone": "714-898-8888",
+    "languages": ["English", "Vietnamese"],
+    "state": "CA",
+    "street": "7761 Garden Blvd",
+    "location": ["33.7743060", "-117.9966900"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/37308"
+}, {
+    "city": "Santa Clarita",
+    "name": "Northeast Valley Health Corporation",
+    "zipcode": 91351,
+    "telephone": "661-673-8800",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "18533 Soledad Canyon Rd",
+    "location": ["34.4178381", "-118.4565260"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/112863"
+}, {
+    "city": "Valencia",
+    "name": "Northeast Valley Health Corporation",
+    "zipcode": 91355,
+    "telephone": "661-287-1551",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "23763 Valencia Blvd",
+    "location": ["34.4086050", "-118.5749297"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111320"
+}, {
+    "city": "San Pedro",
+    "name": "Harbor Community Clinic",
+    "zipcode": 90731,
+    "telephone": "310-547-0202",
+    "languages": ["English"],
+    "state": "CA",
+    "street": "593 W 6th St",
+    "location": ["33.7385465", "-118.2899313"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111936"
+}, {
+    "city": "Westminster",
+    "name": "Planned Parenthood of Orange and San Bernardino Counties Incorporated",
+    "zipcode": 92683,
+    "telephone": "714-922-4100",
+    "languages": ["English", "Hindi", "Spanish", "Vietnamese", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "14372 Beach Blvd",
+    "location": ["33.7528293", "-117.9885483"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111127"
+}, {
+    "city": "Garden Grove",
+    "name": "APAIT Health Center",
+    "zipcode": 92843,
+    "telephone": "714-636-1349",
+    "languages": ["Chinese", "English", "Japanese", "Korean", "Tagalog", "Vietnamese"],
+    "state": "CA",
+    "street": "12900 Garden Grove Blvd",
+    "location": ["33.7738794", "-117.9073468"],
+    "categories": ["Conventional HIV Blood Testing", "Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/112649"
+}, {
+    "city": "Orange",
+    "name": "Obria Medical Clinics",
+    "zipcode": 92866,
+    "telephone": "714-516-9045",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1215 E Chapman Ave",
+    "location": ["33.7881045", "-117.8405265"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111978"
+}, {
+    "city": "Orange",
+    "name": "Planned Parenthood of Orange and San Bernardino Counties Incorporated",
+    "zipcode": 92866,
+    "telephone": "714-922-4100",
+    "languages": ["Arabic", "English", "Spanish", "Vietnamese", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "700 S Tustin St",
+    "location": ["33.7768912", "-117.8364353"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111124"
+}, {
+    "city": "Santa Ana",
+    "name": "Orange County Health Care Agency",
+    "zipcode": 92706,
+    "telephone": "714-834-8787",
+    "languages": ["English", "Korean", "Spanish", "Tagalog", "Vietnamese"],
+    "state": "CA",
+    "street": "1725 W 17th St",
+    "location": ["33.7606975", "-117.8926087"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/646"
+}, {
+    "city": "Santa Ana",
+    "name": "Rendering Access to Disease-Prevention Advocacy and Retention",
+    "zipcode": 92706,
+    "telephone": "714-868-5602",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "2708 Westminster Ave",
+    "location": ["33.7595639", "-117.9059875"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/114397"
+}, {
+    "city": "Huntington Beach",
+    "name": "AltaMed Health Services Corporation",
+    "zipcode": 92647,
+    "telephone": "714-500-0224",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "8041 Newman Ave",
+    "location": ["33.7050728", "-117.9883166"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/21122"
+}, {
+    "city": "Santa Ana",
+    "name": "LGBT Center of Orange County",
+    "zipcode": 92701,
+    "telephone": "714-953-5428",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1605 N Spurgeon St",
+    "location": ["33.7593265", "-117.8648392"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/2363"
+}, {
+    "city": "Corona",
+    "name": "Riverside County Family Care Centers",
+    "zipcode": 92882,
+    "telephone": "951-272-5445",
+    "languages": ["Chinese", "English", "Spanish"],
+    "state": "CA",
+    "street": "505 S Buena Vista Ave",
+    "location": ["33.8779368", "-117.5769907"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/37320"
+}, {
+    "city": "Santa Ana",
+    "name": "Planned Parenthood of Orange and San Bernardino Counties Incorporated",
+    "zipcode": 92705,
+    "telephone": "714-922-4100",
+    "languages": ["English", "Hindi", "Spanish", "Vietnamese", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "1421 E 17th St",
+    "location": ["33.7602236", "-117.8478199"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/5927"
+}, {
+    "city": "Fillmore",
+    "name": "Clinicas del Camino Real Incorporated",
+    "zipcode": 93015,
+    "telephone": "805-647-6353",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "355 Central Ave",
+    "location": ["34.4002878", "-118.9140401"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/25521"
+}, {
+    "city": "Santa Ana",
+    "name": "AltaMed Health Services",
+    "zipcode": 92707,
+    "telephone": "888-499-9303",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1155 W Central Ave",
+    "location": ["33.7131955", "-117.8843588"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113465"
+}, {
+    "city": "Irvine",
+    "name": "AIDS Services Foundation Orange County",
+    "zipcode": 92614,
+    "telephone": "949-809-8775",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "17982 Sky Park Cir",
+    "location": ["33.6897119", "-117.8594309"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/16233"
+}, {
+    "city": "Costa Mesa",
+    "name": "Planned Parenthood of Orange and San Bernardino Counties Incorporated",
+    "zipcode": 92627,
+    "telephone": "714-922-4100",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "601 W 19th St",
+    "location": ["33.6430974", "-117.9235856"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111122"
+}, {
+    "city": "Costa Mesa",
+    "name": "Womens Health Care Specialists",
+    "zipcode": 92627,
+    "telephone": "949-722-2510",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "2077 Harbor Blvd Ste C",
+    "location": ["33.6498919", "-117.9195326"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113488"
+}, {
+    "city": "Palmdale",
+    "name": "Planned Parenthood Los Angeles",
+    "zipcode": 93550,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "533 E Palmdale Blvd",
+    "location": ["34.5806414", "-118.1195341"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/112348"
+}, {
+    "city": "Palmdale",
+    "name": "Tarzana Treatment Centers Reseda",
+    "zipcode": 93551,
+    "telephone": "661-729-9000",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "422 W Ave P Ste C280",
+    "location": ["34.6016771", "-118.1364599"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/114177"
+}, {
+    "city": "Mission Viejo",
+    "name": "Planned Parenthood of Orange and San Bernardino Counties Incorporated",
+    "zipcode": 92691,
+    "telephone": "714-922-4100",
+    "languages": ["Arabic", "English", "Spanish", "Vietnamese", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "26137 La Paz Road",
+    "location": ["33.6011139", "-117.6738246"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Herpes Testing", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111123"
+}, {
+    "city": "Mission Viejo",
+    "name": "Obria Medical Clinics",
+    "zipcode": 92692,
+    "telephone": "949-364-3928",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "28201 Marguerite Pkwy",
+    "location": ["33.5540984", "-117.6716295"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111948"
+}, {
+    "city": "Lancaster",
+    "name": "AHF Antelope Valley Healthcare Center",
+    "zipcode": 93534,
+    "telephone": "661-723-3244",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "1669 W Avenue J",
+    "location": ["34.6897748", "-118.1608770"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113306"
+}, {
+    "city": "Lancaster",
+    "name": "Catalyst Foundation",
+    "zipcode": 93534,
+    "telephone": "661-948-8559",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "616 W Lancaster Blvd",
+    "location": ["34.6977574", "-118.1402137"],
+    "categories": ["Rapid HIV Blood Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/112878"
+}, {
+    "city": "Reseda",
+    "name": "Lancaster Office",
+    "zipcode": 93534,
+    "telephone": "661-723-4829",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "907 W Lancaster Blvd",
+    "location": ["34.6946278", "-118.1473771"],
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/114178"
+}, {
+    "city": "Lancaster",
+    "name": "Bartz-Altadonna Community Health Center",
+    "zipcode": 93535,
+    "telephone": "661-874-4050",
+    "languages": ["English", "Spanish", "Tagalog"],
+    "state": "CA",
+    "street": "43322 Gingham Ave",
+    "location": ["34.6701346", "-118.1217289"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/28669"
+}, {
+    "city": "Lancaster",
+    "name": "Los Angeles County Department of Public Health",
+    "zipcode": 93535,
+    "telephone": "661-723-4526",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "335 E Ave K6",
+    "location": ["34.6698801", "-118.1248120"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/23268"
+}, {
+    "city": "Laguna Beach",
+    "name": "Laguna Beach Community Clinic",
+    "zipcode": 92651,
+    "telephone": "949-494-0761",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "362 3rd St",
+    "location": ["33.5439924", "-117.7806689"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Herpes Testing", "Rapid HIV Blood Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/8824"
+}, {
+    "city": "San Juan Capistrano",
+    "name": "Camino Health Center",
+    "zipcode": 92675,
+    "telephone": "949-240-2272",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "30300 Camino Capistrano",
+    "location": ["33.5229020", "-117.6680927"],
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Syphilis Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/37306"
+}]
