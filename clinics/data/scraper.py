@@ -22,9 +22,14 @@ def parseTimes(day):
 # file to read from
 clinics = json.load(open('90029-50.json','r'))
 
+f = open('90029-50-more-data.json','w')
+
 for clinic in clinics:
     url = clinic['cdclink']
     print url
+
+    # which clinic?
+    cindex = clinics.index(clinic)
 
     page = urllib2.urlopen(url)
 
@@ -38,7 +43,6 @@ for clinic in clinics:
 
         # check on formatting of list
         if len(hoursParent.find('div',{'class':'item-list'}).ul.findAll('li')) > 1:
-            print 'hello'
 
             hours = {}
 
@@ -52,8 +56,6 @@ for clinic in clinics:
                 # set to day key
                 hours[dayname] = parseTimes(day)
 
-            print hours
-
         else:
             days = hoursParent.find('div',{'class':'item-list'}).text.split('\n')
 
@@ -66,49 +68,57 @@ for clinic in clinics:
                 # set to day key
                 hours[dayname] = parseTimes(day)
 
-            print hours
+            clinics[cindex]['hours'] = hours
 
         # get website
         websiteparent = soup.find('span',{'class':'views-field-gsl-props-web'})
         website = websiteparent.find('span',{'class':'field-content'}).a['href']
 
+        clinics[cindex]['website'] = website
+
         # get eligibility reqs
         eligibilityparent = soup.find('span',{'class':'views-field-field-gsl-eligibility'})
         eligibility = eligibilityparent.find('span',{'class':'field-content'}).text
 
-        print eligibility
+        clinics[cindex]['eligibility'] = eligibility
 
         # get org type
         orgtypeparent = soup.find('span',{'class':'views-field-field-gsl-org-type'})
         orgtype = orgtypeparent.find('span',{'class':'field-content'}).text
 
-        print orgtype
+        clinics[cindex]['orgtype'] = orgtype
 
         # get email if available
         emailparent = soup.find('span',{'class':'views-field-field-gsl-email'})
         if emailparent.find('span',{'class':'field-content'}).a != None:
             email = emailparent.find('span',{'class':'field-content'}).a.text
-            print email
-        else:
-            print 'no email'
 
+            clinics[cindex]['email'] = email
 
         # loop through services to find anything else to add to categories
         servicesparent = soup.find('span',{'class':'views-field-field-gsl-services'})
 
+        categories = clinics[cindex]['categories']
+
         if len(servicesparent.find('div',{'class':'item-list'}).ul.findAll('li')) > 1:
-            services = []
+            # services = []
             for service in servicesparent.find('div',{'class':'item-list'}).ul.findAll('li'):
-                services.append(service.text.strip().encode('utf-8'))
-            print services
+                service = service.text.strip().encode('utf-8')
+                if service not in categories:
+                    categories.append(service)
 
         else:
             serviceslist = servicesparent.find('div',{'class':'item-list'}).text.replace('\r','').encode('utf-8').split('\n')
 
-            services = []
+            # services = []
             for service in serviceslist:
-                services.append(service.strip())
+                service = service.strip()
 
-            print services
+                if service not in categories:
+                    categories.append(service)
 
     time.sleep(2)
+
+# write this to the file
+f.write(dumps(clinics))
+f.close()
