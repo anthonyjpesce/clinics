@@ -17,7 +17,8 @@ function showPosition(position) {
 }
 
 // get list of clinics that match
-$.getJSON( "{{ STATIC_URL }}/js/90029-50.json", function( data ) {
+$.getJSON( "/static/js/90029-50.json", function( data ) {
+	console.log(data);
   var items = [];
   $.each( data, function( key, val ) {
     items.push( "<li id='" + key + "'>" + val + "</li>" );

@@ -25,7 +25,9 @@ clinics = json.load(open('90029-50.json','r'))
 
 f = open('90029-50-more-data.json','w')
 
-for clinic in clinics[:11]:
+newclinics = []
+
+for clinic in clinics[:10]:
     url = clinic['cdclink']
     print url
 
@@ -70,32 +72,32 @@ for clinic in clinics[:11]:
                     # set to day key
                     hours[dayname] = parseTimes(day)
 
-            clinics[cindex]['hours'] = hours
+            clinic['hours'] = hours
 
         # get website
         websiteparent = soup.find('span',{'class':'views-field-gsl-props-web'})
         website = websiteparent.find('span',{'class':'field-content'}).a['href']
 
-        clinics[cindex]['website'] = website
+        clinic['website'] = website
 
         # get eligibility reqs
         eligibilityparent = soup.find('span',{'class':'views-field-field-gsl-eligibility'})
         eligibility = eligibilityparent.find('span',{'class':'field-content'}).text
 
-        clinics[cindex]['eligibility'] = eligibility
+        clinic['eligibility'] = eligibility
 
         # get org type
         orgtypeparent = soup.find('span',{'class':'views-field-field-gsl-org-type'})
         orgtype = orgtypeparent.find('span',{'class':'field-content'}).text
 
-        clinics[cindex]['orgtype'] = orgtype
+        clinic['orgtype'] = orgtype
 
         # get email if available
         emailparent = soup.find('span',{'class':'views-field-field-gsl-email'})
         if emailparent.find('span',{'class':'field-content'}).a != None:
             email = emailparent.find('span',{'class':'field-content'}).a.text
 
-            clinics[cindex]['email'] = email
+            clinic['email'] = email
 
         # loop through services to find anything else to add to categories
         servicesparent = soup.find('span',{'class':'views-field-field-gsl-services'})
@@ -119,8 +121,9 @@ for clinic in clinics[:11]:
                 if service not in categories:
                     categories.append(service)
 
-    time.sleep(1)
+    newclinics.append(clinic)
+    time.sleep(1) # wait a beat
 
 # write this to the file
-f.write(dumps(clinics))
+f.write(dumps(newclinics))
 f.close()
