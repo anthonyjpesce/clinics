@@ -2,13 +2,18 @@
 
 {% block extra-css %}
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/site.css" />
+	<link href="https://fonts.googleapis.com/css?family=Kalam|Roboto" rel="stylesheet">
+
     <style type="text/css">
     
     </style>
 {% endblock %}
 
 {% block content %}
-    <h1>Hello!</h1>
+    <h1>get<br/><span class="site-name">tstd today</span></h1>
 
+    <button class="btn">Find clinics near me</button>
 
+    <!-- List of prepopulated places based on user's IP -->
+    
 {% endblock %}
