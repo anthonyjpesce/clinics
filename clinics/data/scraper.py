@@ -1,4 +1,4 @@
-import urllib2, socket, time
+import urllib2, socket, time, json
 from bs4 import BeautifulSoup
 from datetime import datetime
 
@@ -19,89 +19,96 @@ def parseTimes(day):
     except:
         pass
 
-url = 'https://gettested.cdc.gov/gettested_redirect/114434'
-url = 'https://gettested.cdc.gov/organizations/korean-health-education-information-and-research-center'
+# file to read from
+clinics = json.load(open('90029-50.json','r'))
 
-page = urllib2.urlopen(url)
+for clinic in clinics:
+    url = clinic['cdclink']
+    print url
 
-# check if detail page exists
-if page.geturl() != 'https://gettested.cdc.gov/':
+    page = urllib2.urlopen(url)
 
-    soup = BeautifulSoup(page,"html.parser")
+    # check if detail page exists
+    if page.geturl() != 'https://gettested.cdc.gov/':
 
-    # find the hours
-    hoursParent = soup.find('span',{'class':'views-field-field-gsl-hours'})
+        soup = BeautifulSoup(page,"html.parser")
 
-    # check on formatting of list
-    if len(hoursParent.find('div',{'class':'item-list'}).ul.findAll('li')) > 1:
-        print 'hello'
+        # find the hours
+        hoursParent = soup.find('span',{'class':'views-field-field-gsl-hours'})
 
-        hours = {}
+        # check on formatting of list
+        if len(hoursParent.find('div',{'class':'item-list'}).ul.findAll('li')) > 1:
+            print 'hello'
 
-        for day in hoursParent.find('div',{'class':'item-list'}).ul.findAll('li'):
-            # gimme the text
-            day = day.text
+            hours = {}
 
-            # find the semicolon
-            dayname = day[:day.index(':')].encode('utf-8')
+            for day in hoursParent.find('div',{'class':'item-list'}).ul.findAll('li'):
+                # gimme the text
+                day = day.text
 
-            # set to day key
-            hours[dayname] = parseTimes(day)
+                # find the semicolon
+                dayname = day[:day.index(':')].encode('utf-8')
 
-        print hours
+                # set to day key
+                hours[dayname] = parseTimes(day)
 
-    else:
-        days = hoursParent.find('div',{'class':'item-list'}).text.split('\n')
+            print hours
 
-        hours = {}
+        else:
+            days = hoursParent.find('div',{'class':'item-list'}).text.split('\n')
 
-        for day in days:
-            # find the semicolon
-            dayname = day[:day.index(':')].encode('utf-8')
+            hours = {}
 
-            # set to day key
-            hours[dayname] = parseTimes(day)
+            for day in days:
+                # find the semicolon
+                dayname = day[:day.index(':')].encode('utf-8')
 
-        print hours
+                # set to day key
+                hours[dayname] = parseTimes(day)
 
-    # get website
-    websiteparent = soup.find('span',{'class':'views-field-gsl-props-web'})
-    website = websiteparent.find('span',{'class':'field-content'}).a['href']
+            print hours
 
-    # get eligibility reqs
-    eligibilityparent = soup.find('span',{'class':'views-field-field-gsl-eligibility'})
-    eligibility = eligibilityparent.find('span',{'class':'field-content'}).text
+        # get website
+        websiteparent = soup.find('span',{'class':'views-field-gsl-props-web'})
+        website = websiteparent.find('span',{'class':'field-content'}).a['href']
 
-    print eligibility
+        # get eligibility reqs
+        eligibilityparent = soup.find('span',{'class':'views-field-field-gsl-eligibility'})
+        eligibility = eligibilityparent.find('span',{'class':'field-content'}).text
 
-    # get org type
-    orgtypeparent = soup.find('span',{'class':'views-field-field-gsl-org-type'})
-    orgtype = orgtypeparent.find('span',{'class':'field-content'}).text
+        print eligibility
 
-    print orgtype
+        # get org type
+        orgtypeparent = soup.find('span',{'class':'views-field-field-gsl-org-type'})
+        orgtype = orgtypeparent.find('span',{'class':'field-content'}).text
 
-    # get email if available
-    emailparent = soup.find('span',{'class':'views-field-field-gsl-email'})
+        print orgtype
 
-    # print emailparent 
-    email = emailparent.find('span',{'class':'field-content'}).a.text
-    print email
-    # loop through services to find anything else to add to categories
-    servicesparent = soup.find('span',{'class':'views-field-field-gsl-services'})
-
-    if len(servicesparent.find('div',{'class':'item-list'}).ul.findAll('li')) > 1:
-        services = []
-        for service in servicesparent.find('div',{'class':'item-list'}).ul.findAll('li'):
-            services.append(service.text.strip().encode('utf-8'))
-        print services
-
-    else:
-        serviceslist = servicesparent.find('div',{'class':'item-list'}).text.replace('\r','').encode('utf-8').split('\n')
-
-        services = []
-        for service in serviceslist:
-            services.append(service.strip())
-
-        print services
+        # get email if available
+        emailparent = soup.find('span',{'class':'views-field-field-gsl-email'})
+        if emailparent.find('span',{'class':'field-content'}).a != None:
+            email = emailparent.find('span',{'class':'field-content'}).a.text
+            print email
+        else:
+            print 'no email'
 
 
+        # loop through services to find anything else to add to categories
+        servicesparent = soup.find('span',{'class':'views-field-field-gsl-services'})
+
+        if len(servicesparent.find('div',{'class':'item-list'}).ul.findAll('li')) > 1:
+            services = []
+            for service in servicesparent.find('div',{'class':'item-list'}).ul.findAll('li'):
+                services.append(service.text.strip().encode('utf-8'))
+            print services
+
+        else:
+            serviceslist = servicesparent.find('div',{'class':'item-list'}).text.replace('\r','').encode('utf-8').split('\n')
+
+            services = []
+            for service in serviceslist:
+                services.append(service.strip())
+
+            print services
+
+    time.sleep(2)
