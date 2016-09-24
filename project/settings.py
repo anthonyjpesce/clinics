@@ -107,7 +107,14 @@ INSTALLED_APPS = [
     'toolbox',
     'greeking',
     'clinics',
+    'rest_framework',
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}
 
 LOGGING = {
     'version': 1,
