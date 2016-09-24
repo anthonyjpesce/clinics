@@ -53,5 +53,8 @@ h1 .site-name {
 	color: #fff;
 }
 
+#results-list {
+	display: none;
+}
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Kalam', cursive;*/
