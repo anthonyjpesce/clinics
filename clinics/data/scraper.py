@@ -19,7 +19,6 @@ def parseTimes(day):
     except:
         pass
 
-
 url = 'https://gettested.cdc.gov/gettested_redirect/114434'
 url = 'https://gettested.cdc.gov/organizations/korean-health-education-information-and-research-center'
 
