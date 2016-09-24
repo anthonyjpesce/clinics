@@ -22,6 +22,16 @@ h1 .site-name {
 	font-size: 46px;
 }
 
+/* hide initially */
+.navbar {
+	display: none;
+}
+
+.navbar-default .navbar-brand {
+	font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 1px;
+}
+
 .btn {
 	font-size: 20px;
 	margin: 20px auto 0;
