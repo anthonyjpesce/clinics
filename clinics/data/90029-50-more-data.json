@@ -1,1 +1,333 @@
-[{"website": "http://www.plannedparenthood.org/planned-parenthood-los-angeles", "city": "Los Angeles", "name": "Planned Parenthood Los Angeles", "eligibility": "If you are uninsured, you may qualify for a state-funded program or a lower fee scale. Please bring the following documents: photo ID. Fees for services are based on your household income. You will not be turned away because of your inability to pay.", "hours": {"Monday": {"dayend": "17:00", "daystart": "08:00"}, "Tuesday": {"dayend": "17:00", "daystart": "08:00"}, "Friday": {"dayend": "17:00", "daystart": "08:00"}, "Wednesday": {"dayend": "17:00", "daystart": "08:00"}, "Thursday": {"dayend": "17:00", "daystart": "08:00"}, "Saturday": {"dayend": "16:00", "daystart": "08:00"}}, "zipcode": 90029, "telephone": "800-576-5544", "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"], "state": "CA", "street": "1014 1/2 N Vermont Ave", "location": ["34.0901681", "-118.2912412"], "orgtype": "Clinic", "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Gonorrhea Test", "Herpes Test", "Syphilis Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/16905"}, {"website": "http://www.aidshealth.org", "city": "Los Angeles", "name": "AIDS Healthcare Foundation", "eligibility": "Not available", "hours": {"Friday": {"dayend": "17:30", "daystart": "08:30"}, "Tuesday": {"dayend": "20:00", "daystart": "08:30"}, "Thursday": {"dayend": "17:30", "daystart": "08:30"}, "Wednesday": {"dayend": "17:30", "daystart": "08:30"}, "Monday": {"dayend": "17:30", "daystart": "08:30"}}, "zipcode": 90027, "telephone": "323-662-0492", "languages": ["English", "Spanish"], "email": "info@aidshealth.org", "state": "CA", "street": "1300 N Vermont Ave", "location": ["34.0962209", "-118.2905784"], "orgtype": "Clinic", "categories": ["Chlamydia Testing", "Rapid HIV Blood Testing", "Syphilis Testing", "Conventional HIV Blood Test", "Free HIV Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/36348"}, {"website": "http://aphcv.org", "city": "Los Angeles", "name": "Asian Pacific Health Care Venture Incorporated", "eligibility": "Open the first through fourth Saturday of each month.", "zipcode": 90027, "telephone": "323-644-3888", "languages": ["Chinese", "English", "Japanese", "Korean", "Spanish", "Tagalog", "Vietnamese", "Cambodian/Khmer"], "email": "info@aphcv.org", "state": "CA", "street": "1530 Hillhurst Ave", "location": ["34.0989362", "-118.2870393"], "orgtype": "Clinic", "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Syphilis Test", "Gonorrhea Test", "Herpes Test", "Hepatitis A Vaccine", "Hepatitis B Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/34347"}, {"website": "http://www.bienestar.org", "city": "Los Angeles", "name": "Bienestar Human Services Incorporated", "eligibility": "Not available", "hours": {"Friday": {"dayend": "19:00", "daystart": "10:00"}, "Tuesday": {"dayend": "19:00", "daystart": "10:00"}, "Thursday": {"dayend": "19:00", "daystart": "10:00"}, "Wednesday": {"dayend": "19:00", "daystart": "10:00"}, "Monday": {"dayend": "19:00", "daystart": "10:00"}}, "zipcode": 90027, "telephone": "323-660-9680", "languages": ["English", "Spanish"], "email": "info@bienestar.org", "state": "CA", "street": "4955 W Sunset Blvd", "location": ["34.0983774", "-118.2974677"], "orgtype": "Community Based Organization", "categories": ["Rapid HIV Blood Testing", "Free HIV Testing", "Rapid HIV Blood Test", "Rapid HIV Oral Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/18958"}, {"website": "http:// www.chla.org", "city": "Hollywood", "name": "Childrens Hospital Los Angeles", "eligibility": "Young people ages 12-24.", "hours": {"Friday": {"dayend": "16:30", "daystart": "09:00"}, "Tuesday": {"dayend": "16:30", "daystart": "09:00"}, "Thursday": {"dayend": "16:30", "daystart": "09:00"}, "Wednesday": {"dayend": "16:30", "daystart": "09:00"}, "Monday": {"dayend": "16:30", "daystart": "09:00"}}, "zipcode": 90027, "telephone": "323-361-7514", "languages": ["English", "Spanish"], "email": "ggranados@chla.usc.edu", "state": "CA", "street": "5000 Sunset Blvd", "location": ["34.0978301", "-118.2985264"], "orgtype": "Clinic", "categories": ["HPV Vaccine", "Rapid HIV Blood Testing", "Free HIV Testing", "Hepatitis A Vaccine", "Rapid HIV Blood Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113092"}, {"website": "http://covenanthousecalifornia.org/index-pg.php", "city": "Hollywood", "name": "Covenant House California", "eligibility": "Services available to youth ages 18-24.", "hours": {"Friday": {"dayend": "17:00", "daystart": "08:00"}, "Tuesday": {"dayend": "17:00", "daystart": "08:00"}, "Thursday": {"dayend": "17:00", "daystart": "08:00"}, "Wednesday": {"dayend": "17:00", "daystart": "08:00"}, "Monday": {"dayend": "17:00", "daystart": "08:00"}}, "zipcode": 90027, "telephone": "510-379-1010", "languages": ["English", "Spanish"], "email": "info@covenenthousecalifornia.org", "state": "CA", "street": "1325 N Western Ave", "location": ["34.0956149", "-118.3094990"], "orgtype": "Social Service Organization", "categories": ["Conventional HIV Blood Testing", "HPV Vaccine", "Conventional HIV Blood Test", "Free HIV Testing"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/27490"}, {"website": "http://publichealth.lacounty.gov/chs/spa4/index.htm", "city": "Los Angeles", "name": "Los Angeles County Department of Public Health", "eligibility": "HPV vaccines provided to those 18 and under through the VFC program. Los Angeles County offers free Hepatitis A & B vaccines for high risk groups in STD Clinics. Free TB testing is available at all Public Health Clinics for those at high risk of TB. Free HIV and STD testing is available at all Publi", "hours": {"Friday": {"dayend": "17:00", "daystart": "08:00"}, "Tuesday": {"dayend": "17:00", "daystart": "08:00"}, "Thursday": {"dayend": "17:00", "daystart": "08:00"}, "Wednesday": {"dayend": "17:00", "daystart": "08:00"}, "Monday": {"dayend": "17:00", "daystart": "08:00"}}, "zipcode": 90038, "telephone": "323-769-7800", "languages": ["English", "Spanish"], "email": "spa4@ph.lacounty.gov", "state": "CA", "street": "5205 Melrose Ave", "location": ["34.0837912", "-118.3140387"], "orgtype": "Clinic", "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Free HIV Testing", "Free STD Testing", "Gonorrhea Test", "Hepatitis A Vaccine", "Hepatitis B Test", "Hepatitis C Test", "Herpes Test", "Syphilis Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/110056"}, {"website": "http://www.lagaycenter.org", "city": "Los Angeles", "name": "Los Angeles Gay and Lesbian Center", "eligibility": "Not available", "zipcode": 90038, "telephone": "323-860-2280", "languages": ["English"], "email": "youthservices@lagaycenter.org", "state": "CA", "street": "1220 N Highland Ave", "location": ["34.0932161", "-118.3382476"], "orgtype": "Clinic", "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing", "Chlamydia Test", "Rapid HIV Blood Test", "Syphilis Test", "Gonorrhea Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/111717"}, {"website": "http://sabancommunityclinic.org", "city": "Los Angeles", "name": "Saban Community Clinic", "eligibility": "No appointment needed for HIV testing. Appointment needed for STD testing.", "hours": {"Monday": {"dayend": "21:00", "daystart": "08:30"}, "Tuesday": {"dayend": "21:00", "daystart": "08:30"}, "Friday": {"dayend": "21:00", "daystart": "08:30"}, "Wednesday": {"dayend": "21:00", "daystart": "08:30"}, "Thursday": {"dayend": "21:00", "daystart": "08:30"}, "Saturday": {"dayend": "12:00", "daystart": "08:30"}}, "zipcode": 90038, "telephone": "323-330-1819", "languages": ["English", "Spanish"], "state": "CA", "street": "5205 Melrose Ave", "location": ["34.0837912", "-118.3140387"], "orgtype": "Clinic", "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing", "Chlamydia Test", "Free HIV Testing", "Gonorrhea Test", "Hepatitis A Vaccine", "Rapid HIV Blood Test", "Syphilis Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/113971"}, {"website": "http://hollywoodhealthcenter.com", "city": "Los Angeles", "name": "Hollywood Health Center", "eligibility": "Not available", "hours": {"Friday": {"dayend": "18:00", "daystart": "08:00"}, "Tuesday": {"dayend": "18:00", "daystart": "08:00"}, "Thursday": {"dayend": "18:00", "daystart": "08:00"}, "Wednesday": {"dayend": "18:00", "daystart": "08:00"}, "Monday": {"dayend": "18:00", "daystart": "08:00"}}, "zipcode": 90004, "telephone": "323-461-9355", "languages": ["English", "Spanish"], "email": "hollywoodhealthcenter@ymail.com", "state": "CA", "street": "321 N Larchmont Blvd", "location": ["34.0770087", "-118.3239481"], "orgtype": "Clinic", "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Gonorrhea Test", "Hepatitis A Vaccine", "Hepatitis B Test", "Hepatitis C Test", "Herpes Test", "Syphilis Test"], "cdclink": "https://gettested.cdc.gov/gettested_redirect/7471"}]
+[{
+    "website": "http://www.plannedparenthood.org/planned-parenthood-los-angeles",
+    "city": "Los Angeles",
+    "name": "Planned Parenthood Los Angeles",
+    "eligibility": "If you are uninsured, you may qualify for a state-funded program or a lower fee scale. Please bring the following documents: photo ID. Fees for services are based on your household income. You will not be turned away because of your inability to pay.",
+    "hours": {
+        "Monday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Tuesday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Friday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Wednesday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Thursday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Saturday": {
+            "dayend": "16:00",
+            "daystart": "08:00"
+        }
+    },
+    "zipcode": 90029,
+    "telephone": "800-576-5544",
+    "languages": ["English", "Spanish", "Interpretation Services Available for Non-English Languages"],
+    "state": "CA",
+    "street": "1014 1/2 N Vermont Ave",
+    "location": ["34.0901681", "-118.2912412"],
+    "orgtype": "Clinic",
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Gonorrhea Test", "Herpes Test", "Syphilis Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/16905"
+}, {
+    "website": "http://www.aidshealth.org",
+    "city": "Los Angeles",
+    "name": "AIDS Healthcare Foundation",
+    "eligibility": "Not available",
+    "hours": {
+        "Friday": {
+            "dayend": "17:30",
+            "daystart": "08:30"
+        },
+        "Tuesday": {
+            "dayend": "20:00",
+            "daystart": "08:30"
+        },
+        "Thursday": {
+            "dayend": "17:30",
+            "daystart": "08:30"
+        },
+        "Wednesday": {
+            "dayend": "17:30",
+            "daystart": "08:30"
+        },
+        "Monday": {
+            "dayend": "17:30",
+            "daystart": "08:30"
+        }
+    },
+    "zipcode": 90027,
+    "telephone": "323-662-0492",
+    "languages": ["English", "Spanish"],
+    "email": "info@aidshealth.org",
+    "state": "CA",
+    "street": "1300 N Vermont Ave",
+    "location": ["34.0962209", "-118.2905784"],
+    "orgtype": "Clinic",
+    "categories": ["Chlamydia Testing", "Rapid HIV Blood Testing", "Syphilis Testing", "Conventional HIV Blood Test", "Free HIV Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/36348"
+}, {
+    "website": "http://aphcv.org",
+    "city": "Los Angeles",
+    "name": "Asian Pacific Health Care Venture Incorporated",
+    "eligibility": "Open the first through fourth Saturday of each month.",
+    "zipcode": 90027,
+    "telephone": "323-644-3888",
+    "languages": ["Chinese", "English", "Japanese", "Korean", "Spanish", "Tagalog", "Vietnamese", "Cambodian/Khmer"],
+    "email": "info@aphcv.org",
+    "state": "CA",
+    "street": "1530 Hillhurst Ave",
+    "location": ["34.0989362", "-118.2870393"],
+    "orgtype": "Clinic",
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Syphilis Test", "Gonorrhea Test", "Herpes Test", "Hepatitis A Vaccine", "Hepatitis B Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/34347"
+}, {
+    "website": "http://www.bienestar.org",
+    "city": "Los Angeles",
+    "name": "Bienestar Human Services Incorporated",
+    "eligibility": "Not available",
+    "hours": {
+        "Friday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        },
+        "Tuesday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        },
+        "Thursday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        },
+        "Wednesday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        },
+        "Monday": {
+            "dayend": "19:00",
+            "daystart": "10:00"
+        }
+    },
+    "zipcode": 90027,
+    "telephone": "323-660-9680",
+    "languages": ["English", "Spanish"],
+    "email": "info@bienestar.org",
+    "state": "CA",
+    "street": "4955 W Sunset Blvd",
+    "location": ["34.0983774", "-118.2974677"],
+    "orgtype": "Community Based Organization",
+    "categories": ["Rapid HIV Blood Testing", "Free HIV Testing", "Rapid HIV Blood Test", "Rapid HIV Oral Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/18958"
+}, {
+    "website": "http:// www.chla.org",
+    "city": "Hollywood",
+    "name": "Childrens Hospital Los Angeles",
+    "eligibility": "Young people ages 12-24.",
+    "hours": {
+        "Friday": {
+            "dayend": "16:30",
+            "daystart": "09:00"
+        },
+        "Tuesday": {
+            "dayend": "16:30",
+            "daystart": "09:00"
+        },
+        "Thursday": {
+            "dayend": "16:30",
+            "daystart": "09:00"
+        },
+        "Wednesday": {
+            "dayend": "16:30",
+            "daystart": "09:00"
+        },
+        "Monday": {
+            "dayend": "16:30",
+            "daystart": "09:00"
+        }
+    },
+    "zipcode": 90027,
+    "telephone": "323-361-7514",
+    "languages": ["English", "Spanish"],
+    "email": "ggranados@chla.usc.edu",
+    "state": "CA",
+    "street": "5000 Sunset Blvd",
+    "location": ["34.0978301", "-118.2985264"],
+    "orgtype": "Clinic",
+    "categories": ["HPV Vaccine", "Rapid HIV Blood Testing", "Free HIV Testing", "Hepatitis A Vaccine", "Rapid HIV Blood Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113092"
+}, {
+    "website": "http://covenanthousecalifornia.org/index-pg.php",
+    "city": "Hollywood",
+    "name": "Covenant House California",
+    "eligibility": "Services available to youth ages 18-24.",
+    "hours": {
+        "Friday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Tuesday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Thursday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Wednesday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Monday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        }
+    },
+    "zipcode": 90027,
+    "telephone": "510-379-1010",
+    "languages": ["English", "Spanish"],
+    "email": "info@covenenthousecalifornia.org",
+    "state": "CA",
+    "street": "1325 N Western Ave",
+    "location": ["34.0956149", "-118.3094990"],
+    "orgtype": "Social Service Organization",
+    "categories": ["Conventional HIV Blood Testing", "HPV Vaccine", "Conventional HIV Blood Test", "Free HIV Testing"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/27490"
+}, {
+    "website": "http://publichealth.lacounty.gov/chs/spa4/index.htm",
+    "city": "Los Angeles",
+    "name": "Los Angeles County Department of Public Health",
+    "eligibility": "HPV vaccines provided to those 18 and under through the VFC program. Los Angeles County offers free Hepatitis A & B vaccines for high risk groups in STD Clinics. Free TB testing is available at all Public Health Clinics for those at high risk of TB. Free HIV and STD testing is available at all Publi",
+    "hours": {
+        "Friday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Tuesday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Thursday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Wednesday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        },
+        "Monday": {
+            "dayend": "17:00",
+            "daystart": "08:00"
+        }
+    },
+    "zipcode": 90038,
+    "telephone": "323-769-7800",
+    "languages": ["English", "Spanish"],
+    "email": "spa4@ph.lacounty.gov",
+    "state": "CA",
+    "street": "5205 Melrose Ave",
+    "location": ["34.0837912", "-118.3140387"],
+    "orgtype": "Clinic",
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Free HIV Testing", "Free STD Testing", "Gonorrhea Test", "Hepatitis A Vaccine", "Hepatitis B Test", "Hepatitis C Test", "Herpes Test", "Syphilis Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/110056"
+}, {
+    "website": "http://www.lagaycenter.org",
+    "city": "Los Angeles",
+    "name": "Los Angeles Gay and Lesbian Center",
+    "eligibility": "Not available",
+    "zipcode": 90038,
+    "telephone": "323-860-2280",
+    "languages": ["English"],
+    "email": "youthservices@lagaycenter.org",
+    "state": "CA",
+    "street": "1220 N Highland Ave",
+    "location": ["34.0932161", "-118.3382476"],
+    "orgtype": "Clinic",
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Rapid HIV Blood Testing", "Syphilis Testing", "Chlamydia Test", "Rapid HIV Blood Test", "Syphilis Test", "Gonorrhea Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/111717"
+}, {
+    "website": "http://sabancommunityclinic.org",
+    "city": "Los Angeles",
+    "name": "Saban Community Clinic",
+    "eligibility": "No appointment needed for HIV testing. Appointment needed for STD testing.",
+    "hours": {
+        "Monday": {
+            "dayend": "21:00",
+            "daystart": "08:30"
+        },
+        "Tuesday": {
+            "dayend": "21:00",
+            "daystart": "08:30"
+        },
+        "Friday": {
+            "dayend": "21:00",
+            "daystart": "08:30"
+        },
+        "Wednesday": {
+            "dayend": "21:00",
+            "daystart": "08:30"
+        },
+        "Thursday": {
+            "dayend": "21:00",
+            "daystart": "08:30"
+        },
+        "Saturday": {
+            "dayend": "12:00",
+            "daystart": "08:30"
+        }
+    },
+    "zipcode": 90038,
+    "telephone": "323-330-1819",
+    "languages": ["English", "Spanish"],
+    "state": "CA",
+    "street": "5205 Melrose Ave",
+    "location": ["34.0837912", "-118.3140387"],
+    "orgtype": "Clinic",
+    "categories": ["Chlamydia Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "HPV Vaccine", "Rapid HIV Blood Testing", "Syphilis Testing", "Chlamydia Test", "Free HIV Testing", "Gonorrhea Test", "Hepatitis A Vaccine", "Rapid HIV Blood Test", "Syphilis Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/113971"
+}, {
+    "website": "http://hollywoodhealthcenter.com",
+    "city": "Los Angeles",
+    "name": "Hollywood Health Center",
+    "eligibility": "Not available",
+    "hours": {
+        "Friday": {
+            "dayend": "18:00",
+            "daystart": "08:00"
+        },
+        "Tuesday": {
+            "dayend": "18:00",
+            "daystart": "08:00"
+        },
+        "Thursday": {
+            "dayend": "18:00",
+            "daystart": "08:00"
+        },
+        "Wednesday": {
+            "dayend": "18:00",
+            "daystart": "08:00"
+        },
+        "Monday": {
+            "dayend": "18:00",
+            "daystart": "08:00"
+        }
+    },
+    "zipcode": 90004,
+    "telephone": "323-461-9355",
+    "languages": ["English", "Spanish"],
+    "email": "hollywoodhealthcenter@ymail.com",
+    "state": "CA",
+    "street": "321 N Larchmont Blvd",
+    "location": ["34.0770087", "-118.3239481"],
+    "orgtype": "Clinic",
+    "categories": ["Chlamydia Testing", "Conventional HIV Blood Testing", "Gonorrhea Testing", "Hepatitis B Vaccine", "Herpes Testing", "HPV Vaccine", "Syphilis Testing", "Chlamydia Test", "Conventional HIV Blood Test", "Gonorrhea Test", "Hepatitis A Vaccine", "Hepatitis B Test", "Hepatitis C Test", "Herpes Test", "Syphilis Test"],
+    "cdclink": "https://gettested.cdc.gov/gettested_redirect/7471"
+}]
