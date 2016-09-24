@@ -29,7 +29,8 @@ function showList() {
         // populate list
         var items = [];
         $.each( data, function( key, val ) {
-            items.push( "<li id='" + key + "'>" + val.name + "</li>" );
+            var milesText = (key === 0) ? " miles" : ""; // show miles on first
+            items.push( "<li id='" + key + "'><span class='clinic-name'>" + val.name + "</span><span class='clinic-distance'>" + key + ".2" + milesText + "</span></li>" );
         });
 
         $( "<ol/>", {

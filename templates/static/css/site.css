@@ -78,7 +78,7 @@ ol li {
     color: #777;
     font-size: 18px;
     line-height: 20px;
-    height: 36px;
+    min-height: 36px;
     vertical-align: middle;
     display: block;
     position: relative;
@@ -103,6 +103,20 @@ ol li:before {
     
     -moz-border-radius: 999px;
     border-radius: 999px
+}
+
+.clinic-name {
+    display: block;
+    width: 78%;
+    float: left;
+    margin: 0 2% 0 0;
+}
+
+.clinic-distance {
+	display: block;
+    width: 20%;
+    float: left;
+    color: #aaa;
 }
 
 /*font-family: 'Roboto', sans-serif;
