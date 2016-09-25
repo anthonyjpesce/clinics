@@ -44,9 +44,6 @@ function showList(position) {
             html: filters.join( "" )
         }).appendTo( "#results-list" );
 
-
-
-
         // CHECK IF ANY ARE OPEN TODAY AND NOW
         $("#results-list").append("<p class='open-close-note'><span class='clinic-status-icon clinic-open'></span>These clinics are open now<br><span class='clinic-status-icon clinic-closed'></span>These are currently closed</p>");
         // $("#results-list").append("<p>No nearby clinics are open now. These will be open tomorrow:</p>");
@@ -102,9 +99,14 @@ function showList(position) {
 // get list of clinics that match
 function loadClinics(position) {
     // hide init header and button
-    $("#ini-content").fadeOut(400, function(){
+    $(".init-content").fadeOut(400, function(){
         // after init content disappears
-        // $(".navbar").fadeIn(400);
+        $(".navbar-default").css({
+           'border' : '1px solid #e7e7e7',
+           'background-color' : '#f8f8f8',
+           'margin' : '0 0 20px'
+        });
+
         showList(position);
     });
 

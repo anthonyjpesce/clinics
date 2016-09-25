@@ -8,15 +8,12 @@ body {
 
 h1 {
     font-family: 'Roboto', cursive;
-    color: #F2AD94;
+    color: #fff;
     text-align: center;
     line-height: 44px;
     margin: 0;
     font-size: 26px;
-}
-
-.container {
-    margin-bottom: 150px;
+    -webkit-font-smoothing: antialiased;
 }
 
 h1 .site-name {
@@ -29,6 +26,12 @@ h1 .site-name {
 /*.navbar {
     display: none;
 }*/
+
+.navbar-default {
+    margin: 0;
+    background: #fff;
+    border: 1px solid #fff;
+}
 
 .navbar-default .navbar-brand {
     font-family: 'Alfa Slab One', cursive;
@@ -54,6 +57,12 @@ h1 .site-name {
 .btn:focus, .btn:active {
     outline: 0;
     color: #fff;
+}
+
+#init-search-area {
+    /*background: #F2AD94;*/
+    background: #ADD9C9;
+    padding: 40px 0;
 }
 
 #results-list {
@@ -154,6 +163,12 @@ ol li.clinic-closed:before {
 #address-search .input-group-addon {
     border: 2px solid #eee;
 }
+
+#address-search .magnify-addon {
+    border-left: none;
+}
+
+
 
 #address-search .input-group-addon {
     color: #777;

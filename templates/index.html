@@ -18,32 +18,38 @@
 {% block content %}
 
 
-
-    <div id="ini-content">
+    <div class="init-content">
         <!-- <h1>get<br/><span class="site-name">tstd today</span></h1> -->
 
-        <h1>Find clinics near you</h1>
+        <div id="init-search-area">
+            <h1>Find clinics near you</h1>
 
-        <form class="form-inline" id="address-search">
-            <div class="form-group">
-                <div class="input-group">
-                    <div class="input-group-addon" id="find-location"><i class="fa fa-location-arrow" aria-hidden="true"></i></div>
-                        <input type="text" class="form-control" id="exampleInputAmount" placeholder="Address">
-                        <div class="input-group-addon magnify-addon"><i class="fa fa-search" aria-hidden="true"></i>
+            <form class="form-inline" id="address-search">
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon" id="find-location"><i class="fa fa-location-arrow" aria-hidden="true"></i></div>
+                            <input type="text" class="form-control" id="exampleInputAmount" placeholder="Address">
+                            <div class="input-group-addon magnify-addon"><i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </form>
-
-        <div id="init-list">
-            <p>Clinics in <span id="user-init-city">Los Angeles, CA</span></p>
-            <p class='open-close-note'><span class='clinic-status-icon clinic-open'></span>These clinics are open now<br><span class='clinic-status-icon clinic-closed'></span>These are currently closed</p>
+            </form>
         </div>
     </div>
+
+    <div class="container">
+        <div class="init-content">
+
+            <div id="init-list">
+                <p>Clinics in <span id="user-init-city">Los Angeles, CA</span></p>
+                <p class='open-close-note'><span class='clinic-status-icon clinic-open'></span>These clinics are open now<br><span class='clinic-status-icon clinic-closed'></span>These are currently closed</p>
+            </div>
+        </div>
 
     <!-- List of prepopulated places based on user's IP -->
     <div id="results-list"></div>
     
+    </div><!--.container-->
     <script>
         console.log();
 
