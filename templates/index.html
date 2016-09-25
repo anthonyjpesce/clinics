@@ -12,6 +12,8 @@
 
 {% block content %}
 
+
+
     <div id="ini-content">
         <h1>get<br/><span class="site-name">tstd today</span></h1>
 
@@ -20,6 +22,10 @@
 
     <!-- List of prepopulated places based on user's IP -->
     <div id="results-list"></div>
+    
+    <script>
+        console.log({{ clinics|safe }});
+    </script>
 
     <script type="text/javascript" src="{{ STATIC_URL }}js/scripts.js"></script>
 {% endblock %}

@@ -1,11 +1,15 @@
 import json
 from clinics.models import Clinic
+from django.core import serializers
 from django.shortcuts import render
+from django.contrib.gis.geos import Point
 from django.contrib.gis.geoip2 import GeoIP2
 from django.views.generic import TemplateView
+from django.contrib.gis.db.models.functions import Distance
 
 # init geoip
 G = GeoIP2()
+JSONSerializer = serializers.get_serializer("json")
 
 def get_client_ip(request):
     x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
@@ -25,10 +29,19 @@ class IndexView(TemplateView):
             lon, lat = G.lon_lat(ip)
         except:
             ip = None
-            lon, lat = (-118.6925981, 34.0207489)        
+            lon, lat = (-118.2437, 34.0522)
+        
+        pt = Point(lon, lat)
+        distance_ordered = Clinic.objects.distance(pt).order_by('distance')[:10]
+        distance_ordered.annotate(distance=Distance('location', pt))
+        
+        data = []
+        for i in distance_ordered:
+            tmp = i.as_dict()
+            tmp['distance'] = i.distance.mi
+            data.append(tmp)
         
         return {
-            'ip': ip,
-            'lon': lon,
-            'lat': lat,
+            'clinics': json.dumps(data),
+            'coords': [lon, lat]
         }
