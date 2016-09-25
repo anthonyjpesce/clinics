@@ -60,7 +60,7 @@ h1 .site-name {
     display: none;
 }
 
-#results-list p {
+p {
     font-size: 18px;
     color: #aaa;
 }
@@ -168,6 +168,18 @@ ol li.clinic-closed:before {
 #address-search .magnify-addon {
     background: #fff;
 }
+#init-list {
+    margin: 60px 0 0 0;
+}
+
+#init-list p {
+    border-bottom: 2px solid #ccc;
+    padding: 0 0 10px;
+}
+
+#init-list #user-init-city {
+    color: #777;
+}
 
 #filter-list {
     list-style: none;
@@ -186,6 +198,11 @@ ol li.clinic-closed:before {
     padding: 2px 8px;
 }
 
+#init-list p.open-close-note {
+    padding: 0;
+    border: none;
+}
+
 .open-close-note .clinic-status-icon {
     display: inline-block;
     width: 16px;
@@ -201,6 +218,7 @@ ol li.clinic-closed:before {
 .open-close-note .clinic-closed {
     background: #ccc;
 }
+
 
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Kalam', cursive;*/

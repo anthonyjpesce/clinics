@@ -34,13 +34,34 @@
                 </div>
             </div>
         </form>
+
+        <div id="init-list">
+            <p>Clinics in <span id="user-init-city">Los Angeles, CA</span></p>
+            <p class='open-close-note'><span class='clinic-status-icon clinic-open'></span>These clinics are open now<br><span class='clinic-status-icon clinic-closed'></span>These are currently closed</p>
+        </div>
     </div>
 
     <!-- List of prepopulated places based on user's IP -->
     <div id="results-list"></div>
     
     <script>
-        console.log({{ clinics|safe }});
+        console.log();
+
+        // populate init list
+        var items = [];
+        $.each( {{ clinics|safe }}, function( key, val ) {
+            // figure out if clinic is open for user's time
+            var clinicStatus = (key%2 === 0) ? "clinic-closed" : "clinic-open"; // temporary
+
+            var milesText = (key === 0) ? " miles" : ""; // show miles on first
+            items.push( "<li id='" + key + "' class='" + clinicStatus + "'><span class='clinic-name'>" + val.name + "</span><span class='clinic-distance'>" + key + ".2" + milesText + "</span></li>" );
+        });
+
+        $( "<ol/>", {
+            "class": "clinic-list",
+            html: items.join( "" )
+        }).appendTo( "#init-list" );
+
     </script>
 
     <script type="text/javascript" src="{{ STATIC_URL }}js/scripts.js"></script>
