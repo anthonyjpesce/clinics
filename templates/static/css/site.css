@@ -349,3 +349,9 @@ input.geocodify:focus {
         border: none;
     }
 }
+
+@media (min-width: 992px) {
+    .container-fluid {
+        width: 970px;
+    }
+}
