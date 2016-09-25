@@ -22,6 +22,11 @@ h1 .site-name {
     font-size: 46px;
 }
 
+.clr {
+    display: block;
+    clear: both;
+}
+
 /* hide initially */
 /*.navbar {
     display: none;
@@ -312,6 +317,28 @@ input.geocodify:focus {
     background-image: linear-gradient(to bottom, #0088cc, #0077b3);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0)
+}
+
+.mapbox-improve-map {
+    display: none;
+}
+
+#map .marker {
+    display: block;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+#map .marker-closed {
+    background: #777;
+}
+
+
+
+#map .marker-open {
+    background: #F2AD94;
 }
 
 @media (min-width: 768px) {

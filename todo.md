@@ -29,3 +29,8 @@ https://npin.cdc.gov/organization/planned-parenthood-los-angeles-4
 
 ## detail page that redirects
 https://npin.cdc.gov/organization/36348
+
+- put map on index page
+- flesh out detail page
+- styles for desktop
+- detail page: touching map takes you to google link: https://www.google.com/maps/place/615+Kohler+St,+Los+Angeles,+CA+90021/

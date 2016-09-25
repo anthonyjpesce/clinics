@@ -116,13 +116,26 @@ function loadClinics(coords) {
                 container: 'map', // container id
                 style: 'mapbox://styles/mapbox/light-v9', //stylesheet location
                 center: [coords[1], coords[0]], // starting position
-                zoom: 14 // starting zoom
+                zoom: 10 // starting zoom
             });
 
             // add markers of points
             for (var i = 0; i < data.length; i++) {
-                var el = document.createElement('div');
-                el.className = 'marker';
+
+                var val = data[i];
+
+                if (val.hours[userDay.toLowerCase()] != false) {
+                    var openTime = +(val.hours[userDay.toLowerCase()].open.substring(0,2)+val.hours[userDay.toLowerCase()].open.substring(3,5));
+                    var closeTime = +(val.hours[userDay.toLowerCase()].close.substring(0,2)+val.hours[userDay.toLowerCase()].close.substring(3,5));
+                    var userTime = +(d.getHours().toString()+d.getMinutes().toString());
+                }
+
+                var markerStatus = (val.hours[userDay.toLowerCase()] === false) ? "marker-closed" :
+                               (openTime < userTime && userTime < closeTime) ? "marker-open" : "marker-closed";
+
+                var el = document.createElement('a');
+                el.className = 'marker ' + markerStatus;
+                el.href = val.href;
                 new mapboxgl.Marker(el)
                 .setLngLat([data[i].location[1],data[i].location[0]])
                 .addTo(map);
