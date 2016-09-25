@@ -27,6 +27,31 @@ class Command(BaseCommand):
         toks = timestring.split(':')
         return [int(i) for i in toks]
 
+    def clean_categories(self, categories):
+        if not categories:
+            return None
+        
+        pretty = {
+            'chlamydia': 'Chlamydia',
+            'hiv': 'HIV',
+            'gonorrhea': 'Gonorrhea',
+            'herpes': 'Herpes',
+            'syphilis': 'Syphilis',
+            'hepatitis a': 'Hepatitis A',
+            'hepatitis b': 'Hepatitis B',
+            'hepatitis c': 'Hepatitis C',
+        }
+        out = []
+        tests = pretty.keys()
+        
+        for i in categories:
+            toks = i.lower().split(' ')
+            for t in tests:
+                if t in toks and ('test' in toks or 'testing' in toks):
+                    out.append(pretty[t])
+        
+        return list(set(out))
+
     def handle(self, *args, **options):
         """
         Loop through our clinics JSON and load them into the database.
@@ -47,6 +72,7 @@ class Command(BaseCommand):
                 email=i.get('email', ''),
                 website=i.get('website', ''),
                 categories=i.get('categories', None),
+                clean_categories=self.clean_categories(i.get('categories', None)),
                 languages=i.get('languages', None),
                 org_type=i.get('orgtype', ''),
                 eligibility=i.get('eligibility', ''),
