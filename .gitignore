@@ -8,3 +8,4 @@ chef/node.json
 *.egg-*
 .static/*
 .media/*
+s3cmd/*
