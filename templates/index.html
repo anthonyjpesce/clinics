@@ -4,10 +4,14 @@
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/site.css" />
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Kalam:700|Roboto:500" rel="stylesheet">
 
-
+    <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
     <style type="text/css">
     
     </style>
+{% endblock %}
+
+{% block extra-js %}
+    <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
 {% endblock %}
 
 {% block content %}

@@ -4,7 +4,7 @@ document.getElementById('find-locations').onclick=function(){
     console.log('find location');
     getLocation(); // get users location
 
-    loadClinics(); // will be moved
+    // loadClinics(); // will be moved
 };
 
 function getLocation() {
@@ -16,9 +16,10 @@ function getLocation() {
 }
 function showPosition(position) {
     console.log(position.coords.latitude + "," + position.coords.longitude);
+    loadClinics(position);
 }
 
-function showList() {
+function showList(position) {
     // create list
     $.getJSON( "/static/js/90029-50-more-data.json", function( data ) {
         console.log(data);
@@ -43,18 +44,25 @@ function showList() {
         // add map
         $("#results-list").append("<div id='map'></div>");
 
+        L.mapbox.accessToken = 'pk.eyJ1Ijoic2NobGV1c3MiLCJhIjoicEtaaE54cyJ9.PWSVNlOtpDp0x1phUruQ9g';
+        var map = L.mapbox.map('map')
+            .setView([position.coords.latitude, position.coords.longitude], 15);
+
+        // Use styleLayer to add a Mapbox style created in Mapbox Studio
+        L.mapbox.styleLayer('mapbox://styles/mapbox/light-v9').addTo(map);
+
         $("#results-list").fadeIn(400);
 
     });
 }
 
 // get list of clinics that match
-function loadClinics() {
+function loadClinics(position) {
     // hide init header and button
     $("#ini-content").fadeOut(400, function(){
         // after init content disappears
         $(".navbar").fadeIn(400);
-        showList();
+        showList(position);
     });
 
     // alter top of page for search results
