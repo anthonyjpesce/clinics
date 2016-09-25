@@ -75,7 +75,18 @@ function loadClinics(coords) {
         var items = [];
         $.each( data, function( key, val ) {
             // figure out if clinic is open for user's time
-            var clinicStatus = (key%2 === 0) ? "clinic-closed" : "clinic-open"; // temporary
+            // if open today
+            if (val.hours[userDay.toLowerCase()] != false) {
+                var openTime = +(val.hours[userDay.toLowerCase()].open.substring(0,2)+val.hours[userDay.toLowerCase()].open.substring(3,5));
+                var closeTime = +(val.hours[userDay.toLowerCase()].close.substring(0,2)+val.hours[userDay.toLowerCase()].close.substring(3,5));
+                var userTime = +(d.getHours().toString()+d.getMinutes().toString());
+
+                console.log(val.hours[userDay.toLowerCase()]);
+            }
+
+            var clinicStatus = (val.hours[userDay.toLowerCase()] === false) ? "clinic-closed" :
+                               (openTime < userTime && userTime < closeTime) ? "clinic-open" : "clinic-closed";
+
 
             var milesText = (key === 0) ? " miles" : ""; // show miles on first
             items.push( "<li id='" + key + "' class='" + clinicStatus + "'><span class='clinic-name'><a href='"+val.href+"'>" + val.name + "</a></span><span class='clinic-distance'>" + val.distance.toFixed(1) + milesText + "</span></li>" );
