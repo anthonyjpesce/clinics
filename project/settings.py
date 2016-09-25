@@ -170,8 +170,13 @@ LOGGING = {
             'propagate': False,
         },
         'clinics': {
-            'handlers': ['mail_admins'],
-            'level': 'ERROR',
+            'handlers': ['console', 'logfile'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'toolbox': {
+            'handlers': ['console', 'logfile'],
+            'level': 'DEBUG',
             'propagate': True,
         },
     }
