@@ -3,7 +3,7 @@
 // First we check if you support touch, otherwise it's click:
 // var touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
 
-document.getElementById('find-location').onclick= function(){
+document.getElementById('find-location').onclick=function(){
     console.log('finding location');
     getLocation(); // get users location
 };
@@ -91,7 +91,7 @@ function showList(position) {
                 zoom: 14 // starting zoom
             });
 
-            console.log([position.coords.longitude, position.coords.latitude]);
+            // console.log([position.coords.longitude, position.coords.latitude]);
 
             // disable map zoom when using scroll
             map.scrollZoom.disable();

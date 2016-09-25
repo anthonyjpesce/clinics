@@ -217,6 +217,7 @@ ol li.clinic-closed:before {
     background: #eee;
     border-radius: 20px;
     padding: 2px 8px;
+    margin: 0 10px 0 0;
 }
 
 #init-list p.open-close-note {
