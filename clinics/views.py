@@ -6,6 +6,13 @@ from django.contrib.gis.geos import Point
 from django.contrib.gis.geoip2 import GeoIP2
 from django.views.generic import TemplateView
 from django.contrib.gis.db.models.functions import Distance
+from django.contrib.auth.models import User, Group
+from rest_framework import viewsets
+from rest_framework import filters
+from rest_framework import generics
+from clinics.serializers import ClinicSerializer
+from rest_framework.response import Response
+from rest_framework import status
 
 # init geoip
 G = GeoIP2()
@@ -45,3 +52,31 @@ class IndexView(TemplateView):
             'clinics': json.dumps(data),
             'coords': [lon, lat]
         }
+
+
+# API Views
+class ClinicViewSet(viewsets.ReadOnlyModelViewSet):
+    queryset = Clinic.objects.all().order_by('name')
+    serializer_class = ClinicSerializer
+
+    def get_queryset(self):
+        queryset = Clinic.objects.all()
+        
+        # basic filter options
+        lat = self.request.query_params.get('lat', None)
+        lon = self.request.query_params.get('lon', None)
+        categories = self.request.query_params.getlist('categories', None)
+        
+        if lat and lon:
+            try:
+                pt = Point(float(lon), float(lat))
+            except:
+                return Response("Bad point data", status.HTTP_400_BAD_REQUEST)
+            
+            queryset = Clinic.objects.distance(pt).order_by('distance')
+            queryset.annotate(distance=Distance('location', pt))
+        
+        if categories:
+            queryset = queryset.filter(clean_categories__contains=categories)
+            
+        return queryset

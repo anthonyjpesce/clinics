@@ -23,6 +23,11 @@ class Clinic(models.Model):
         blank=True,
         db_index=True
     )
+    clean_categories = ArrayField(
+        models.CharField(max_length=500),
+        blank=True,
+        db_index=True
+    )
     languages = ArrayField(
         models.CharField(max_length=500),
         blank=True,
@@ -60,6 +65,11 @@ class Clinic(models.Model):
                 'close': dtrange.upper.time().isoformat(),
             }
         
+        try:
+            distance = self.distance.mi
+        except AttributeError:
+            distance = None
+        
         return {
             'name': self.name,
             'slug': self.slug,
@@ -70,7 +80,7 @@ class Clinic(models.Model):
             'telephone': self.telephone,
             'email': self.email,
             'website': self.website,
-            'categories': self.categories,
+            'categories': self.clean_categories,
             'languages': self.languages,
             'org_type': self.org_type,
             'eligibility': self.eligibility,
@@ -84,6 +94,7 @@ class Clinic(models.Model):
                 'sunday': pretty_hours(self.sunday_hours),            
             },
             'location': (self.location.y, self.location.x),
+            'distance': distance,
         }
 
     def as_json(self):
