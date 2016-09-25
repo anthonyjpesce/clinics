@@ -1,4 +1,4 @@
-from fabric.api import env
+from fabric.api import env, task
 from os.path import expanduser
 
 env.key_filename = (expanduser("~/.ec2/tstd.today.pem"),)
@@ -12,5 +12,11 @@ env.branch = 'master'
 env.AWS_SECRET_ACCESS_KEY = ''
 env.AWS_ACCESS_KEY_ID = ''
 
+@task
 def prod():
-    env.hosts = ("tstd.today",)
+    # env.hosts = ("tstd.today",)
+    env.hosts = ("52.33.79.77",)
+
+@task
+def dev():
+    env.hosts = ("52.88.126.173",)
