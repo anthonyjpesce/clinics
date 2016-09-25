@@ -119,6 +119,22 @@ function loadClinics(coords) {
                 zoom: 14 // starting zoom
             });
 
+            // add markers of points
+            for (var i = 0; i < data.length; i++) {
+                // console.log(data[i].location[0])
+                // var marker = L.circleMarker([data[i].location[0],data[i].location[1]],
+                //     { radius: 8,
+                //         // fillColor: getColor(hospitals[i].Y15_1),
+                //         color: '#fff',
+                //         weight: 1,
+                //         opacity: 1,
+                //         fillOpacity: 1
+                //     }).addTo(map);
+            }
+
+
+            // markers.push(marker);
+
             // disable map zoom when using scroll
             map.scrollZoom.disable();
 
