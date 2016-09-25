@@ -7,12 +7,11 @@ from fabric.api import env, task
 @task
 def createserver(
     region='us-west-2',
-    ami='ami-86e605b5',
-    key_name='datadesk.march.2015',
+    ami='ami-167ba776',
+    key_name='tstd.today',
     instance_type='m3.medium',
     block_gb_size=10,
     volume_type='gp2',
-    subnet_id='subnet-3e349e49',
 ):
     """
     Spin up a new server on Amazon EC2.

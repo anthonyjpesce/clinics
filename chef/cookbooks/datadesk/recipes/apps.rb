@@ -12,28 +12,6 @@ directory "/home/#{node[:apps_user]}/.ssh" do
   group node[:apps_group]
 end
 
-cookbook_file "/home/#{node[:apps_user]}/.ssh/authorized_keys" do
-  source "users/authorized_keys"
-  mode 0640
-  owner node[:apps_user]
-  group node[:apps_group]
-end
-
-# Load the SSH keys
-cookbook_file "/home/#{node[:apps_user]}/.ssh/id_rsa" do
-  source "users/id_rsa"
-  mode 0600
-  owner node[:apps_user]
-  group node[:apps_group]
-end
-
-cookbook_file "/home/#{node[:apps_user]}/.ssh/id_rsa.pub" do
-  source "users/id_rsa.pub"
-  mode 0644
-  owner node[:apps_user]
-  group node[:apps_group]
-end
-
 # Install the virtualenv requirements
 script "Add GitHub to known hosts" do
   interpreter "bash"
