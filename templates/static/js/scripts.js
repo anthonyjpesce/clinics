@@ -4,10 +4,13 @@ var windowWidth = document.documentElement.clientWidth;
 
 
 // listen for user to try find location
-document.getElementById('find-location').onclick=function(){
+$('#find-location').on('click touchstart',function(){
     console.log('finding location');
     getLocation(); // get users location
-};
+});
+// document.getElementById('find-location').onclick=function(){
+
+// };
 
 
 // gets user's location
