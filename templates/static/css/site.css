@@ -347,7 +347,13 @@ input.geocodify:focus {
         border: none;
     }
 
+    .container-fluid, .clinic-header h1 {
+        width: 750px;
+    }
 
+    .clinic-header h1 {
+        margin: 0 auto;
+    }
 
     #init-list ol li:before {
         display: none;
@@ -355,7 +361,13 @@ input.geocodify:focus {
 }
 
 @media (min-width: 992px) {
-    .container-fluid {
+    .container-fluid, .clinic-header h1 {
         width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-fluid, .clinic-header h1 {
+        width: 1170px;
     }
 }
