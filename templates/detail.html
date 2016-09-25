@@ -1,1 +1,103 @@
 {% extends "base.html" %}
+
+{% block extra-css %}
+    <style type="text/css">
+        /*.navbar-default {
+            border: 1px solid #e7e7e7;
+            background-color: #f8f8f8;
+            margin: 0 0 20px;
+        }*/
+
+        .clinic-header {
+            background: #ADD9C9;
+            padding: 20px 0;
+            margin: 0 0 20px;
+        }
+
+        .clinic-header h1 {
+            text-align: left;
+            font-size: 30px;
+            line-height: 34px;
+            padding: 0 10px;
+        }
+
+        #clinic-locator {
+            width: 120px;
+            height: 120px;
+            float: right;
+            margin: 0 0 10px 10px;
+        }
+
+        #clinic-locator .marker {
+            display: block;
+            height: 16px;
+            width: 16px;
+            border: 1px solid #fff;
+            border-radius: 20px;
+            background: #777;
+        }
+
+        .mapboxgl-ctrl-attrib {
+            display: none;
+        }
+
+        .map-note {
+            font-size: 14px;
+            line-height: 16px;
+        }
+        .map-note a { 
+            color: #aaa;
+        }
+
+        p.clinic-address {
+            font-size: 20px;
+        }
+
+/*        p {
+
+        }*/
+
+
+    </style>
+{% endblock %}
+
+{% block content %}
+
+    <div class="clinic-header">
+        <h1>{{ object.name }}</h1>
+    </div>
+    <div class="container">
+        <div id="clinic-locator"></div>
+        <p class="clinic-address">{{ object.street }}<br/>{{ object.city }}, {{ object.state }} {{ object.zipcode }}</p>
+
+        <div class="clr"></div>
+
+        <p class="clinic-phone"><i class="fa fa-phone" aria-hidden="true"></i> {{ object.telephone }}</p>
+
+        <p class="map-note">Map data <a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a></p>
+
+
+    </div>
+
+
+    <script type="text/javascript">
+        mapboxgl.accessToken = 'pk.eyJ1Ijoic2NobGV1c3MiLCJhIjoicEtaaE54cyJ9.PWSVNlOtpDp0x1phUruQ9g';
+        var map = new mapboxgl.Map({
+            container: 'clinic-locator', // container id
+            style: 'mapbox://styles/mapbox/light-v9', //stylesheet location
+            center: [{{ object.location.x }},{{ object.location.y }}], // starting position
+            zoom: 13 // starting zoom
+        });
+
+
+                        // var markerStatus = (val.hours[userDay.toLowerCase()] === false) ? "marker-closed" :
+                        //        (openTime < userTime && userTime < closeTime) ? "marker-open" : "marker-closed";
+
+        var el = document.createElement('div');
+        el.className = 'marker';
+        new mapboxgl.Marker(el)
+            .setLngLat([{{ object.location.x }},{{ object.location.y }}])
+            .addTo(map);
+
+    </script>
+{% endblock %}
