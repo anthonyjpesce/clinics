@@ -37,3 +37,5 @@ https://npin.cdc.gov/organization/36348
 - filters
 - map and search on search results view
 - detail page: "open for another x hours x minutes"
+- san francisco/new york data
+- favicon and ios icon would be nice
