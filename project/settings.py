@@ -187,3 +187,8 @@ except ImportError:
     from settings_prod import *
 
 TEMPLATE_DEBUG = DEBUG
+
+try:
+    from settings_private import *
+except ImportError:
+    pass
