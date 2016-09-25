@@ -3,67 +3,75 @@ https://color.adobe.com/doctors-and-medical-02-color-theme-1780750/edit/?copy=tr
 */
 
 body {
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-	font-family: 'Kalam', cursive;
-    color: #F2AD94;
+    font-family: 'Roboto', cursive;
+    color: #fff;
     text-align: center;
     line-height: 44px;
-    margin: 60px 0 0;
-    letter-spacing: 2px;
+    margin: 0;
     font-size: 26px;
-}
-
-.container {
-	margin-bottom: 150px;
+    -webkit-font-smoothing: antialiased;
 }
 
 h1 .site-name {
-	font-family: 'Alfa Slab One', cursive;
-	color: #aaa; 
-	font-size: 46px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #aaa; 
+    font-size: 46px;
 }
 
 /* hide initially */
-.navbar {
-	display: none;
+/*.navbar {
+    display: none;
+}*/
+
+.navbar-default {
+    margin: 0;
+    background: #fff;
+    border: 1px solid #fff;
 }
 
 .navbar-default .navbar-brand {
-	font-family: 'Alfa Slab One', cursive;
+    font-family: 'Alfa Slab One', cursive;
     letter-spacing: 1px;
 }
 
 .btn {
-	font-size: 20px;
-	margin: 20px auto 0;
-	display: block;
-	border-radius: 30px;
-	background: #ADD9C9;
-	color: #fff;
-	border: 2px solid #fff;
+    font-size: 20px;
+    margin: 20px auto 0;
+    display: block;
+    border-radius: 30px;
+    background: #ADD9C9;
+    color: #fff;
+    border: 2px solid #fff;
 }
 
 .btn:hover {
-	border: 2px solid #A0C4F2;
-	color: #eee;
-	box-shadow: inset 0 2px 10px rgba(0,0,0,0.2);
+    border: 2px solid #A0C4F2;
+    color: #eee;
+    box-shadow: inset 0 2px 10px rgba(0,0,0,0.2);
 }
 
 .btn:focus, .btn:active {
-	outline: 0;
-	color: #fff;
+    outline: 0;
+    color: #fff;
+}
+
+#init-search-area {
+    /*background: #F2AD94;*/
+    background: #ADD9C9;
+    padding: 40px 0;
 }
 
 #results-list {
-	display: none;
+    display: none;
 }
 
-#results-list p {
-	font-size: 18px;
-	color: #aaa;
+p {
+    font-size: 18px;
+    color: #aaa;
 }
 
 ol {
@@ -76,7 +84,7 @@ ol {
 }
 
 ol li {
-	margin: 0 0 30px;
+    margin: 0 0 30px;
     position: relative;
     padding: 0 0 0 16px;
     color: #777;
@@ -109,6 +117,10 @@ ol li:before {
     border-radius: 999px
 }
 
+ol li.clinic-closed:before {
+    background: #ccc;
+}
+
 .clinic-name {
     display: block;
     width: 78%;
@@ -117,21 +129,180 @@ ol li:before {
 }
 
 .clinic-distance {
-	display: block;
+    display: block;
     width: 20%;
     float: left;
     color: #aaa;
+    text-align: right;
 }
 
 #map {
-	display: block;
-	width: 100%;
-	height: 150px;
-	background: #eee;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	border-top: 5px solid #ccc;
+    display: block;
+    width: 100%;
+    height: 150px;
+    background: #eee;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 5px solid #ccc;
+}
+
+#address-search {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+#address-search .form-control {
+    border: 2px solid #eee;
+    border-right: none;
+    box-shadow: none;
+    -webkit-box-shadow:none;
+    height: 40px;
+    color: #777;
+}
+
+#address-search .input-group-addon {
+    border: 2px solid #eee;
+}
+
+#address-search .magnify-addon {
+    border-left: none;
+}
+
+
+
+#address-search .input-group-addon {
+    color: #777;
+}
+
+#address-search .form-control:focus {
+    border-top: 2px solid #eee;
+    border-left: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+
+#address-search .magnify-addon {
+    background: #fff;
+}
+#init-list {
+    margin: 60px 0 0 0;
+}
+
+#init-list p {
+    border-bottom: 2px solid #ccc;
+    padding: 0 0 10px;
+}
+
+#init-list #user-init-city {
+    color: #777;
+}
+
+#filter-list {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+    white-space: nowrap;
+    width: 100%;
+    height: 24px;
+    overflow-x: scroll;
+}
+
+#filter-list li {
+    display: inline-block;
+    background: #eee;
+    border-radius: 20px;
+    padding: 2px 8px;
+}
+
+#init-list p.open-close-note {
+    padding: 0;
+    border: none;
+}
+
+.open-close-note .clinic-status-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    margin: 0 5px 0 0;
+}
+
+.open-close-note .clinic-open {
+    background: #F2AD94;
+}
+
+.open-close-note .clinic-closed {
+    background: #ccc;
+}
+
+input.geocodify {
+    width: 345px;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    vertical-align: top;
+    padding: 9px 5px;
+    margin: 0;
+    position: relative;
+    z-index: 9002;
+    color: black;
+    font-family: inherit;
+    box-sizing:inherit;
+    text-align: start;
+    direction: ltr;
+}
+
+input.geocodify:focus {
+    border: 1px solid #2262CC;
+}
+
+.geocodify-dropdown {
+    position: absolute;
+    display:block;
+    z-index: 9003;
+    width: 250px;
+    margin: 40px 0 0 !important;
+    padding: 5px 0 !important;
+    background-color: white;
+    border-top-color: #D9D9D9;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.geocodify-dropdown ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.geocodify-dropdown li {
+    display: block;
+    padding: 5px 0 5px 8px !important;
+    cursor: pointer;
+    margin: 0 !important;
+    list-style-type: none;
+    text-align: left;
+    font-size: 16px;
+    font-family: inherit;
+    color: #777;
+}
+
+.selected {
+    color: white;
+    background-color: #2262CC;
+    background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+    background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+    background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+    background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0)
 }
 
 /*font-family: 'Roboto', sans-serif;

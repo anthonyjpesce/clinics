@@ -2,9 +2,12 @@
 
 {% block extra-css %}
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/site.css" />
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Kalam:700|Roboto:500" rel="stylesheet">
 
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" src="{{ STATIC_URL }}css/jquery.geocodify.css" />
+
     <style type="text/css">
     
     </style>
@@ -12,23 +15,72 @@
 
 {% block extra-js %}
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.js'></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.geocodify.js"></script>
+
 {% endblock %}
 
 {% block content %}
 
 
+    <div class="init-content">
+        <!-- <h1>get<br/><span class="site-name">tstd today</span></h1> -->
 
-    <div id="ini-content">
-        <h1>get<br/><span class="site-name">tstd today</span></h1>
+        <div id="init-search-area">
+            <h1>Find clinics near you</h1>
 
-        <button class="btn" id="find-locations">Find clinics near me</button>
+            <form class="form-inline" id="address-search">
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon" id="find-location"><i class="fa fa-location-arrow" aria-hidden="true"></i></div>
+                            <input type="text" class="form-control" id="geocodify-basic-box" placeholder="Address">
+                            <div class="input-group-addon magnify-addon"><i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
+
+    <div class="container">
+        <div class="init-content">
+
+            <div id="init-list">
+                <p>Clinics in <span id="user-init-city">Los Angeles, CA</span></p>
+                <p class='open-close-note'><span class='clinic-status-icon clinic-open'></span>These clinics are open now<br><span class='clinic-status-icon clinic-closed'></span>These are currently closed</p>
+            </div>
+        </div>
 
     <!-- List of prepopulated places based on user's IP -->
     <div id="results-list"></div>
     
+    </div><!--.container-->
     <script>
         console.log({{ clinics|safe }});
+
+        // populate init list
+        var items = [];
+        $.each( {{ clinics|safe }}, function( key, val ) {
+            // figure out if clinic is open for user's time
+            var clinicStatus = (key%2 === 0) ? "clinic-closed" : "clinic-open"; // temporary
+
+            var milesText = (key === 0) ? " miles" : ""; // show miles on first
+            items.push( "<li id='" + key + "' class='" + clinicStatus + "'><span class='clinic-name'>" + val.name + "</span><span class='clinic-distance'>" + val.distance.toFixed(1) + milesText + "</span></li>" );
+        });
+
+        $( "<ol/>", {
+            "class": "clinic-list",
+            html: items.join( "" )
+        }).appendTo( "#init-list" );
+
+        $("#geocodify-basic-box").geocodify({
+            onSelect: function (result) { 
+                console.log(result);
+            }
+        });
+
     </script>
 
     <script type="text/javascript" src="{{ STATIC_URL }}js/scripts.js"></script>

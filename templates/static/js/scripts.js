@@ -1,11 +1,13 @@
 /* Copyright Anthony J. Pesce and Jon Schleuss */
 
-document.getElementById('find-locations').onclick=function(){
+// First we check if you support touch, otherwise it's click:
+var touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
+
+document.getElementById('find-location').addEventListener(touchEvent, function(){
     console.log('find location');
     getLocation(); // get users location
+});
 
-    // loadClinics(); // will be moved
-};
 
 function getLocation() {
     if (navigator.geolocation) {
@@ -24,16 +26,39 @@ function showList(position) {
     $.getJSON( "/static/js/90029-50-more-data.json", function( data ) {
         console.log(data);
 
+        // add filter options list
+        var filters = [];
+        $.each( data, function( key, val ) {
+            for (var j = 0; j < val.categories.length; j++) {
+                var filterItem = "<li class='filter-option'>" + val.categories[j] + "</li>";
+
+                // check that it's not already in the list
+                if (filters.indexOf(filterItem) == -1) {
+                    filters.push(filterItem);
+                }
+            }
+        });
+
+        $("#results-list").append("<p>Filter:</p>");
+
+        $( "<ul/>", {
+            "id": "filter-list",
+            html: filters.join( "" )
+        }).appendTo( "#results-list" );
+
         // CHECK IF ANY ARE OPEN TODAY AND NOW
-        $("#results-list").append("<p>These clinics are open now:</p>");
+        $("#results-list").append("<p class='open-close-note'><span class='clinic-status-icon clinic-open'></span>These clinics are open now<br><span class='clinic-status-icon clinic-closed'></span>These are currently closed</p>");
         // $("#results-list").append("<p>No nearby clinics are open now. These will be open tomorrow:</p>");
         // $("#results-list").append("<p>No nearby clinics are open now. These will be open on TK:</p>");
 
         // populate list
         var items = [];
         $.each( data, function( key, val ) {
+            // figure out if clinic is open for user's time
+            var clinicStatus = (key%2 === 0) ? "clinic-closed" : "clinic-open"; // temporary
+
             var milesText = (key === 0) ? " miles" : ""; // show miles on first
-            items.push( "<li id='" + key + "'><span class='clinic-name'>" + val.name + "</span><span class='clinic-distance'>" + key + ".2" + milesText + "</span></li>" );
+            items.push( "<li id='" + key + "' class='" + clinicStatus + "'><span class='clinic-name'>" + val.name + "</span><span class='clinic-distance'>" + key + ".2" + milesText + "</span></li>" );
         });
 
         $( "<ol/>", {
@@ -76,9 +101,14 @@ function showList(position) {
 // get list of clinics that match
 function loadClinics(position) {
     // hide init header and button
-    $("#ini-content").fadeOut(400, function(){
+    $(".init-content").fadeOut(400, function(){
         // after init content disappears
-        $(".navbar").fadeIn(400);
+        $(".navbar-default").css({
+           'border' : '1px solid #e7e7e7',
+           'background-color' : '#f8f8f8',
+           'margin' : '0 0 20px'
+        });
+
         showList(position);
     });
 
