@@ -167,6 +167,7 @@ ol li.clinic-closed:before {
     border-right: none;
     box-shadow: none;
     -webkit-box-shadow:none;
+    -webkit-appearance: none;
     height: 40px;
     color: #777;
 }
