@@ -36,10 +36,9 @@ class Command(BaseCommand):
         Clinic.objects.all().delete()
         # Loop through the json and load each
         logger.debug('Loading %s new records' % len(data))
-        for i in data:
+        for index, i in enumerate(data):
             c = Clinic(
                 name=i.get('name', ''),
-                slug=slugify(i.get('name', '')),
                 street=i.get('street', ''),
                 city=i.get('city', ''),
                 state=i.get('state', ''),
@@ -52,7 +51,7 @@ class Command(BaseCommand):
                 org_type=i.get('orgtype', ''),
                 eligibility=i.get('eligibility', ''),
             )
-            
+            c.slug = slugify("%s %s" % (c.name, index))
             if i.get('location'):
                 c.location = Point(
                     y=float(i['location'][0]),
