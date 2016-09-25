@@ -1,14 +1,19 @@
 DEBUG = False
 DEVELOPMENT, PRODUCTION = False, True
 DEBUG_TOOLBAR = False
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+#         'LOCATION': '127.0.0.1:11211',
+#         'TIMEOUT': 60 * 30,
+#         'OPTIONS': {
+#             'MAX_ENTRIES': 1500
+#         }
+#     }
+# }
 CACHES = {
     'default': {
-        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-        'LOCATION': '127.0.0.1:11211',
-        'TIMEOUT': 60 * 30,
-        'OPTIONS': {
-            'MAX_ENTRIES': 1500
-        }
+        'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
     }
 }
 TEMPLATE_LOADERS = [
