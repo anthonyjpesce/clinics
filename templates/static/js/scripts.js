@@ -44,14 +44,31 @@ function showList(position) {
         // add map
         $("#results-list").append("<div id='map'></div>");
 
-        L.mapbox.accessToken = 'pk.eyJ1Ijoic2NobGV1c3MiLCJhIjoicEtaaE54cyJ9.PWSVNlOtpDp0x1phUruQ9g';
-        var map = L.mapbox.map('map')
-            .setView([position.coords.latitude, position.coords.longitude], 15);
+        // L.mapbox.accessToken = 'pk.eyJ1Ijoic2NobGV1c3MiLCJhIjoicEtaaE54cyJ9.PWSVNlOtpDp0x1phUruQ9g';
+        // var map = L.mapbox.map('map')
+        //     .setView([position.coords.latitude, position.coords.longitude], 15);
 
-        // Use styleLayer to add a Mapbox style created in Mapbox Studio
-        L.mapbox.styleLayer('mapbox://styles/mapbox/light-v9').addTo(map);
+        // // Use styleLayer to add a Mapbox style created in Mapbox Studio
+        // L.mapbox.styleLayer('mapbox://styles/mapbox/light-v9').addTo(map);
 
-        $("#results-list").fadeIn(400);
+
+
+        $("#results-list").fadeIn(400, function() {
+
+            mapboxgl.accessToken = 'pk.eyJ1Ijoic2NobGV1c3MiLCJhIjoicEtaaE54cyJ9.PWSVNlOtpDp0x1phUruQ9g';
+            var map = new mapboxgl.Map({
+                container: 'map', // container id
+                style: 'mapbox://styles/mapbox/light-v9', //stylesheet location
+                center: [position.coords.longitude, position.coords.latitude], // starting position
+                zoom: 14 // starting zoom
+            });
+
+            console.log([position.coords.longitude, position.coords.latitude]);
+
+            // disable map zoom when using scroll
+            map.scrollZoom.disable();
+
+        });
 
     });
 }
