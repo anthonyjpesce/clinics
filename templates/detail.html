@@ -49,8 +49,47 @@
             color: #aaa;
         }
 
+        p {
+            margin: 0 0 16px;
+        }
+
         p.clinic-address {
             font-size: 20px;
+        }
+
+        p i {
+            color: #ddd;
+        }
+
+        p a {
+            color: #aaa;
+        }
+
+        p.clinic-categories {
+            padding: 0 0 0 21px;
+            text-indent: -11px;
+        }
+
+        p.clinic-hours, p.clinic-eligibility, p.clinic-languages {
+            padding: 0 0 0 20px;
+            text-indent: -10px;
+        }
+
+        @media (min-width: 768px) {
+            #clinic-locator {
+                width: 300px;
+                height: 300px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            h1 {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            width: 970px;
+            }
         }
 
 /*        p {
@@ -70,9 +109,32 @@
         <div id="clinic-locator"></div>
         <p class="clinic-address">{{ object.street }}<br/>{{ object.city }}, {{ object.state }} {{ object.zipcode }}</p>
 
-        <div class="clr"></div>
-
         <p class="clinic-phone"><i class="fa fa-phone" aria-hidden="true"></i> {{ object.telephone }}</p>
+
+        <!-- <div class="clr"></div> -->
+
+        <p><i class="fa fa-globe" aria-hidden="true"></i> <a href="{{ object.website }}">{{ object.website|truncatechars:30 }}</a></p>
+
+        <p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:{{ object.email }}">{{ object.email }}</a></p>
+
+        <p class="clinic-hours"><i class="fa fa-clock-o" aria-hidden="true"></i> Monday<br>Tuesday<br>Wednesday</p>
+
+
+<!--         <p>{{ object.monday_hours }}</p>
+        <p>{{ object.tuesday_hours }}</p>
+ -->
+
+        {% if object.eligibility != 'Not available' %}
+            <p class="clinic-eligibility"><i class="fa fa-info-circle" aria-hidden="true"></i> {{ object.eligibility }}</p>
+        {% endif %}
+
+        <p class="clinic-languages"><i class="fa fa-language" aria-hidden="true"></i> {% for language in object.languages %}{{ language }}<br/>{% endfor %}</p>
+
+        
+
+        <p class="clinic-categories"><i class="fa fa-flask" aria-hidden="true"></i> 
+            {% for category in object.categories %}{{ category }}<br/>{% endfor %}
+        </p>
 
         <p class="map-note">Map data <a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a></p>
 
