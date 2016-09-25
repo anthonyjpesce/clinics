@@ -37,7 +37,7 @@ node[:apps].each do |app|
       interpreter "bash"
       user node[:apps_user]
       group node[:apps_group]
-      code "/apps/#{app[:name]}/bin/pip install -r /apps/#{app[:name]}/repo/requirements.txt"
+      code "/apps/#{app[:name]}/bin/pip install -r /apps/#{app[:name]}/repo/requirements.txt --no-cache-dir"
     end
 
     # Create the database user
