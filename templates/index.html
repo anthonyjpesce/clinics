@@ -3,7 +3,33 @@
 {% block extra-css %}
 
     <style type="text/css">
-    
+            p.clinic-hed {
+                border-bottom: 2px solid #ccc;
+                padding: 0 0 10px;
+                margin: 20px 0;
+            }
+        @media (min-width: 768px) {
+            #big-map {
+                display: block;
+                width: 100%;
+                height: 200px;
+                background: #eee;
+            }
+
+            ol.clinic-list {
+                padding: 0;
+                max-width: 470px;
+                padding-left: 20px;
+                margin: 0 auto;
+            }
+
+            .clinic-name, .clinic-distance {
+                float: none;
+                width: 100%;
+                text-align: left;
+                margin: 0 0 5px;
+            }
+        }
     </style>
 {% endblock %}
 
@@ -37,17 +63,27 @@
         </div>
     </div>
 
+
     <div class="container">
         <div class="init-content">
+            <div>
+                <p class="clinic-hed">Clinics in <span id="user-init-city">Los Angeles, CA</span></p>
+            </div>
+        </div>
+    </div>
 
+    <div id="big-map"></div>
+
+    <div class="container">
+
+        <div class="init-content">
             <div id="init-list">
-                <p>Clinics in <span id="user-init-city">Los Angeles, CA</span></p>
                 <p class='open-close-note'><span class='clinic-status-icon clinic-open'></span>These clinics are open now<br><span class='clinic-status-icon clinic-closed'></span>These are currently closed</p>
             </div>
         </div>
 
-    <!-- List of prepopulated places based on user's IP -->
-    <div id="results-list"></div>
+        <!-- List of prepopulated places based on user's IP -->
+        <div id="results-list"></div>
     
     </div><!--.container-->
     <script>
@@ -88,7 +124,7 @@
 
 
             var milesText = (key === 0) ? " miles" : ""; // show miles on first
-            items.push( "<li id='" + key + "' class='" + clinicStatus + "'><span class='clinic-name'><a href='"+val.href+"'>" + val.name + "</a></span><span class='clinic-distance'>" + val.distance.toFixed(1) + milesText + "</span></li>" );
+            items.push( "<li id='clinic" + key + "' class='" + clinicStatus + "'><span class='clinic-name'><a href='"+val.href+"'>" + val.name + "</a></span><span class='clinic-distance'>" + val.distance.toFixed(1) + milesText + "</span></li>" );
         });
 
         $( "<ol/>", {

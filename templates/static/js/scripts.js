@@ -1,5 +1,8 @@
 /* By Anthony J. Pesce and Jon Schleuss */
 
+var windowWidth = document.documentElement.clientWidth;
+
+
 // listen for user to try find location
 document.getElementById('find-location').onclick=function(){
     console.log('finding location');
@@ -88,7 +91,8 @@ function loadClinics(coords) {
                                (openTime < userTime && userTime < closeTime) ? "clinic-open" : "clinic-closed";
 
 
-            var milesText = (key === 0) ? " miles" : ""; // show miles on first
+            var milesText = (key === 0) ? " miles" :
+                            (windowWidth > 768) ? " miles" : ""; // show miles on first
             items.push( "<li id='" + key + "' class='" + clinicStatus + "'><span class='clinic-name'><a href='"+val.href+"'>" + val.name + "</a></span><span class='clinic-distance'>" + val.distance.toFixed(1) + milesText + "</span></li>" );
         });
 
