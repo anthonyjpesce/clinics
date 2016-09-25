@@ -6,6 +6,8 @@
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Kalam:700|Roboto:500" rel="stylesheet">
 
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" src="{{ STATIC_URL }}css/jquery.geocodify.css" />
+
     <style type="text/css">
     
     </style>
@@ -13,6 +15,11 @@
 
 {% block extra-js %}
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.js'></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.geocodify.js"></script>
+
 {% endblock %}
 
 {% block content %}
@@ -28,7 +35,7 @@
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-addon" id="find-location"><i class="fa fa-location-arrow" aria-hidden="true"></i></div>
-                            <input type="text" class="form-control" id="exampleInputAmount" placeholder="Address">
+                            <input type="text" class="form-control" id="geocodify-basic-box" placeholder="Address">
                             <div class="input-group-addon magnify-addon"><i class="fa fa-search" aria-hidden="true"></i>
                         </div>
                     </div>
@@ -67,6 +74,12 @@
             "class": "clinic-list",
             html: items.join( "" )
         }).appendTo( "#init-list" );
+
+        $("#geocodify-basic-box").geocodify({
+            onSelect: function (result) { 
+                console.log(result);
+            }
+        });
 
     </script>
 
