@@ -2,9 +2,8 @@
 
 {% block extra-css %}
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/site.css" />
-	<link href="https://fonts.googleapis.com/css?family=Kalam|Roboto" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Catamaran:900" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Catamaran:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Kalam:700|Roboto:500" rel="stylesheet">
+
 
     <style type="text/css">
     
@@ -12,11 +11,15 @@
 {% endblock %}
 
 {% block content %}
-    <h1>get<br/><span class="site-name">tstd today</span></h1>
 
-    <button class="btn" id="find_locations">Find clinics near me</button>
+    <div id="ini-content">
+        <h1>get<br/><span class="site-name">tstd today</span></h1>
+
+        <button class="btn" id="find-locations">Find clinics near me</button>
+    </div>
 
     <!-- List of prepopulated places based on user's IP -->
+    <div id="results-list"></div>
 
     <script type="text/javascript" src="{{ STATIC_URL }}js/scripts.js"></script>
 {% endblock %}
