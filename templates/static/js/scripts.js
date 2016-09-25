@@ -109,7 +109,7 @@ function loadClinics(position) {
     // hide init header and button
     $("#ini-content").fadeOut(400, function(){
         // after init content disappears
-        $(".navbar").fadeIn(400);
+        // $(".navbar").fadeIn(400);
         showList(position);
     });
 
