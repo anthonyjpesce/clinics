@@ -40,6 +40,9 @@ function showList() {
             html: items.join( "" )
         }).appendTo( "#results-list" );
 
+        // add map
+        $("#results-list").append("<div id='map'></div>");
+
         $("#results-list").fadeIn(400);
 
     });
