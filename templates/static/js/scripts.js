@@ -1,12 +1,12 @@
 /* Copyright Anthony J. Pesce and Jon Schleuss */
 
 // First we check if you support touch, otherwise it's click:
-var touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
+// var touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
 
-document.getElementById('find-location').addEventListener(touchEvent, function(){
-    console.log('find location');
+document.getElementById('find-location').onclick= function(){
+    console.log('finding location');
     getLocation(); // get users location
-});
+};
 
 
 function getLocation() {
@@ -23,8 +23,11 @@ function showPosition(position) {
 
 function showList(position) {
     // create list
-    $.getJSON( "/static/js/90029-50-more-data.json", function( data ) {
+    $.getJSON( "/api/clinics/?format=json&lat="+position.coords.latitude+"&lon="+position.coords.longitude, function( data ) {
+    // $.getJSON( "/static/js/90029-50-more-data.json", function( data ) {
         console.log(data);
+
+        data = data['results']
 
         // add filter options list
         var filters = [];

@@ -198,6 +198,10 @@ ol li.clinic-closed:before {
     color: #777;
 }
 
+#find-location {
+    cursor: pointer;
+}
+
 #filter-list {
     list-style: none;
     margin: 0 0 20px;
@@ -305,5 +309,11 @@ input.geocodify:focus {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0)
 }
 
-/*font-family: 'Roboto', sans-serif;
-font-family: 'Kalam', cursive;*/
+@media (min-width: 768px) {
+    #map {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border: none;
+    }
+}
