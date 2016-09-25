@@ -1,11 +1,13 @@
 /* Copyright Anthony J. Pesce and Jon Schleuss */
 
-document.getElementById('find-location').onclick=function(){
+// First we check if you support touch, otherwise it's click:
+var touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
+
+document.getElementById('find-location').addEventListener(touchEvent, function(){
     console.log('find location');
     getLocation(); // get users location
+});
 
-    // loadClinics(); // will be moved
-};
 
 function getLocation() {
     if (navigator.geolocation) {

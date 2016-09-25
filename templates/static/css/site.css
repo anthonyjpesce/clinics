@@ -133,6 +133,7 @@ ol li.clinic-closed:before {
     width: 20%;
     float: left;
     color: #aaa;
+    text-align: right;
 }
 
 #map {
@@ -156,6 +157,7 @@ ol li.clinic-closed:before {
     border: 2px solid #eee;
     border-right: none;
     box-shadow: none;
+    -webkit-box-shadow:none;
     height: 40px;
     color: #777;
 }
