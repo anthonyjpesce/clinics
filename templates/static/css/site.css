@@ -134,5 +134,32 @@ ol li:before {
 	border-top: 5px solid #ccc;
 }
 
+#address-search {
+	margin: 20px auto;
+	width: 90%;
+	text-align: center;
+}
+
+#address-search .form-control {
+	border-right: none;
+	box-shadow: none;
+	height: 40px;
+	color: #777;
+}
+
+#address-search .input-group-addon {
+	color: #777;
+}
+
+#address-search .form-control:focus {
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+#address-search .magnify-addon {
+	background: #fff;
+}
+
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Kalam', cursive;*/

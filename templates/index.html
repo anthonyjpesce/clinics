@@ -2,6 +2,7 @@
 
 {% block extra-css %}
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/site.css" />
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Kalam:700|Roboto:500" rel="stylesheet">
 
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.css' rel='stylesheet' />
@@ -19,7 +20,17 @@
     <div id="ini-content">
         <h1>get<br/><span class="site-name">tstd today</span></h1>
 
-        <button class="btn" id="find-locations">Find clinics near me</button>
+        <form class="form-inline" id="address-search">
+            <div class="form-group">
+                <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                <div class="input-group">
+                    <div class="input-group-addon"><i class="fa fa-location-arrow" aria-hidden="true"></i></div>
+                        <input type="text" class="form-control" id="exampleInputAmount" placeholder="Address">
+                        <div class="input-group-addon magnify-addon"><i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
 
     <!-- List of prepopulated places based on user's IP -->
