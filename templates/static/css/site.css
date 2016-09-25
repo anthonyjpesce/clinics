@@ -314,6 +314,24 @@ input.geocodify:focus {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0)
 }
 
+#map .marker {
+    display: block;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+#map .marker-closed {
+    background: #777;
+}
+
+
+
+#map .marker-open {
+    background: #F2AD94;
+}
+
 @media (min-width: 768px) {
     #map {
         position: relative;
