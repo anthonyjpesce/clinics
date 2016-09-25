@@ -5,24 +5,6 @@ directory "/apps/" do
     mode 0775
 end
 
-# Load the authorized keys for the root user
-directory "/home/#{node[:apps_user]}/.ssh" do
-  mode 0700
-  owner node[:apps_user]
-  group node[:apps_group]
-end
-
-# Install the virtualenv requirements
-script "Add GitHub to known hosts" do
-  interpreter "bash"
-  user node[:apps_user]
-  group node[:apps_group]
-  code <<-EOH
-    echo "|1|nFPVjT+tJlghvwL9SqJmckclSkI=|5HR4LAIxnl3I3cl40j5GIy+Qbwk= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==" >> /home/#{node[:apps_user]}/.ssh/known_hosts
-    echo "|1|LiSuPv5jaL9TCd9Tgue5BiGAJtE=|KYW9Uqo+gzE+Z3O/0uE8d9kadm0= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==" >> /home/#{node[:apps_user]}/.ssh/known_hosts
-  EOH
-end
-
 # Loop through all the apps we want to configure
 node[:apps].each do |app|
     
@@ -73,7 +55,7 @@ node[:apps].each do |app|
       interpreter "bash"
       user "postgres"
       code <<-EOH
-        createdb -T template_postgis #{app[:db_name]} -E UTF8 -O #{app[:db_user]}
+        createdb #{app[:db_name]} -E UTF8 -O #{app[:db_user]}
       EOH
       ignore_failure true
     end

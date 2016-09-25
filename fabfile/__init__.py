@@ -14,7 +14,7 @@ from .rmpyc import rmpyc
 from .rs import rs
 from .sh import sh
 from .ssh import ssh
-from .env import prod
+from .env import prod, dev
 from .env import *
 
 __all__ = (
@@ -35,4 +35,5 @@ __all__ = (
     'sh',
     'ssh',
     'prod',
+    'dev',
 )

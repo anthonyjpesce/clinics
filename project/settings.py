@@ -188,7 +188,8 @@ except ImportError:
 
 TEMPLATE_DEBUG = DEBUG
 
-try:
-    from settings_private import *
-except ImportError:
-    pass
+if not DEBUG:
+    try:
+        from settings_private import *
+    except ImportError:
+        pass

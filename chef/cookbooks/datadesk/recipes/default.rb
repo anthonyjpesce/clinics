@@ -40,13 +40,6 @@ node[:users].each_pair do |username, info|
         mode 0700
     end
 
-    cookbook_file "/home/#{username}/.ssh/authorized_keys" do
-      source "users/authorized_keys"
-      mode 0640
-      owner username
-      group username
-    end
-
     cookbook_file "/home/#{username}/.bash_profile" do
         source "users/bash_profile"
         owner username
@@ -69,28 +62,6 @@ directory "/root/.ssh" do
     owner "root"
     group "root"
     mode 0700
-end
-
-cookbook_file "/root/.ssh/authorized_keys" do
-  source "users/authorized_keys"
-  mode 0640
-  owner "root"
-  group "root"
-end
-
-# Load the SSH keys
-cookbook_file "/root/.ssh/id_rsa" do
-  source "users/id_rsa"
-  mode 0600
-  owner "root"
-  group "root"
-end
-
-cookbook_file "/root/.ssh/id_rsa.pub" do
-  source "users/id_rsa.pub"
-  mode 0644
-  owner "root"
-  group "root"
 end
 
 template "/etc/sudoers" do
