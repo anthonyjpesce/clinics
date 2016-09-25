@@ -78,7 +78,7 @@ function loadClinics(coords) {
             var clinicStatus = (key%2 === 0) ? "clinic-closed" : "clinic-open"; // temporary
 
             var milesText = (key === 0) ? " miles" : ""; // show miles on first
-            items.push( "<li id='" + key + "' class='" + clinicStatus + "'><span class='clinic-name'>" + val.name + "</span><span class='clinic-distance'>" + val.distance.toFixed(1) + milesText + "</span></li>" );
+            items.push( "<li id='" + key + "' class='" + clinicStatus + "'><span class='clinic-name'><a href='"+val.href+"'>" + val.name + "</a></span><span class='clinic-distance'>" + val.distance.toFixed(1) + milesText + "</span></li>" );
         });
 
         $( "<ol/>", {
