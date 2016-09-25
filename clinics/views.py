@@ -4,15 +4,11 @@ from django.core import serializers
 from django.shortcuts import render
 from django.contrib.gis.geos import Point
 from django.contrib.gis.geoip2 import GeoIP2
-from django.views.generic import TemplateView
-from django.contrib.gis.db.models.functions import Distance
-from django.contrib.auth.models import User, Group
-from rest_framework import viewsets
-from rest_framework import filters
-from rest_framework import generics
-from clinics.serializers import ClinicSerializer
 from rest_framework.response import Response
-from rest_framework import status
+from clinics.serializers import ClinicSerializer
+from django.views.generic import TemplateView, DetailView
+from django.contrib.gis.db.models.functions import Distance
+from rest_framework import status, filters, viewsets, generics
 
 # init geoip
 G = GeoIP2()
@@ -52,6 +48,11 @@ class IndexView(TemplateView):
             'clinics': json.dumps(data),
             'coords': [lon, lat]
         }
+
+
+class ClinicDetailView(DetailView):
+    model = Clinic
+    template_name = "detail.html"
 
 
 # API Views

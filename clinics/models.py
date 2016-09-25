@@ -55,6 +55,9 @@ class Clinic(models.Model):
     def __unicode__(self):
         return self.name
 
+    def get_absolute_url(self):
+        return "/%s/" % self.slug
+
     def as_dict(self):
         def pretty_hours(dtrange):
             if not dtrange:
@@ -71,6 +74,7 @@ class Clinic(models.Model):
             distance = None
         
         return {
+            'href': self.get_absolute_url(),
             'name': self.name,
             'slug': self.slug,
             'street': self.street,
