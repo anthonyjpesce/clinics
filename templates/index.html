@@ -4,10 +4,14 @@
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/site.css" />
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Kalam:700|Roboto:500" rel="stylesheet">
 
-
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.css' rel='stylesheet' />
     <style type="text/css">
     
     </style>
+{% endblock %}
+
+{% block extra-js %}
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.js'></script>
 {% endblock %}
 
 {% block content %}
