@@ -27,12 +27,12 @@ class IndexView(TemplateView):
     template_name = "index.html"
     
     def get_context_data(self, **kwargs):
-        try:
-            ip = get_client_ip(self.request)
-            lon, lat = G.lon_lat(ip)
-        except:
-            ip = None
-            lon, lat = (-118.2437, 34.0522)
+        # try:
+        #     ip = get_client_ip(self.request)
+        #     lon, lat = G.lon_lat(ip)
+        # except:
+        ip = None
+        lon, lat = (-118.2437, 34.0522)
         
         pt = Point(lon, lat)
         distance_ordered = Clinic.objects.distance(pt).order_by('distance')[:10]
