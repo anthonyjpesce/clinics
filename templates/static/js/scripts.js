@@ -121,6 +121,12 @@ function loadClinics(coords) {
 
             // add markers of points
             for (var i = 0; i < data.length; i++) {
+                var el = document.createElement('div');
+                el.className = 'marker';
+                new mapboxgl.Marker(el)
+                .setLngLat([data[i].location[1],data[i].location[0]])
+                .addTo(map);
+
                 // console.log(data[i].location[0])
                 // var marker = L.circleMarker([data[i].location[0],data[i].location[1]],
                 //     { radius: 8,
