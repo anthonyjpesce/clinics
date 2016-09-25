@@ -34,3 +34,6 @@ https://npin.cdc.gov/organization/36348
 - flesh out detail page
 - styles for desktop
 - detail page: touching map takes you to google link: https://www.google.com/maps/place/615+Kohler+St,+Los+Angeles,+CA+90021/
+- filters
+- map and search on search results view
+- detail page: "open for another x hours x minutes"
