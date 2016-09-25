@@ -24,16 +24,6 @@ function showList(position) {
     $.getJSON( "/static/js/90029-50-more-data.json", function( data ) {
         console.log(data);
 
-        // var filters = [];
-        // for (var i = 0; i < data.length; i++) {
-        //     for (var j = 0; j < data[i].categories.length; j++) {
-        //         if (filters.indexOf(data[i].categories[j]) === -1) {
-        //             // if it's not in the list add it
-        //             filters.push(data[i].categories[j]);
-        //         }
-        //     }
-        // }
-
         // add filter options list
         var filters = [];
         $.each( data, function( key, val ) {
@@ -47,6 +37,8 @@ function showList(position) {
             }
         });
 
+        $("#results-list").append("<p>Filter:</p>");
+
         $( "<ul/>", {
             "id": "filter-list",
             html: filters.join( "" )
@@ -56,15 +48,18 @@ function showList(position) {
 
 
         // CHECK IF ANY ARE OPEN TODAY AND NOW
-        $("#results-list").append("<p>These clinics are open now:</p>");
+        $("#results-list").append("<p class='open-close-note'><span class='clinic-status-icon clinic-open'></span>These clinics are open now<br><span class='clinic-status-icon clinic-closed'></span>These are currently closed</p>");
         // $("#results-list").append("<p>No nearby clinics are open now. These will be open tomorrow:</p>");
         // $("#results-list").append("<p>No nearby clinics are open now. These will be open on TK:</p>");
 
         // populate list
         var items = [];
         $.each( data, function( key, val ) {
+            // figure out if clinic is open for user's time
+            var clinicStatus = (key%2 === 0) ? "clinic-closed" : "clinic-open"; // temporary
+
             var milesText = (key === 0) ? " miles" : ""; // show miles on first
-            items.push( "<li id='" + key + "'><span class='clinic-name'>" + val.name + "</span><span class='clinic-distance'>" + key + ".2" + milesText + "</span></li>" );
+            items.push( "<li id='" + key + "' class='" + clinicStatus + "'><span class='clinic-name'>" + val.name + "</span><span class='clinic-distance'>" + key + ".2" + milesText + "</span></li>" );
         });
 
         $( "<ol/>", {
