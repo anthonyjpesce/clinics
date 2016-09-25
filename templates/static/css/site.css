@@ -161,5 +161,18 @@ ol li:before {
 	background: #fff;
 }
 
+#filter-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#filter-list li {
+	display: inline-block;
+	background: #eee;
+	border-radius: 20px;
+	padding: 2px 8px;
+}
+
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Kalam', cursive;*/

@@ -1,6 +1,6 @@
 /* Copyright Anthony J. Pesce and Jon Schleuss */
 
-document.getElementById('find-locations').onclick=function(){
+document.getElementById('find-location').onclick=function(){
     console.log('find location');
     getLocation(); // get users location
 
@@ -23,6 +23,37 @@ function showList(position) {
     // create list
     $.getJSON( "/static/js/90029-50-more-data.json", function( data ) {
         console.log(data);
+
+        // var filters = [];
+        // for (var i = 0; i < data.length; i++) {
+        //     for (var j = 0; j < data[i].categories.length; j++) {
+        //         if (filters.indexOf(data[i].categories[j]) === -1) {
+        //             // if it's not in the list add it
+        //             filters.push(data[i].categories[j]);
+        //         }
+        //     }
+        // }
+
+        // add filter options list
+        var filters = [];
+        $.each( data, function( key, val ) {
+            for (var j = 0; j < val.categories.length; j++) {
+                var filterItem = "<li class='filter-option'>" + val.categories[j] + "</li>";
+
+                // check that it's not already in the list
+                if (filters.indexOf(filterItem) == -1) {
+                    filters.push(filterItem);
+                }
+            }
+        });
+
+        $( "<ul/>", {
+            "id": "filter-list",
+            html: filters.join( "" )
+        }).appendTo( "#results-list" );
+
+
+
 
         // CHECK IF ANY ARE OPEN TODAY AND NOW
         $("#results-list").append("<p>These clinics are open now:</p>");
