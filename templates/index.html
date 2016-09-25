@@ -1,12 +1,6 @@
 {% extends "base.html" %}
 
 {% block extra-css %}
-    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/site.css" />
-    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/font-awesome.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Kalam:700|Roboto:500" rel="stylesheet">
-
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.css' rel='stylesheet' />
-    <link rel="stylesheet" src="{{ STATIC_URL }}css/jquery.geocodify.css" />
 
     <style type="text/css">
     
@@ -14,11 +8,6 @@
 {% endblock %}
 
 {% block extra-js %}
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.js'></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-
-    <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.geocodify.js"></script>
 
 {% endblock %}
 
@@ -58,15 +47,44 @@
     
     </div><!--.container-->
     <script>
+        // get users day of week
+        var d = new Date();
+        var weekday = new Array(7);
+        weekday[0]=  "Sunday";
+        weekday[1] = "Monday";
+        weekday[2] = "Tuesday";
+        weekday[3] = "Wednesday";
+        weekday[4] = "Thursday";
+        weekday[5] = "Friday";
+        weekday[6] = "Saturday";
+
+        var userDay = weekday[d.getDay()];
+        var userTime = d.getHours()+":"+d.getMinutes();
+
+        console.log(userTime);
+        console.log({{ clinics|safe }})        
+
 
         // populate init list
         var items = [];
         $.each( {{ clinics|safe }}, function( key, val ) {
             // figure out if clinic is open for user's time
-            var clinicStatus = (key%2 === 0) ? "clinic-closed" : "clinic-open"; // temporary
+
+            // if open today
+            if (val.hours[userDay.toLowerCase()] != false) {
+                var openTime = +(val.hours[userDay.toLowerCase()].open.substring(0,2)+val.hours[userDay.toLowerCase()].open.substring(3,5));
+                var closeTime = +(val.hours[userDay.toLowerCase()].close.substring(0,2)+val.hours[userDay.toLowerCase()].close.substring(3,5));
+                var userTime = +(d.getHours().toString()+d.getMinutes().toString());
+
+                console.log(val.hours[userDay.toLowerCase()]);
+            }
+
+            var clinicStatus = (val.hours[userDay.toLowerCase()] === false) ? "clinic-closed" :
+                               (openTime < userTime && userTime < closeTime) ? "clinic-open" : "clinic-closed";
+
 
             var milesText = (key === 0) ? " miles" : ""; // show miles on first
-            items.push( "<li id='" + key + "' class='" + clinicStatus + "'><span class='clinic-name'>" + val.name + "</span><span class='clinic-distance'>" + val.distance.toFixed(1) + milesText + "</span></li>" );
+            items.push( "<li id='" + key + "' class='" + clinicStatus + "'><span class='clinic-name'><a href='"+val.href+"'>" + val.name + "</a></span><span class='clinic-distance'>" + val.distance.toFixed(1) + milesText + "</span></li>" );
         });
 
         $( "<ol/>", {
@@ -74,11 +92,7 @@
             html: items.join( "" )
         }).appendTo( "#init-list" );
 
-        $("#geocodify-basic-box").geocodify({
-            onSelect: function (result) { 
-                console.log(result);
-            }
-        });
+
 
     </script>
 

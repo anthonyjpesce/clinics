@@ -14,7 +14,7 @@ PATH_TO_DATA = os.path.join(
     settings.BASE_DIR,
     'clinics',
     'data',
-    '90029-50-more-data.json'
+    '90029-50-all-data.json'
 )
 with open(PATH_TO_DATA) as data:
     data = json.load(data)
