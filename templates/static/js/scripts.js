@@ -25,6 +25,8 @@ function showList() {
 
         // CHECK IF ANY ARE OPEN TODAY AND NOW
         $("#results-list").append("<p>These clinics are open now:</p>");
+        // $("#results-list").append("<p>No nearby clinics are open now. These will be open tomorrow:</p>");
+        // $("#results-list").append("<p>No nearby clinics are open now. These will be open on TK:</p>");
 
         // populate list
         var items = [];
