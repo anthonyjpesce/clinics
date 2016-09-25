@@ -2,6 +2,7 @@ from __future__ import absolute_import
 from .collectstatic import collectstatic
 from .cook import cook
 from .clean import clean
+from .copy_settings import copy_settings
 from .createserver import createserver
 from .deploy import deploy
 from .installchef import installchef
@@ -22,6 +23,7 @@ __all__ = (
     'cook',
     'clean',
     'createserver',
+    'copy_settings',
     'deploy',
     'installchef',
     'load',
