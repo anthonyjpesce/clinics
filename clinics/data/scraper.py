@@ -23,16 +23,21 @@ def parseTimes(day):
 # file to read from
 clinics = json.load(open('90029-50.json','r'))
 
-f = open('90029-50-more-data.json','w')
+f = open('90029-50-all-data.json','w')
+
+# open array
+f.write('[')
 
 newclinics = []
 
-for clinic in clinics[:10]:
+for clinic in clinics:
     url = clinic['cdclink']
-    print url
 
     # which clinic?
     cindex = clinics.index(clinic)
+
+    print url + ' - ' + str(cindex)
+
 
     page = urllib2.urlopen(url)
 
@@ -122,8 +127,12 @@ for clinic in clinics[:10]:
                     categories.append(service)
 
     newclinics.append(clinic)
+    f.write(dumps(clinic)+",")
     time.sleep(1) # wait a beat
 
 # write this to the file
-f.write(dumps(newclinics))
+# f.write(dumps(newclinics))
+
+# close array
+f.write(']')
 f.close()
