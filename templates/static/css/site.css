@@ -16,6 +16,10 @@ h1 {
     font-size: 26px;
 }
 
+.container {
+	margin-bottom: 150px;
+}
+
 h1 .site-name {
 	font-family: 'Alfa Slab One', cursive;
 	color: #aaa; 
@@ -123,10 +127,11 @@ ol li:before {
 	display: block;
 	width: 100%;
 	height: 150px;
-	background: #ccc;
+	background: #eee;
 	position: fixed;
 	bottom: 0;
 	left: 0;
+	border-top: 5px solid #ccc;
 }
 
 /*font-family: 'Roboto', sans-serif;
