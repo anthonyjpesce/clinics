@@ -39,3 +39,7 @@ https://npin.cdc.gov/organization/36348
 - locate me doesnt work on ios
 - share image / twitter and facebook lint
 - format of hours in detail pages
+- gay friendly
+- preplocator.org
+- which clinics have home testing kits?
+- capture searched locations-where are peope looking?
